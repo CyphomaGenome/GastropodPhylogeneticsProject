@@ -1,0 +1,451 @@
+IQ-TREE 2.2.2.7 COVID-edition built May 31 2023
+
+Input file name: 16S_rRNA.phy
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 46518
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 64 sequences with 1418 nucleotide sites
+Number of constant sites: 473 (= 33.3568% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 473 (= 33.3568% of all sites)
+Number of parsimony informative sites: 766
+Number of distinct site patterns: 1006
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+F+I+G4      -31759.228   63784.456 - 1.32e-07   63812.216 - 1.56e-06   64483.637 +    0.997
+GTR+F+I+G4       -31758.241   63786.483 -  4.8e-08   63815.126 - 3.65e-07   64496.178 -  0.00189
+TIM+F+I+G4       -31766.245   63798.490 - 1.19e-10   63826.250 -  1.4e-09   64497.671 - 0.000894
+GTR+F+R6         -31734.460   63754.920 +    0.343   63787.246 +    0.413   64506.671 - 9.93e-06
+GTR+F+R5         -31742.155   63766.310 -  0.00115   63797.693 -  0.00222   64507.548 - 6.41e-06
+GTR+F+I+R6       -31733.027   63754.054 +    0.529   63786.858 +    0.501   64511.062 - 1.11e-06
+GTR+F+I+R5       -31740.300   63764.599 -  0.00271   63796.452 -  0.00414   64511.093 - 1.09e-06
+TN+F+I+G4        -31776.939   63817.878 - 7.31e-15   63845.203 - 1.07e-13   64511.803 - 7.63e-07
+TIM3+F+I+G4      -31776.941   63819.883 - 2.68e-15   63847.643 - 3.17e-14   64519.064 - 2.02e-08
+GTR+F+R7         -31734.505   63759.011 -   0.0444   63792.297 -    0.033   64521.276 - 6.69e-09
+GTR+F+I+R4       -31753.948   63787.896 - 2.37e-08   63818.812 - 5.77e-08   64523.876 - 1.82e-09
+GTR+F+I+R7       -31732.914   63757.828 +   0.0801   63791.600 -   0.0468   64525.350 - 8.73e-10
+TPM2u+F+I+G4     -31794.914   63853.829 - 1.14e-22   63881.153 - 1.68e-21   64547.753 - 1.19e-14
+K3Pu+F+I+G4      -31799.154   63862.307 - 1.65e-24   63889.632 - 2.41e-23   64556.232 - 1.72e-16
+TVM+F+I+G4       -31793.317   63854.635 - 7.63e-23   63882.834 - 7.23e-22   64559.073 - 4.15e-17
+HKY+F+I+G4       -31808.913   63879.826 - 2.58e-28   63906.719 - 4.71e-27   64568.493 - 3.74e-19
+GTR+F+R4         -31781.739   63841.477 - 5.49e-20   63871.931 - 1.69e-19   64572.200 - 5.85e-20
+TPM3u+F+I+G4     -31808.805   63881.609 - 1.06e-28   63908.934 - 1.55e-27   64575.533 - 1.11e-20
+GTR+F+G4         -31802.850   63873.700 - 5.53e-27   63901.900 - 5.24e-26   64578.138 - 3.01e-21
+GTR+F+I+R3       -31820.362   63916.724 - 2.51e-36   63946.719 -  9.7e-36   64642.190 - 3.71e-35
+GTR+F+R3         -31905.294   64084.589 - 8.88e-73   64114.129 -  4.3e-72   64804.798 - 1.82e-70
+GTR+F+I+R2       -32230.449   64732.898 - 1.48e-213   64761.988 - 8.98e-213   65447.851 - 4.19e-210
+TVMe+I+G4        -32508.519   65279.037 -        0   65305.930 -        0   65967.704 - 5.43e-323
+SYM+I+G4         -32508.447   65280.895 -        0   65308.219 -        0   65974.819 -        0
+GTR+F+R2         -32539.247   65348.494 -        0   65377.137 -        0   66058.189 -        0
+K3P+I+G4         -32744.883   65747.767 -        0   65773.807 -        0   66425.920 -        0
+TIMe+I+G4        -32744.567   65749.133 -        0   65775.598 -        0   66432.543 -        0
+TIM3e+I+G4       -32983.624   66227.249 -        0   66253.713 -        0   66910.659 -        0
+TPM3+I+G4        -32987.717   66233.433 -        0   66259.474 -        0   66911.587 -        0
+TIM2e+I+G4       -33012.726   66285.451 -        0   66311.916 -        0   66968.862 -        0
+TPM2+I+G4        -33021.007   66300.014 -        0   66326.054 -        0   66978.167 -        0
+F81+F+I+G4       -33316.152   66892.304 -        0   66918.769 -        0   67575.715 -        0
+K2P+I+G4         -33379.907   67015.814 -        0   67041.434 -        0   67688.710 -        0
+TNe+I+G4         -33379.611   67017.223 -        0   67043.263 -        0   67695.376 -        0
+JC+I+G4          -33831.343   67916.687 -        0   67941.890 -        0   68584.326 -        0
+GTR+F+I          -34227.201   68722.402 -        0   68750.601 -        0   69426.840 -        0
+GTR+F            -36325.689   72917.377 -        0   72945.137 -        0   73616.558 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.6392
+  A-G: 6.7735
+  A-T: 1.6392
+  C-G: 1.0000
+  C-T: 11.3989
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3821
+  pi(C) = 0.1125
+  pi(G) = 0.1524
+  pi(T) = 0.353
+
+Rate matrix Q:
+
+  A   -0.7422   0.07621    0.4268    0.2392
+  C    0.2589    -1.985   0.06301     1.664
+  G      1.07   0.04649    -1.262    0.1459
+  T    0.2589    0.5299   0.06301   -0.8518
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.17
+Gamma shape alpha: 0.6004
+
+ Category  Relative_rate  Proportion
+  0         0              0.17
+  1         0.06408        0.2075
+  2         0.3765         0.2075
+  3         1.062          0.2075
+  4         3.317          0.2075
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -31748.9731 (s.e. 823.6970)
+Unconstrained log-likelihood (without tree): -8680.4082
+Number of free parameters (#branches + #model parameters): 133
+Akaike information criterion (AIC) score: 63763.9463
+Corrected Akaike information criterion (AICc) score: 63791.7064
+Bayesian information criterion (BIC) score: 64463.1276
+
+Total tree length (sum of branch lengths): 22.6611
+Sum of internal branch lengths: 5.0434 (22.2555% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Littorina_brevicula' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++---------------------------------Littorina_brevicula
+|
+|     +------------Cancellaria_cancellata
++-----| (98.1/100)
+|     |  +-----Cancellaria_cooperi
+|     +--| (85.6/99)
+|        +--------Cancellaria_sinensis
+|
+|                    +---------------------Sylvanocochlis_ancilla
+|                 +--| (93.9/90)
+|                 |  |  +------------------Mitra_lens
+|                 |  +--| (77.5/95)
+|                 |     |        +---Oliva_mustelina
+|                 |     |  +-----| (99.3/100)
+|                 |     |  |     +----Oliva_spicata
+|                 |     +--| (89.7/100)
+|                 |        +-----------Olivella_volutella
+|              +**| (0/24)
+|              |  +------------------Mitrella_bicincta
+|           +--| (85.6/55)
+|           |  |        +-----------------Conus_praecellens
+|           |  |     +--| (84.8/98)
+|           |  |     |  |  +----------Aforia_magnifica
+|           |  |     |  +--| (78.9/99)
+|           |  |     |     |  +------Polystira_picta
+|           |  |     |     +--| (59.2/98)
+|           |  |     |        +----------Comitas_kaderlyi
+|           |  |  +--| (87.8/66)
+|           |  |  |  |          +--Babylonia_japonica
+|           |  |  |  +----------| (100/100)
+|           |  |  |             +--Babylonia_lutosa
+|           |  +--| (88.6/50)
+|           |     |                             +-------Siphonalia_cassidariaeformis
+|           |     |                          +--| (99.7/100)
+|           |     |                          |  +---Japeuthria_ferrea
+|           |     |                       +--| (96.1/81)
+|           |     |                       |  |     +--Neptunea_lamellosa
+|           |     |                       |  |  +--| (100/100)
+|           |     |                       |  |  |  +--Neptunea_purpurea
+|           |     |                       |  +--| (98.5/100)
+|           |     |                       |     |  +--Buccinum_aniwanum
+|           |     |                       |     +--| (99.6/100)
+|           |     |                       |        +--Buccinum_morchianum
+|           |     |                    +--| (18.6/27)
+|           |     |                    |  |     +--Kelletia_kelletii
+|           |     |                    |  |  +--| (98.5/100)
+|           |     |                    |  |  |  +--Kelletia_lischkei
+|           |     |                    |  +--| (99.9/100)
+|           |     |                    |     |  +--Penion_chathamensis
+|           |     |                    |     +--| (99.6/100)
+|           |     |                    |        +--Peristernia_sulcata
+|           |     |                 +--| (89.8/54)
+|           |     |                 |  +--Burnupena_cincta
+|           |     |              +--| (8.7/10)
+|           |     |              |  |     +--Paraeuthria_plumbea
+|           |     |              |  |  +--| (94.6/55)
+|           |     |              |  |  |  +-------------------------------------------Pomacea_canaliculata
+|           |     |              |  +--| (85/28)
+|           |     |              |     +---Cominella_adspersa
+|           |     |           +--| (84.3/20)
+|           |     |           |  |      +-----Nassarius_festivus
+|           |     |           |  |  +---| (99.9/100)
+|           |     |           |  |  |   |  +--Nassarius_semisulcatus
+|           |     |           |  |  |   +--| (99.5/100)
+|           |     |           |  |  |      +--Zeuxis_siquijorensis
+|           |     |           |  +--| (95.2/86)
+|           |     |           |     +-----Antillophos_laevis
+|           |     |        +--| (25.1/5)
+|           |     |        |  |  +-------Neobuccinum_eatoni
+|           |     |        |  +--| (82.7/25)
+|           |     |        |     |            +--------Melongena_patula
+|           |     |        |     |         +--| (90.6/96)
+|           |     |        |     |         |  +---Volema_myristica
+|           |     |        |     |  +------| (100/100)
+|           |     |        |     |  |      +-----Hemifusus_tuba
+|           |     |        |     +--| (71.7/30)
+|           |     |        |        |  +--------Cantharus_multangulus
+|           |     |        |        +--| (95.2/99)
+|           |     |        |           |         +--Pisania_pusio
+|           |     |        |           |      +--| (18/38)
+|           |     |        |           |      |  +--Pollia_tincta
+|           |     |        |           |   +--| (74.1/97)
+|           |     |        |           |   |  +--Engina_mendicaria
+|           |     |        |           +---| (100/100)
+|           |     |        |               +--Pisania_striata
+|           |     |     +--| (82.5/71)
+|           |     |     |  |  +---------Fusinus_akitai
+|           |     |     |  +--| (99.4/98)
+|           |     |     |     +--Granulifusus_niponicus
+|           |     |  +--| (90.7/71)
+|           |     |  |  |     +-----Metula_amosi
+|           |     |  |  +-----| (100/100)
+|           |     |  |        |  +----Colubraria_nitidula
+|           |     |  |        +--| (99.6/100)
+|           |     |  |           +--Colubraria_obscura
+|           |     +--| (86.5/71)
+|           |        |           +--------Microvoluta_sp.
+|           |        |  +--------| (100/100)
+|           |        |  |        +-------Vexillum_plicarium
+|           |        +--| (92.9/96)
+|           |           +-----Latiromitra_sp.
+|        +--| (97.9/92)
+|        |  |            +-----------Thalessa_savignyi
+|        |  |         +--| (76.8/91)
+|        |  |         |  +------Thais_clavigera
+|        |  |  +------| (100/100)
+|        |  |  |      +-------Thais_haemastoma
+|        |  +--| (89.5/84)
+|        |     |         +---------Cronia_sp.
+|        |     |     +---| (97.4/100)
+|        |     |     |   +--------Drupella_cornus
+|        |     |  +--| (17.9/84)
+|        |     |  |  +-------Nucella_lapillus
+|        |     +--| (55.8/54)
+|        |        |        +------Muricanthus_radix
+|        |        +--------| (100/100)
+|        |                 +-----Siratus_beauii
+|     +--| (72.9/54)
+|     |  |     +--------Biplex_perca
+|     |  |  +--| (89.2/97)
+|     |  |  |  +---------Fusitriton_oregonensis
+|     |  +--| (44.8/57)
+|     |     +--------------Tonna_luteostoma
+|  +--| (85.1/60)
+|  |  +--------------------Plesiotriton_sp.
++--| (30/62)
+   +---------------Ficus_subintermedia
+
+Tree in newick format:
+
+(Littorina_brevicula:1.1169399957,(Cancellaria_cancellata:0.4317939759,(Cancellaria_cooperi:0.2245184237,Cancellaria_sinensis:0.2997989771)85.6/99:0.0653409800)98.1/100:0.2274688566,(((((((Sylvanocochlis_ancilla:0.7492958572,(Mitra_lens:0.6261541273,((Oliva_mustelina:0.1536848801,Oliva_spicata:0.1862044586)99.3/100:0.1964583019,Olivella_volutella:0.3986070974)89.7/100:0.1026203010)77.5/95:0.0648588907)93.9/90:0.0917318211,Mitrella_bicincta:0.6240526893)0/24:0.0001341438,(((Conus_praecellens:0.6026274252,(Aforia_magnifica:0.3920283388,(Polystira_picta:0.2358063118,Comitas_kaderlyi:0.3647733447)59.2/98:0.0356291968)78.9/99:0.0291518649)84.8/98:0.0379356975,(Babylonia_japonica:0.0563875105,Babylonia_lutosa:0.0921252937)100/100:0.3918555765)87.8/66:0.0362973781,((((((((((Siphonalia_cassidariaeformis:0.2860061210,Japeuthria_ferrea:0.1515764035)99.7/100:0.1023452197,((Neptunea_lamellosa:0.0122930630,Neptunea_purpurea:0.0195352382)100/100:0.0908507067,(Buccinum_aniwanum:0.0280580698,Buccinum_morchianum:0.0271748389)99.6/100:0.0480039373)98.5/100:0.0504150465)96.1/81:0.0291798830,((Kelletia_kelletii:0.0298078591,Kelletia_lischkei:0.0121663451)98.5/100:0.0381441576,(Penion_chathamensis:0.0209141275,Peristernia_sulcata:0.0396626437)99.6/100:0.0470261525)99.9/100:0.0586670123)18.6/27:0.0058350188,Burnupena_cincta:0.1283895373)89.8/54:0.0147768979,((Paraeuthria_plumbea:0.0650083934,Pomacea_canaliculata:1.4423517858)94.6/55:0.0835101279,Cominella_adspersa:0.1330470346)85/28:0.0207036635)8.7/10:0.0015342382,((Nassarius_festivus:0.1979428325,(Nassarius_semisulcatus:0.0917200756,Zeuxis_siquijorensis:0.0886110576)99.5/100:0.1002459848)99.9/100:0.1587704952,Antillophos_laevis:0.2050848272)95.2/86:0.0599510153)84.3/20:0.0204847780,(Neobuccinum_eatoni:0.2728741133,(((Melongena_patula:0.3232848037,Volema_myristica:0.1527349821)90.6/96:0.0883089168,Hemifusus_tuba:0.2044686916)100/100:0.2519768311,(Cantharus_multangulus:0.3094793145,(((Pisania_pusio:0.1073287449,Pollia_tincta:0.1071501765)18/38:0.0105464141,Engina_mendicaria:0.1025177410)74.1/97:0.0165049843,Pisania_striata:0.0931643220)100/100:0.1366158389)95.2/99:0.0618722156)71.7/30:0.0112974703)82.7/25:0.0178037756)25.1/5:0.0104847293,(Fusinus_akitai:0.3384942071,Granulifusus_niponicus:0.1106410700)99.4/98:0.0838314126)82.5/71:0.0176961686,(Metula_amosi:0.1967251655,(Colubraria_nitidula:0.1907813553,Colubraria_obscura:0.0870658891)99.6/100:0.1240110645)100/100:0.1972196227)90.7/71:0.0465154126,((Microvoluta_sp.:0.3008520465,Vexillum_plicarium:0.2811881762)100/100:0.3095659820,Latiromitra_sp.:0.2165407600)92.9/96:0.0967351801)86.5/71:0.0247946477)88.6/50:0.0310192376)85.6/55:0.0322191374,(((Thalessa_savignyi:0.3946868480,Thais_clavigera:0.2389021162)76.8/91:0.0441907070,Thais_haemastoma:0.2626768693)100/100:0.2614626508,(((Cronia_sp.:0.3342757356,Drupella_cornus:0.2944940939)97.4/100:0.1311962006,Nucella_lapillus:0.2838401731)17.9/84:0.0337209364,(Muricanthus_radix:0.2436143896,Siratus_beauii:0.2152059675)100/100:0.3151669659)55.8/54:0.0266188299)89.5/84:0.0450654371)97.9/92:0.0926325736,((Biplex_perca:0.3160819118,Fusitriton_oregonensis:0.3575161631)89.2/97:0.1101685640,Tonna_luteostoma:0.5178782535)44.8/57:0.0663321518)72.9/54:0.0215355840,Plesiotriton_sp.:0.6874751099)85.1/60:0.0530581300,Ficus_subintermedia:0.5417084202)30/62:0.0632569593);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -31749.193414
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------------------------Littorina_brevicula
+|
+|     +------------Cancellaria_cancellata
++-----| (100)
+|     |  +-----Cancellaria_cooperi
+|     +--| (99)
+|        +--------Cancellaria_sinensis
+|
+|                    +---------------------Sylvanocochlis_ancilla
+|                 +--| (90)
+|                 |  |  +------------------Mitra_lens
+|                 |  +--| (95)
+|                 |     |        +---Oliva_mustelina
+|                 |     |  +-----| (100)
+|                 |     |  |     +----Oliva_spicata
+|                 |     +--| (100)
+|                 |        +-----------Olivella_volutella
+|              +--| (24)
+|              |  +------------------Mitrella_bicincta
+|           +--| (55)
+|           |  |        +-----------------Conus_praecellens
+|           |  |     +--| (98)
+|           |  |     |  |  +----------Aforia_magnifica
+|           |  |     |  +--| (99)
+|           |  |     |     |  +------Polystira_picta
+|           |  |     |     +--| (98)
+|           |  |     |        +----------Comitas_kaderlyi
+|           |  |  +--| (66)
+|           |  |  |  |          +--Babylonia_japonica
+|           |  |  |  +----------| (100)
+|           |  |  |             +--Babylonia_lutosa
+|           |  +--| (50)
+|           |     |                          +-------Siphonalia_cassidariaeformis
+|           |     |                       +--| (100)
+|           |     |                       |  +---Japeuthria_ferrea
+|           |     |                    +--| (81)
+|           |     |                    |  |     +--Neptunea_lamellosa
+|           |     |                    |  |  +--| (100)
+|           |     |                    |  |  |  +--Neptunea_purpurea
+|           |     |                    |  +--| (100)
+|           |     |                    |     |  +--Buccinum_aniwanum
+|           |     |                    |     +--| (100)
+|           |     |                    |        +--Buccinum_morchianum
+|           |     |                 +--| (54)
+|           |     |                 |  |  +--Burnupena_cincta
+|           |     |                 |  +--| (46)
+|           |     |                 |     |     +--Kelletia_kelletii
+|           |     |                 |     |  +--| (100)
+|           |     |                 |     |  |  +--Kelletia_lischkei
+|           |     |                 |     +--| (100)
+|           |     |                 |        |  +--Penion_chathamensis
+|           |     |                 |        +--| (100)
+|           |     |                 |           +--Peristernia_sulcata
+|           |     |              +--| (10)
+|           |     |              |  |     +--Paraeuthria_plumbea
+|           |     |              |  |  +--| (55)
+|           |     |              |  |  |  +-------------------------------------------Pomacea_canaliculata
+|           |     |              |  +--| (28)
+|           |     |              |     +---Cominella_adspersa
+|           |     |           +--| (20)
+|           |     |           |  |      +-----Nassarius_festivus
+|           |     |           |  |  +---| (100)
+|           |     |           |  |  |   |  +--Nassarius_semisulcatus
+|           |     |           |  |  |   +--| (100)
+|           |     |           |  |  |      +--Zeuxis_siquijorensis
+|           |     |           |  +--| (86)
+|           |     |           |     +-----Antillophos_laevis
+|           |     |        +--| (49)
+|           |     |        |  |        +---------Fusinus_akitai
+|           |     |        |  |     +--| (98)
+|           |     |        |  |     |  +--Granulifusus_niponicus
+|           |     |        |  |  +--| (30)
+|           |     |        |  |  |  |  +--------Cantharus_multangulus
+|           |     |        |  |  |  +--| (99)
+|           |     |        |  |  |     |         +--Pisania_pusio
+|           |     |        |  |  |     |      +--| (60)
+|           |     |        |  |  |     |      |  +--Engina_mendicaria
+|           |     |        |  |  |     |   +--| (97)
+|           |     |        |  |  |     |   |  +--Pollia_tincta
+|           |     |        |  |  |     +---| (100)
+|           |     |        |  |  |         +--Pisania_striata
+|           |     |        |  +--| (18)
+|           |     |        |     +-------Neobuccinum_eatoni
+|           |     |     +--| (71)
+|           |     |     |  |         +--------Melongena_patula
+|           |     |     |  |      +--| (96)
+|           |     |     |  |      |  +---Volema_myristica
+|           |     |     |  +------| (100)
+|           |     |     |         +-----Hemifusus_tuba
+|           |     |  +--| (71)
+|           |     |  |  |    +-----Metula_amosi
+|           |     |  |  +----| (100)
+|           |     |  |       |  +----Colubraria_nitidula
+|           |     |  |       +--| (100)
+|           |     |  |          +--Colubraria_obscura
+|           |     +--| (71)
+|           |        |           +--------Microvoluta_sp.
+|           |        |  +--------| (100)
+|           |        |  |        +-------Vexillum_plicarium
+|           |        +--| (96)
+|           |           +-----Latiromitra_sp.
+|        +--| (92)
+|        |  |            +-----------Thalessa_savignyi
+|        |  |         +--| (91)
+|        |  |         |  +------Thais_clavigera
+|        |  |  +------| (100)
+|        |  |  |      +-------Thais_haemastoma
+|        |  +--| (84)
+|        |     |         +---------Cronia_sp.
+|        |     |     +---| (100)
+|        |     |     |   +-------Drupella_cornus
+|        |     |  +--| (84)
+|        |     |  |  +-------Nucella_lapillus
+|        |     +--| (54)
+|        |        |        +------Muricanthus_radix
+|        |        +--------| (100)
+|        |                 +-----Siratus_beauii
+|     +--| (54)
+|     |  |     +--------Biplex_perca
+|     |  |  +--| (97)
+|     |  |  |  +---------Fusitriton_oregonensis
+|     |  +--| (57)
+|     |     +--------------Tonna_luteostoma
+|  +--| (60)
+|  |  +--------------------Plesiotriton_sp.
++--| (62)
+   +---------------Ficus_subintermedia
+
+
+Consensus tree in newick format: 
+
+(Littorina_brevicula:1.1283441400,(Cancellaria_cancellata:0.4357245144,(Cancellaria_cooperi:0.2271160550,Cancellaria_sinensis:0.3010853195)99:0.0664841070)100:0.2295199566,(((((((Sylvanocochlis_ancilla:0.7510858820,(Mitra_lens:0.6300052507,((Oliva_mustelina:0.1541515572,Oliva_spicata:0.1882118150)100:0.1982742296,Olivella_volutella:0.4028801287)100:0.1043268735)95:0.0661404280)90:0.0914490065,Mitrella_bicincta:0.6332618860)24:0.0000278596,(((Conus_praecellens:0.6065645431,(Aforia_magnifica:0.3954644365,(Polystira_picta:0.2380599594,Comitas_kaderlyi:0.3672065248)98:0.0362192479)99:0.0297901046)98:0.0381292995,(Babylonia_japonica:0.0572122399,Babylonia_lutosa:0.0926290790)100:0.3951886825)66:0.0386537472,(((((((((Siphonalia_cassidariaeformis:0.2896974211,Japeuthria_ferrea:0.1514488804)100:0.1031317032,((Neptunea_lamellosa:0.0122305413,Neptunea_purpurea:0.0197947257)100:0.0922051227,(Buccinum_aniwanum:0.0280889522,Buccinum_morchianum:0.0274550582)100:0.0477641946)100:0.0518337075)81:0.0304869811,(Burnupena_cincta:0.1287420182,((Kelletia_kelletii:0.0305558131,Kelletia_lischkei:0.0116837712)100:0.0396073031,(Penion_chathamensis:0.0216036341,Peristernia_sulcata:0.0392419675)100:0.0462602560)100:0.0589102468)46:0.0046380251)54:0.0158623422,((Paraeuthria_plumbea:0.0652185315,Pomacea_canaliculata:1.4539793954)55:0.0856120224,Cominella_adspersa:0.1339288016)28:0.0209911018)10:0.0019594675,((Nassarius_festivus:0.1993755528,(Nassarius_semisulcatus:0.0918424348,Zeuxis_siquijorensis:0.0900117646)100:0.1016303450)100:0.1608923674,Antillophos_laevis:0.2051477140)86:0.0610548324)20:0.0164535760,(((Fusinus_akitai:0.3383882675,Granulifusus_niponicus:0.1127077807)98:0.0732388038,(Cantharus_multangulus:0.3041230177,(((Pisania_pusio:0.1086891021,Engina_mendicaria:0.1017135616)60:0.0134037823,Pollia_tincta:0.1074796173)97:0.0150313398,Pisania_striata:0.0920838744)100:0.1421641518)99:0.0697382047)30:0.0146565997,Neobuccinum_eatoni:0.2849587219)18:0.0097639573)49:0.0286307500,((Melongena_patula:0.3227652123,Volema_myristica:0.1566514888)96:0.0847131485,Hemifusus_tuba:0.2099740712)100:0.2566540386)71:0.0159193967,(Metula_amosi:0.1979979001,(Colubraria_nitidula:0.1940518769,Colubraria_obscura:0.0868759257)100:0.1249604703)100:0.1977402984)71:0.0391549926,((Microvoluta_sp.:0.3033455788,Vexillum_plicarium:0.2830663142)100:0.3104547185,Latiromitra_sp.:0.2235123821)96:0.0976810498)71:0.0223615306)50:0.0285396406)55:0.0330820850,(((Thalessa_savignyi:0.3988434328,Thais_clavigera:0.2402835854)91:0.0448893484,Thais_haemastoma:0.2659047950)100:0.2632887313,(((Cronia_sp.:0.3360326322,Drupella_cornus:0.2955894269)100:0.1323597398,Nucella_lapillus:0.2863818936)84:0.0342841447,(Muricanthus_radix:0.2460653278,Siratus_beauii:0.2179813174)100:0.3197374790)54:0.0265928943)84:0.0429159006)92:0.0932648921,((Biplex_perca:0.3188625452,Fusitriton_oregonensis:0.3599378236)97:0.1107361449,Tonna_luteostoma:0.5220890340)57:0.0667137836)54:0.0224430590,Plesiotriton_sp.:0.6932204030)60:0.0530864156,Ficus_subintermedia:0.5467077392)62:0.0633045742);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t 16S_rRNA.phy.treefile -m "TIM2{1.63922,6.77352,11.3989}+F{0.382056,0.112469,0.152433,0.353042}+I{0.170007}+G4{0.600375}" --length 1418
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s 16S_rRNA.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s 16S_rRNA.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Apr  8 14:32:16 2026
+Total CPU time used: 226.42927 seconds (0h:3m:46s)
+Total wall-clock time used: 76.99483299 seconds (0h:1m:16s)
+
