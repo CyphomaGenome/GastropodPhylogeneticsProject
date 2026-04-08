@@ -1,0 +1,26 @@
+{
+    "id": "5EA2C367",
+    "path": "C:/Bioinformatics/Bioinformatics/FinalProject/cytochrome_c_oxidase_subunit_I_gene_complete_cds/CytrochromeScript.R",
+    "project_path": "CytrochromeScript.R",
+    "type": "r_source",
+    "hash": "3233976748",
+    "contents": "",
+    "dirty": false,
+    "created": 1775279819001.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "24,0",
+        "scrollLine": "7"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1775326140,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1775326140,
+    "read_only": false,
+    "read_only_alternatives": []
+}
