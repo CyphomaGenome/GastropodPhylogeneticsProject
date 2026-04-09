@@ -1,0 +1,166 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=64;
+	taxlabels
+	Aforia_magnifica
+	Antillophos_laevis
+	Babylonia_japonica
+	Babylonia_lutosa
+	Biplex_perca
+	Buccinum_aniwanum
+	Buccinum_morchianum
+	Burnupena_cincta
+	Cancellaria_cancellata
+	Cancellaria_cooperi
+	Cancellaria_sinensis
+	Cantharus_multangulus
+	Colubraria_nitidula
+	Colubraria_obscura
+	Cominella_adspersa
+	Comitas_kaderlyi
+	Conus_praecellens
+	'Cronia_sp.'
+	Drupella_cornus
+	Engina_mendicaria
+	Ficus_subintermedia
+	Fusinus_akitai
+	Fusitriton_oregonensis
+	Granulifusus_niponicus
+	Hemifusus_tuba
+	Japeuthria_ferrea
+	Kelletia_kelletii
+	Kelletia_lischkei
+	'Latiromitra_sp.'
+	Littorina_brevicula
+	Melongena_patula
+	Metula_amosi
+	'Microvoluta_sp.'
+	Mitra_lens
+	Mitrella_bicincta
+	Muricanthus_radix
+	Nassarius_festivus
+	Nassarius_semisulcatus
+	Neobuccinum_eatoni
+	Neptunea_lamellosa
+	Neptunea_purpurea
+	Nucella_lapillus
+	Oliva_mustelina
+	Oliva_spicata
+	Olivella_volutella
+	Paraeuthria_plumbea
+	Penion_chathamensis
+	Peristernia_sulcata
+	Pisania_pusio
+	Pisania_striata
+	'Plesiotriton_sp.'
+	Pollia_tincta
+	Polystira_picta
+	Pomacea_canaliculata
+	Siphonalia_cassidariaeformis
+	Siratus_beauii
+	Sylvanocochlis_ancilla
+	Thais_clavigera
+	Thais_haemastoma
+	Thalessa_savignyi
+	Tonna_luteostoma
+	Vexillum_plicarium
+	Volema_myristica
+	Zeuxis_siquijorensis
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Littorina_brevicula:1.159973,(Cancellaria_cancellata:0.441324,(Cancellaria_cooperi:0.232677,Cancellaria_sinensis:0.308879)[&boots=80]:0.06907)[&boots=98]:0.23084,(((((((Sylvanocochlis_ancilla:0.754613,(Mitra_lens:0.643947,((Oliva_mustelina:0.155578,Oliva_spicata:0.192522)[&boots=100]:0.209611,Olivella_volutella:0.406201)[&boots=94]:0.103216)[&boots=50]:0.068858)[&boots=21]:0.092822,((((Thalessa_savignyi:0.406454,Thais_clavigera:0.244124)[&boots=55]:0.045144,Thais_haemastoma:0.274983)[&boots=100]:0.266439,((('Cronia_sp.':0.342256,Drupella_cornus:0.302781)[&boots=94]:0.128735,Nucella_lapillus:0.301853)[&boots=42]:0.041277,(Muricanthus_radix:0.253574,Siratus_beauii:0.220435)[&boots=100]:0.324625)[&boots=16]:0.02649)[&boots=39]:0.072284,((((((((((Siphonalia_cassidariaeformis:0.294107,Japeuthria_ferrea:0.157647)[&boots=100]:0.106185,((Neptunea_lamellosa:0.01272,Neptunea_purpurea:0.019745)[&boots=100]:0.093634,(Buccinum_aniwanum:0.028727,Buccinum_morchianum:0.027666)[&boots=100]:0.048613)[&boots=98]:0.049655)[&boots=40]:0.032518,(Burnupena_cincta:0.13236,((Kelletia_kelletii:0.031295,Kelletia_lischkei:0.011536)[&boots=100]:0.03958,(Penion_chathamensis:0.021771,Peristernia_sulcata:0.039979)[&boots=99]:0.04827)[&boots=100]:0.058104)[&boots=21]:0.004549)[&boots=15]:0.014991,(Antillophos_laevis:0.254336,(Paraeuthria_plumbea:0.060233,Pomacea_canaliculata:1.493261)[&boots=28]:0.090504)[&boots=5]:0.017841)[&boots=1]:0.014802,(((Fusinus_akitai:0.350735,Granulifusus_niponicus:0.110715)[&boots=85]:0.076916,(Cantharus_multangulus:0.305759,(((Pisania_pusio:0.110578,Engina_mendicaria:0.103741)[&boots=36]:0.013987,Pollia_tincta:0.109035)[&boots=56]:0.015269,Pisania_striata:0.093543)[&boots=100]:0.149723)[&boots=89]:0.073259)[&boots=18]:0.017085,Neobuccinum_eatoni:0.297087)[&boots=8]:0.00804)[&boots=1]:0.020536,Cominella_adspersa:0.134374)[&boots=0]:3.0E-6,(Nassarius_festivus:0.197726,(Nassarius_semisulcatus:0.090153,Zeuxis_siquijorensis:0.094567)[&boots=100]:0.113693)[&boots=100]:0.195894)[&boots=15]:0.028953,((Melongena_patula:0.326686,Volema_myristica:0.161859)[&boots=75]:0.085209,Hemifusus_tuba:0.219414)[&boots=100]:0.25759)[&boots=11]:0.017714,(Mitrella_bicincta:0.617549,(Metula_amosi:0.204012,(Colubraria_nitidula:0.194829,Colubraria_obscura:0.092835)[&boots=99]:0.126809)[&boots=100]:0.191693)[&boots=11]:0.022168)[&boots=11]:0.040521,(('Microvoluta_sp.':0.300296,Vexillum_plicarium:0.294962)[&boots=99]:0.313936,'Latiromitra_sp.':0.229831)[&boots=53]:0.12022)[&boots=14]:0.013929)[&boots=5]:0.015885)[&boots=12]:0.03914,(Conus_praecellens:0.608702,(Aforia_magnifica:0.411266,(Polystira_picta:0.251358,Comitas_kaderlyi:0.366264)[&boots=63]:0.036393)[&boots=66]:0.040056)[&boots=62]:0.0355)[&boots=6]:7.04E-4,(Babylonia_japonica:0.058236,Babylonia_lutosa:0.094215)[&boots=100]:0.411212)[&boots=40]:0.101121,((Biplex_perca:0.314329,Fusitriton_oregonensis:0.378976)[&boots=86]:0.117194,Tonna_luteostoma:0.534161)[&boots=27]:0.059447)[&boots=11]:0.014803,'Plesiotriton_sp.':0.713743)[&boots=20]:0.053814,Ficus_subintermedia:0.547147)[&boots=27]:0.069301);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="boots";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="boots";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

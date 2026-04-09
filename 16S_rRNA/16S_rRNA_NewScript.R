@@ -19,11 +19,12 @@ shortnames <- gsub("^[^ ]* (([^ ]* )[^ ]*).*", "\\1", names(combined_sequences))
 finishednames <- gsub(" ", "_", newnames)
 finishednames
 names(combined_sequences) <- finishednames
+names(combined_sequences)
 combined_sequences
-# remove "Sylvanococ"
-combined_sequences <- combined_sequences[names(combined_sequences) != "Sylvanococ"]
-# remove "Pomacea"
-combined_sequences <- combined_sequences[names(combined_sequences) != "Pomacea"]
+# remove "Sylvanocochlis_ancilla"
+combined_sequences <- combined_sequences[names(combined_sequences) != "Sylvanocochlis_ancilla"]
+# remove "Pomacea_canaliculata"
+combined_sequences <- combined_sequences[names(combined_sequences) != "Pomacea_canaliculata"]
 combined_sequences
 MSA_Alignment<-msaMuscle(combined_sequences)
 MSA_Alignment
@@ -35,26 +36,56 @@ MSA_stringset <- as(MSA_Subset, "DNAStringSet")
 MSA_stringset
 write.DNAStringSet(x = MSA_stringset, format = "phylip", filename = "16S_rRNA.phy")
 
-#Another way to do this: think about extended phlip
-#grep function can do this automated
-
 #Navigate to proper folder
 #cd /mnt/c/Bioinformatics/Bioinformatics/GastropodPhylogeneticsProject/16S_rRNA
 
 #Run raxml
 #../../../raxml-ng_v2.0.0_linux_x86_64/raxml-ng --all --msa 16S_rRNA.phy --model GTR+G --tree pars{10} --bs-trees 200
 
-#or Run IQ-Tree
+#or Run IQ-Tree with bootstraps - This may be a better option because it tests many models instead of 1
 #export PATH="$PATH:/mnt/c/Bioinformatics/iqtree-2.2.2.7-Linux/bin"
-#iqtree2 -s 16S_rRNA.phy
-#or with bootstraps
-#iqtree2 -s 16S_rRNA.phy -B 1000 -alrt 1000 -T AUTO
+#iqtree2 -s 16S_rRNA.phy -b 200
+#or with fast bootstraps - this is much faster with similar results
+#iqtree2 -s 16S_rRNA.phy -B 1000
 
+#the next lines of code turn uncertainty into polytomies
+my_tree <- read.tree("16S_rRNA.phy.treefile")
+my_tree
+#Define threshold
+threshold <- 70
+threshold
+#Convert node labels to numeric (sometimes they load as characters)
+bootstraps <- as.numeric(my_tree$node.label)
+bootstraps
+#Find the edges (branches) leading to nodes with low support
+#Note: Node indices in ape start after the number of tips
+nodes_to_collapse <- which(bootstraps < threshold) + length(my_tree$tip.label)
+nodes_to_collapse
+#Set the edge lengths of those weak nodes to 0
+my_tree$edge.length[my_tree$edge[,2] %in% nodes_to_collapse] <- 0
+#Collapse all zero-length branches into polytomies
+final_tree <- di2multi(my_tree, tol = 1e-08)
+final_tree
+write.tree(my_tree, "16S_rRNA70threshold.tre")
 
-
-
-
-
+my_tree <- read.tree("16S_rRNA.phy.treefile")
+my_tree
+#Define threshold
+threshold <- 60
+threshold
+#Convert node labels to numeric (sometimes they load as characters)
+bootstraps <- as.numeric(my_tree$node.label)
+bootstraps
+#Find the edges (branches) leading to nodes with low support
+#Note: Node indices in ape start after the number of tips
+nodes_to_collapse <- which(bootstraps < threshold) + length(my_tree$tip.label)
+nodes_to_collapse
+#Set the edge lengths of those weak nodes to 0
+my_tree$edge.length[my_tree$edge[,2] %in% nodes_to_collapse] <- 0
+#Collapse all zero-length branches into polytomies
+final_tree <- di2multi(my_tree, tol = 1e-08)
+final_tree
+write.tree(my_tree, "16S_rRNA60threshold.tre")
 
 
 ###################################################################################
@@ -196,3 +227,7 @@ my_tree$tip.label <- new_names
 
 # 4. Save the renamed tree
 write.tree(my_tree, "gastropod_final_named.tre")
+
+#iqtree2 -s 16S_rRNA.phy
+#or with fast bootstraps
+#iqtree2 -s 16S_rRNA.phy -B 1000 -alrt 1000 -T AUTO
