@@ -1,0 +1,212 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Linux 64-bit built May 31 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    DESKTOP-RDKORUQ (AVX512, FMA3, 5 GB RAM)
+Command: iqtree2 -s aligned_sequences.fasta -bb 10000 -nt AUTO
+Seed:    170691 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 13 10:08:44 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file aligned_sequences.fasta ... Fasta format detected
+Reading fasta file: done in 0.114463 secs using 44.5% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.110284 secs using 746.7% CPU
+Alignment has 134 sequences with 53254 columns, 23955 distinct patterns
+20329 parsimony-informative, 9240 singleton sites, 23685 constant sites
+                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0237591 secs using 770.9% CPU
+   1  Pomacea_canaliculata          70.51%    failed      0.00%
+   2  Pila_globosa                  68.26%    failed      0.00%
+   3  Marisa_cornuarietis           70.10%    failed      0.00%
+   4  Obscurella_hidalgoi           70.84%    failed      0.00%
+   5  Cyclophorus                   71.25%    failed      0.00%
+   6  Cipangopaludina_cathayensis   67.77%    failed      0.00%
+   7  Rivularia_globosa             68.91%    failed      0.00%
+   8  Margarya_melanioides          67.92%    failed      0.00%
+   9  Viviparus_chui                69.22%    failed      0.00%
+  10  Sinotaia_quadrata             65.18%    failed      0.00%
+  11  Maoricolpus_roseus            70.21%    failed      0.00%
+  12  Batillaria_attramentaria      69.78%    failed      0.00%
+  13  Koreoleptoxis_nodifila        70.45%    failed      0.00%
+  14  Pseudocleopatra_dartevellei   71.15%    failed      0.00%
+  15  Cerithidea_obtusa             70.50%    failed      0.00%
+  16  Semisulcospira_coreana        71.09%    failed      0.00%
+  17  Tylomelania_sarasinorum       68.77%    failed      0.00%
+  18  Melanoides_tuberculata        70.29%    failed      0.00%
+  19  Alviniconcha_marisindica      69.99%    passed     18.42%
+  20  Ifremeria_nautilei            70.59%    failed      0.00%
+  21  Provanna_glabra               69.45%    failed      0.00%
+  22  Desbruyeresia_armata          70.29%    failed      0.00%
+  23  Epitonium                     71.57%    failed      0.00%
+  24  Desmaulus_extinctorium        68.81%    failed      0.00%
+  25  Calyptraea_chinensis          83.98%    failed      0.00%
+  26  Erronea_errones               71.04%    failed      0.06%
+  27  Naria_erosa                   69.92%    failed      0.00%
+  28  Monetaria_annulus             69.79%    failed      0.00%
+  29  Mauritia_arabica              70.23%    failed      0.00%
+  30  Purpuradusta_gracilis         69.50%    failed      1.27%
+  31  Lyncina_vitellus              69.45%    failed      0.00%
+  32  Cypraea_tigris                69.62%    failed      1.38%
+  33  Ficus_subintermedia           69.49%    failed      0.00%
+  34  Ficus_variegata               70.45%    failed      0.00%
+  35  Tanea_lineata                 71.54%    failed      0.00%
+  36  Paratectonatica_tigrina       71.46%    failed      0.00%
+  37  Cryptonatica_janthostoma      71.39%    failed      0.00%
+  38  Euspira_gilva                 71.24%    failed      0.00%
+  39  Neverita_didyma               70.66%    failed      0.00%
+  40  Glossaulax_reiniana           71.36%    failed      0.00%
+  41  Naticarius_hebraeus           71.12%    failed      0.00%
+  42  Maackia_herderiana            71.54%    failed      0.00%
+  43  Baicalia_turriformis          71.59%    failed      0.00%
+  44  Potamopyrgus_estuarinus       69.87%    passed      7.22%
+  45  Oncomelania_hupensis          71.49%    passed     49.93%
+  46  Stenothyra_glabra             70.51%    failed      0.00%
+  47  Helicostoa_sinensis           71.67%    failed      0.00%
+  48  Tricula_hortensis             71.50%    failed      0.00%
+  49  Bithynia_leachii              70.75%    failed      0.00%
+  50  Strombus_pugilis              70.31%    failed      0.00%
+  51  Varicospira_cancellata        70.21%    failed      0.00%
+  52  Terebellum_terebellum         70.94%    failed      0.00%
+  53  Struthiolaria_papulosa        70.94%    failed      0.00%
+  54  Aporrhais_serresiana          70.98%    failed      0.00%
+  55  Tibia_fusus                   69.80%    failed      0.00%
+  56  Xenophora_japonica            70.55%    failed      0.00%
+  57  Onustus                       69.87%    failed      0.00%
+  58  Thylacodes_squamigerus        70.81%    failed      0.00%
+  59  Eualetes_tulipa               71.69%    failed      0.00%
+  60  Dendropoma_gregarium          70.63%    failed      0.00%
+  61  Charonia_tritonis             71.18%    failed      0.00%
+  62  Galeodea_echinophora          71.11%    failed      0.00%
+  63  Monoplex_parthenopeus         71.33%    failed      0.00%
+  64  Buccinum_undatum              71.34%    failed      0.32%
+  65  Buccinulum_pertinax           71.37%    failed      0.00%
+  66  Neptunea_cumingii             71.36%    failed      0.00%
+  67  Hemifusus_tuba                70.93%    failed      0.38%
+  68  Brunneifusus_ternatanus       69.48%    failed      0.12%
+  69  Mitrella_albuginosa           69.50%    failed      0.00%
+  70  Columbella_adansoni           69.45%    failed      0.00%
+  71  Fusinus_longicaudus           69.37%    failed      0.00%
+  72  Taron                         71.48%    passed     52.31%
+  73  Nassarius_conoidalis          71.21%    failed      0.00%
+  74  Tritia_grana                  71.46%    failed      0.05%
+  75  Reticunassa_festiva           71.51%    failed      0.00%
+  76  Anentome_sp.                  71.70%    failed      0.00%
+  77  Colus                         71.54%    failed      0.00%
+  78  Kelletia_lischkei             71.41%    passed     32.04%
+  79  Peristernia_sulcata           71.42%    passed     48.34%
+  80  Lirabuccinum                  71.28%    failed      2.83%
+  81  Aeneator_recens               71.34%    failed      0.00%
+  82  Cominella_adspersa            71.36%    failed      0.02%
+  83  Cominella                     71.34%    passed     26.32%
+  84  Austrofusus                   71.47%    failed      0.00%
+  85  Melo_melo                     70.48%    failed      0.00%
+  86  Cymbium_olla                  71.13%    failed      0.00%
+  87  Cymbiola_nobilis              69.37%    failed      0.32%
+  88  Neptuneopsis_gilchristi       71.25%    failed      0.00%
+  89  Harpovoluta_charcoti          70.92%    failed      0.02%
+  90  Sydaphera_spengleriana        69.32%    failed      0.00%
+  91  Bivetiella_cancellata         68.74%    failed      0.00%
+  92  Isara_chinensis               69.51%    passed     80.08%
+  93  Murex_trapa                   71.07%    failed      1.09%
+  94  Indothais_javanica            71.42%    passed     16.11%
+  95  Tenguella_musiva              71.42%    failed      0.03%
+  96  Drupa_morum                   70.15%    failed      0.00%
+  97  Drupella_margariticola        71.06%    failed      0.00%
+  98  Ocinebrellus_inornatus        71.22%    passed     19.30%
+  99  Reishia_luteostoma            71.27%    failed      1.03%
+ 100  Bolinus_brandaris             71.12%    passed      9.40%
+ 101  Amalda_northlandica           71.17%    passed      8.28%
+ 102  Amalda_novaezelandiae         71.25%    passed     14.68%
+ 103  Costapex_baldwinae            71.23%    failed      0.44%
+ 104  Babylonia_areolata            71.00%    failed      0.71%
+ 105  Babylonia_2                   70.79%    failed      0.63%
+ 106  Babylonia_1                   69.56%    failed      0.00%
+ 107  Varioconus_trencarti          71.32%    failed      0.00%
+ 108  Conus_canariensis             71.22%    failed      0.00%
+ 109  Pygmaeconus_traillii          71.90%    failed      0.00%
+ 110  Lilliconus_sagei              70.92%    failed      0.00%
+ 111  Bathytoma_punicea             69.89%    failed      0.03%
+ 112  Tomopleura_sp.                71.49%    failed      0.00%
+ 113  Toxicochlespira_sp1.          71.69%    failed      0.00%
+ 114  Toxicochlespira_sp2.          71.69%    failed      0.00%
+ 115  Benthomangelia_sp.            71.76%    failed      0.00%
+ 116  Phymorhynchus_buccinoides     70.40%    failed      0.00%
+ 117  Typhlosyrinx_sp.              70.32%    failed      0.00%
+ 118  Eubela_sp.                    71.55%    failed      0.00%
+ 119  Leucosyrinx_sp.               71.16%    failed      0.00%
+ 120  Inquisitor_sp.                71.39%    passed     32.21%
+ 121  Gemmuloborsonia_moosai        70.82%    failed      0.49%
+ 122  Lucerapex_sp.                 71.20%    failed      3.73%
+ 123  Oxymeris_dimidiata            68.99%    failed      0.00%
+ 124  Turricula_nelliae             69.10%    failed      0.00%
+ 125  Splendrillia_sp.              71.16%    failed      0.00%
+ 126  Anguloclavus_sp.              71.64%    failed      0.00%
+ 127  Marshallena_sp.               71.44%    failed      0.00%
+ 128  Clavatula_tripartita          70.44%    failed      0.05%
+ 129  Clionella_kraussii            70.41%    failed      0.00%
+ 130  Glyphostoma_sp.               74.88%    failed      0.00%
+ 131  Fusiturris_similis            70.72%    passed     31.57%
+ 132  Cochlespira_sp.               70.74%    failed      0.00%
+ 133  Clithon_oualaniense           70.50%    failed      0.00%
+ 134  Nerita_plicata                70.45%    failed      0.00%
+WARNING: 134 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                         70.74%  119 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Toxicochlespira_sp2. is identical to Toxicochlespira_sp1. but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0207069 secs using 792.9% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.328 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+9 trees examined
+Threads: 1 / Time: 8.752 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1404084
+Threads: 2 / Time: 4.449 sec / Speedup: 1.967 / Efficiency: 98% / LogL: -1404084
+Threads: 3 / Time: 3.964 sec / Speedup: 2.208 / Efficiency: 74% / LogL: -1404084
+Threads: 4 / Time: 3.515 sec / Speedup: 2.490 / Efficiency: 62% / LogL: -1404084
+Threads: 5 / Time: 3.276 sec / Speedup: 2.671 / Efficiency: 53% / LogL: -1404084
+Threads: 6 / Time: 3.175 sec / Speedup: 2.756 / Efficiency: 46% / LogL: -1404084
+Determining AUTO threadcount: done in 27.2489 secs using 294.3% CPU
+BEST NUMBER OF THREADS: 5
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 4.75395 secs using 507.9% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1148999.624
+2. Current log-likelihood: -1148995.763
+Optimal log-likelihood: -1148994.496
+Rate parameters:  A-C: 1.12552  A-G: 9.47417  A-T: 2.45549  C-G: 2.93722  C-T: 11.63619  G-T: 1.00000
+Base frequencies:  A: 0.296  C: 0.157  G: 0.173  T: 0.375
+Proportion of invariable sites: 0.076
+Gamma shape alpha: 0.566
+Parameters optimization took 2 rounds (3.633 sec)
+Time for fast ML tree search: 39.897 seconds
+
+NOTE: ModelFinder requires 1955 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 53254) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         1311115.853  273 2622777.706  2622780.530  2625202.718
+  2  GTR+F+I       1276769.373  274 2554086.746  2554089.591  2556520.641
+  3  GTR+F+G4      1150155.862  274 2300859.724  2300862.568  2303293.619
+  4  GTR+F+I+G4    1148992.882  275 2298535.763  2298538.628  2300978.541
+  5  GTR+F+R2      1180884.940  275 2362319.880  2362322.745  2364762.657
+  6  GTR+F+R3      1161955.966  277 2324465.933  2324468.840  2326926.476
+  7  GTR+F+R4      1153494.039  279 2307546.077  2307549.026  2310024.386
+  8  GTR+F+R5      1150487.571  281 2301537.143  2301540.135  2304033.218
+  9  GTR+F+R6      1148660.341  283 2297886.683  2297889.718  2300400.523
+ 10  GTR+F+R7      1147712.418  285 2295994.836  2295997.914  2298526.443
+ 11  GTR+F+R8      1147061.984  287 2294697.967  2294701.088  2297247.339
+ 12  GTR+F+R9      1146898.205  289 2294374.410  2294377.574  2296941.547
+ 13  GTR+F+R10     1146792.068  291 2294166.136  2294169.344  2296751.039
+ 14  GTR+F+I+R2    1169770.355  276 2340092.710  2340095.597  2342544.371
+ 15  GTR+F+I+R3    1155445.082  278 2311446.163  2311449.091  2313915.589
+ 16  GTR+F+I+R4    1151263.550  280 2303087.099  2303090.070  2305574.291
+ 17  GTR+F+I+R5    1148680.360  282 2297924.721  2297927.734  2300429.678
+ 18  GTR+F+I+R6    1147394.993  284 2295357.985  2295361.041  2297880.708
+ 19  GTR+F+I+R7    1146960.681  286 2294493.362  2294496.462  2297033.851
+ 20  GTR+F+I+R8    1146806.656  288 2294189.311  2294192.454  2296747.566
+ 21  GTR+F+I+R9    1146690.825  290 2293961.651  2293964.837  2296537.671
+ 22  GTR+F+I+R10   1146597.197  292 2293778.395  2293781.626  2296372.181
+ 44  SYM+I+R10     1166319.074  289 2333216.149  2333219.313  2335783.286
+ 66  TVM+F+I+R10   1146615.637  291 2293813.273  2293816.482  2296398.176

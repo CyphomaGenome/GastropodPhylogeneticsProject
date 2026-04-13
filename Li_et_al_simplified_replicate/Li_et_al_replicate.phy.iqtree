@@ -1,0 +1,304 @@
+IQ-TREE 2.2.2.7 COVID-edition built May 31 2023
+
+Input file name: Li_et_al_replicate.phy
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 467302
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 24 sequences with 21854 nucleotide sites
+Number of constant sites: 9450 (= 43.2415% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 9450 (= 43.2415% of all sites)
+Number of parsimony informative sites: 8835
+Number of distinct site patterns: 9710
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+R5        -213892.692  427907.384 +    0.784  427907.731 +    0.786  428394.904 +     0.91
+GTR+F+I+R4      -213900.073  427920.147 -  0.00133  427920.482 -  0.00134  428399.675 +   0.0838
+GTR+F+R4        -213907.789  427933.579 - 1.61e-06  427933.903 - 1.63e-06  428405.115 -  0.00552
+GTR+F+I+R5      -213894.998  427913.997 -   0.0287  427914.355 -   0.0286  428409.509 - 0.000613
+GTR+F+R6        -213892.129  427910.258 +    0.186  427910.628 +    0.184  428413.763 - 7.31e-05
+GTR+F+I+G4      -213946.767  428003.534 - 1.04e-21  428003.817 - 1.07e-21  428443.102 - 3.11e-11
+TIM+F+R5        -213955.647  428029.294 - 2.64e-27  428029.619 - 2.68e-27  428500.830 - 9.07e-24
+TIM+F+I+R4      -213961.451  428038.902 - 2.16e-29  428039.216 - 2.21e-29  428502.446 - 4.04e-24
+GTR+F+I+R3      -213975.708  428067.416 - 1.39e-35  428067.730 - 1.42e-35  428530.960 -  2.6e-30
+TVM+F+I+R4      -214076.468  428270.935 - 8.91e-80  428271.260 - 9.03e-80  428742.472 - 3.06e-76
+TVM+F+R5        -214073.998  428267.997 - 3.87e-79  428268.333 -  3.9e-79  428747.525 - 2.45e-77
+TIM2+F+R5       -214104.998  428327.997 - 3.62e-92  428328.322 - 3.67e-92  428799.533 - 1.24e-88
+TIM2+F+I+R4     -214110.998  428337.995 - 2.44e-94  428338.309 - 2.49e-94  428801.539 - 4.56e-89
+K3Pu+F+I+R4     -214125.995  428365.990 - 2.04e-100  428366.293 - 2.09e-100  428821.542 - 2.07e-93
+K3Pu+F+R5       -214123.449  428362.899 - 9.56e-100  428363.213 - 9.74e-100  428826.443 - 1.79e-94
+TIM3+F+R5       -214123.170  428364.340 - 4.65e-100  428364.664 - 4.71e-100  428835.876 -  1.6e-96
+TIM3+F+I+R4     -214130.127  428376.254 - 1.2e-102  428376.568 - 1.23e-102  428839.798 - 2.25e-97
+TN+F+R5         -214139.546  428395.091 - 9.77e-107  428395.405 - 9.96e-107  428858.635 - 1.82e-101
+TN+F+I+R4       -214145.626  428405.253 - 6.07e-109  428405.556 - 6.22e-109  428860.805 - 6.17e-102
+GTR+F+R3        -214214.187  428542.373 - 1.02e-138  428542.676 - 1.04e-138  428997.925 - 1.03e-131
+TPM2u+F+I+R4    -214284.525  428683.051 - 2.89e-169  428683.354 - 2.96e-169  429138.603 - 2.93e-162
+TPM2u+F+R5      -214280.920  428677.840 - 3.91e-168  428678.154 - 3.98e-168  429141.384 - 7.3e-163
+TPM3u+F+I+R4    -214299.187  428712.373 - 1.24e-175  428712.676 - 1.27e-175  429167.925 - 1.26e-168
+TPM3u+F+R5      -214294.737  428705.474 - 3.9e-174  428705.788 - 3.98e-174  429169.018 - 7.29e-169
+HKY+F+I+R4      -214304.775  428721.550 - 1.26e-177  428721.843 - 1.3e-177  429169.110 - 6.96e-169
+HKY+F+R5        -214300.803  428715.605 - 2.46e-176  428715.909 - 2.52e-176  429171.157 - 2.5e-169
+GTR+F+G4        -214322.231  428752.463 - 2.44e-184  428752.735 - 2.54e-184  429184.039 - 3.99e-172
+GTR+F+I+R2      -215088.168  430288.335 -        0  430288.628 -        0  430735.895 -        0
+GTR+F+R2        -216316.206  432742.413 -        0  432742.695 -        0  433181.980 -        0
+SYM+I+R4        -218322.576  436759.152 -        0  436759.455 -        0  437214.704 -        0
+SYM+R5          -218318.729  436753.458 -        0  436753.772 -        0  437217.002 -        0
+TVMe+I+R4       -218466.361  437044.721 -        0  437045.014 -        0  437492.281 -        0
+TVMe+R5         -218463.626  437041.252 -        0  437041.555 -        0  437496.804 -        0
+TIMe+I+R4       -219025.374  438160.748 -        0  438161.030 -        0  438600.315 -        0
+TIMe+R5         -219024.346  438160.693 -        0  438160.986 -        0  438608.253 -        0
+K3P+I+R4        -219169.102  438446.205 -        0  438446.477 -        0  438877.780 -        0
+K3P+R5          -219168.554  438447.107 -        0  438447.390 -        0  438886.675 -        0
+TIM2e+I+R4      -219984.812  440079.624 -        0  440079.907 -        0  440519.192 -        0
+TIM2e+R5        -219983.071  440078.141 -        0  440078.434 -        0  440525.701 -        0
+TPM2+I+R4       -220107.551  440323.103 -        0  440323.375 -        0  440754.678 -        0
+TPM2+R5         -220106.036  440322.071 -        0  440322.354 -        0  440761.639 -        0
+TIM3e+I+R4      -220326.030  440762.060 -        0  440762.342 -        0  441201.627 -        0
+TIM3e+R5        -220325.413  440762.825 -        0  440763.118 -        0  441210.385 -        0
+TPM3+I+R4       -220506.983  441121.966 -        0  441122.239 -        0  441553.542 -        0
+TPM3+R5         -220507.271  441124.541 -        0  441124.824 -        0  441564.109 -        0
+TNe+I+R4        -221213.069  442534.138 -        0  442534.411 -        0  442965.714 -        0
+TNe+R5          -221212.842  442535.683 -        0  442535.966 -        0  442975.251 -        0
+GTR+F+I         -221250.324  442608.648 -        0  442608.921 -        0  443040.224 -        0
+K2P+I+R4        -221372.321  442850.642 -        0  442850.905 -        0  443274.226 -        0
+K2P+R5          -221372.287  442852.574 -        0  442852.846 -        0  443284.149 -        0
+F81+F+I+R4      -224720.030  449550.061 -        0  449550.344 -        0  449989.629 -        0
+F81+F+R5        -224719.703  449551.407 -        0  449551.700 -        0  449998.967 -        0
+JC+I+R4         -227125.409  454354.817 -        0  454355.070 -        0  454770.408 -        0
+JC+R5           -227121.642  454349.285 -        0  454349.548 -        0  454772.868 -        0
+GTR+F           -238181.589  476469.179 -        0  476469.441 -        0  476892.762 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R5
+
+Rate parameter R:
+
+  A-C: 1.8480
+  A-G: 13.7333
+  A-T: 3.0191
+  C-G: 4.5212
+  C-T: 21.9941
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2942
+  pi(C) = 0.1606
+  pi(G) = 0.1677
+  pi(T) = 0.3774
+
+Rate matrix Q:
+
+  A    -0.714   0.05667    0.4398    0.2176
+  C    0.1038    -1.834    0.1448     1.585
+  G    0.7715    0.1387   -0.9822   0.07206
+  T    0.1696    0.6745   0.03202   -0.8761
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.3761,0.01125) (0.1417,0.1747) (0.1553,0.63) (0.1869,1.382) (0.14,4.392)
+
+ Category  Relative_rate  Proportion
+  1         0.01125        0.3761
+  2         0.1747         0.1417
+  3         0.63           0.1553
+  4         1.382          0.1869
+  5         4.392          0.14
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -213892.0920 (s.e. 1375.7710)
+Unconstrained log-likelihood (without tree): -150002.1708
+Number of free parameters (#branches + #model parameters): 61
+Akaike information criterion (AIC) score: 427906.1839
+Corrected Akaike information criterion (AICc) score: 427906.5310
+Bayesian information criterion (BIC) score: 428393.7044
+
+Total tree length (sum of branch lengths): 12.4693
+Sum of internal branch lengths: 3.5591 (28.5426% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Lambis_scorpius' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---Lambis_scorpius
+|
+|  +--Dolomena_robusta
++--| (100)
+|  |     +--Strombus_labiatus
+|  |  +--| (100)
+|  |  |  +--Canarium_sp.
+|  +--| (100)
+|     |  +--Canarium_mutabile
+|     +--| (100)
+|        +--Canarium_microurceus
+|
+|           +-------Distorsio_anus
+|        +--| (95)
+|        |  |  +------Cymatium_sp.
+|        |  +--| (94)
+|        |     |  +-----Tonna_dolium
+|        |     +--| (87)
+|        |        |  +--Bursa_sp.
+|        |        +--| (100)
+|        |           +--Tutufa_sp.
+|     +--| (100)
+|     |  +--------Ficus_gracilis
++-----| (100)
+      |     +-------------Optediceros_sp.
+      |  +--| (51)
+      |  |  |     +------Notocochlis_sp.
+      |  |  |  +--| (100)
+      |  |  |  |  |  +--Polinices_flemingianus
+      |  |  |  |  +--| (100)
+      |  |  |  |     +--Mammilla_melanostomus
+      |  |  +--| (100)
+      |  |     |      +--Nodilittorina_trochoides
+      |  |     |   +--| (100)
+      |  |     |   |  +--Echinolittorina_melanacme
+      |  |     +---| (100)
+      |  |         |    +--Littoraria_undulata
+      |  |         +----| (100)
+      |  |              |  +--Littoraria_pallescens
+      |  |              +--| (100)
+      |  |                 |  +--Littoraria_intermedia
+      |  |                 +--| (99)
+      |  |                    +--Littoraria_scabra
+      +--| (94)
+         |                +---------------------------------Thylacodes_adamsii
+         +----------------| (100)
+                          +---------------------------Ceraesignum_maximum
+
+Tree in newick format:
+
+(Lambis_scorpius:0.2550638775,(Dolomena_robusta:0.1088907364,((Strombus_labiatus:0.0864266942,Canarium_sp.:0.0662799390)100:0.0521503509,(Canarium_mutabile:0.0918307458,Canarium_microurceus:0.1007077136)100:0.0315447882)100:0.0482589519)100:0.0635481320,(((Distorsio_anus:0.4783346034,(Cymatium_sp.:0.4459066411,(Tonna_dolium:0.3544951362,(Bursa_sp.:0.1398354131,Tutufa_sp.:0.1978765551)100:0.1682484798)87:0.0484538269)94:0.0490545936)95:0.0653929259,Ficus_gracilis:0.5236396684)100:0.1663443626,((Optediceros_sp.:0.8601079143,((Notocochlis_sp.:0.4159134454,(Polinices_flemingianus:0.1472898419,Mammilla_melanostomus:0.1506077182)100:0.1966962382)100:0.1821062669,((Nodilittorina_trochoides:0.1941190183,Echinolittorina_melanacme:0.1939667818)100:0.1916843657,(Littoraria_undulata:0.2089504579,(Littoraria_pallescens:0.1017991488,(Littoraria_intermedia:0.0837190170,Littoraria_scabra:0.0835194346)99:0.0328857245)100:0.0989045346)100:0.3011805181)100:0.2711115994)100:0.0908424579)51:0.0274337802,(Thylacodes_adamsii:1.9881745937,Ceraesignum_maximum:1.6327709012)100:1.0342580550)94:0.0739652298)100:0.3649941673);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -213892.091981
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---Lambis_scorpius
+|
+|  +--Dolomena_robusta
++--| (100)
+|  |     +--Strombus_labiatus
+|  |  +--| (100)
+|  |  |  +--Canarium_sp.
+|  +--| (100)
+|     |  +--Canarium_mutabile
+|     +--| (100)
+|        +--Canarium_microurceus
+|
+|           +-------Distorsio_anus
+|        +--| (95)
+|        |  |  +------Cymatium_sp.
+|        |  +--| (94)
+|        |     |  +-----Tonna_dolium
+|        |     +--| (87)
+|        |        |  +--Bursa_sp.
+|        |        +--| (100)
+|        |           +--Tutufa_sp.
+|     +--| (100)
+|     |  +--------Ficus_gracilis
++-----| (100)
+      |     +-------------Optediceros_sp.
+      |  +--| (51)
+      |  |  |     +------Notocochlis_sp.
+      |  |  |  +--| (100)
+      |  |  |  |  |  +--Polinices_flemingianus
+      |  |  |  |  +--| (100)
+      |  |  |  |     +--Mammilla_melanostomus
+      |  |  +--| (100)
+      |  |     |      +--Nodilittorina_trochoides
+      |  |     |   +--| (100)
+      |  |     |   |  +--Echinolittorina_melanacme
+      |  |     +---| (100)
+      |  |         |    +--Littoraria_undulata
+      |  |         +----| (100)
+      |  |              |  +--Littoraria_pallescens
+      |  |              +--| (100)
+      |  |                 |  +--Littoraria_intermedia
+      |  |                 +--| (99)
+      |  |                    +--Littoraria_scabra
+      +--| (94)
+         |                +---------------------------------Thylacodes_adamsii
+         +----------------| (100)
+                          +---------------------------Ceraesignum_maximum
+
+
+Consensus tree in newick format: 
+
+(Lambis_scorpius:0.2550742756,(Dolomena_robusta:0.1088911234,((Strombus_labiatus:0.0864221956,Canarium_sp.:0.0662790143)100:0.0521436330,(Canarium_mutabile:0.0918249738,Canarium_microurceus:0.1007050485)100:0.0315410913)100:0.0482540730)100:0.0635420963,(((Distorsio_anus:0.4783312817,(Cymatium_sp.:0.4459043756,(Tonna_dolium:0.3544914288,(Bursa_sp.:0.1398311551,Tutufa_sp.:0.1978738076)100:0.1682387694)87:0.0484579252)94:0.0490558624)95:0.0653967969,Ficus_gracilis:0.5236303545)100:0.1663400087,((Optediceros_sp.:0.8600714591,((Notocochlis_sp.:0.4159048051,(Polinices_flemingianus:0.1472898710,Mammilla_melanostomus:0.1506004773)100:0.1966822632)100:0.1821080921,((Nodilittorina_trochoides:0.1941125958,Echinolittorina_melanacme:0.1939570718)100:0.1916715469,(Littoraria_undulata:0.2089346370,(Littoraria_pallescens:0.1017965629,(Littoraria_intermedia:0.0837073785,Littoraria_scabra:0.0835213048)99:0.0328825934)100:0.0989172308)100:0.3011753602)100:0.2711220939)100:0.0908561059)51:0.0274456948,(Thylacodes_adamsii:1.9880876180,Ceraesignum_maximum:1.6326954236)100:1.0342307372)94:0.0739607558)100:0.3650000229);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Li_et_al_replicate.phy.treefile -m "GTR{1.84797,13.7333,3.01914,4.52122,21.9941}+F{0.294223,0.16062,0.167728,0.377429}+R5{0.37608,0.0112456,0.141699,0.174716,0.155278,0.630014,0.186921,1.3816,0.140022,4.39171}" --length 21854
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Li_et_al_replicate.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Li_et_al_replicate.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Apr 13 01:35:39 2026
+Total CPU time used: 382.019625 seconds (0h:6m:22s)
+Total wall-clock time used: 100.3254511 seconds (0h:1m:40s)
+

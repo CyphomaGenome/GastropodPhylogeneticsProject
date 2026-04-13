@@ -1,0 +1,98 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=24;
+TAXLABELS
+[1] 'Lambis_scorpius'
+[2] 'Dolomena_robusta'
+[3] 'Strombus_labiatus'
+[4] 'Canarium_sp.'
+[5] 'Canarium_mutabile'
+[6] 'Canarium_microurceus'
+[7] 'Distorsio_anus'
+[8] 'Ficus_gracilis'
+[9] 'Cymatium_sp.'
+[10] 'Tonna_dolium'
+[11] 'Bursa_sp.'
+[12] 'Tutufa_sp.'
+[13] 'Optediceros_sp.'
+[14] 'Notocochlis_sp.'
+[15] 'Polinices_flemingianus'
+[16] 'Mammilla_melanostomus'
+[17] 'Nodilittorina_trochoides'
+[18] 'Echinolittorina_melanacme'
+[19] 'Littoraria_undulata'
+[20] 'Littoraria_pallescens'
+[21] 'Littoraria_intermedia'
+[22] 'Littoraria_scabra'
+[23] 'Thylacodes_adamsii'
+[24] 'Ceraesignum_maximum'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=24 nsplits=59;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	100	 3 4,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	100	 3 4 5 6,
+	100	 2 3 4 5 6,
+	100	 7,
+	100	 9,
+	100	 10,
+	100	 11,
+	100	 12,
+	100	 11 12,
+	87	 10 11 12,
+	94	 9 10 11 12,
+	95	 7 9 10 11 12,
+	100	 8,
+	100	 7 8 9 10 11 12,
+	100	 13,
+	100	 23,
+	100	 24,
+	100	 23 24,
+	49	 13 23 24,
+	100	 14,
+	100	 15,
+	100	 16,
+	100	 15 16,
+	100	 14 15 16,
+	100	 17,
+	100	 18,
+	100	 17 18,
+	100	 19,
+	100	 20,
+	100	 21,
+	100	 22,
+	99	 21 22,
+	100	 20 21 22,
+	100	 19 20 21 22,
+	100	 17 18 19 20 21 22,
+	100	 14 15 16 17 18 19 20 21 22,
+	94	 1 2 3 4 5 6 7 8 9 10 11 12,
+	100	 1 2 3 4 5 6,
+	100	 1,
+	4	 7 8,
+	51	 13 14 15 16 17 18 19 20 21 22,
+	6	 7 10 11 12,
+	2	 9 11 12,
+	1	 8 9 10 11 12,
+	10	 9 10,
+	1	 20 22,
+	6	 1 2 3 4 5 6 23 24,
+	1	 7 10,
+	1	 7 9,
+	0	 7 9 10,
+	0	 1 2,
+	0	 14 15 16 17 18 19 20 21 22 23 24,
+	0	 17 18 19 20 21 22 23 24,
+;
+END; [Splits]
+

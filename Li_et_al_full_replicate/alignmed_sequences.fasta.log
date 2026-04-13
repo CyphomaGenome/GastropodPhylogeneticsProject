@@ -1,0 +1,11 @@
+IQ-TREE multicore version 2.2.2.7 COVID-edition for Linux 64-bit built May 31 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    DESKTOP-RDKORUQ (AVX512, FMA3, 5 GB RAM)
+Command: iqtree2 -s alignmed_sequences.fasta -bb 10000 -nt AUTO
+Seed:    92756 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 13 10:02:41 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file alignmed_sequences.fasta ... ERROR: File not found alignmed_sequences.fasta
