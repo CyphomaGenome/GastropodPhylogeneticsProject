@@ -80,7 +80,7 @@ writeXStringSet(combined_sequences, "sequences.fasta", format="fasta")
 #iqtree2 -s trimmed_alignment.fasta -bb 10000 -nt AUTO
 
 ###the next lines of code turn uncertainty into polytomies
-my_tree <- read.tree("trimmed_alignment.fasta.treefile")
+my_tree <- read.tree("aligned_sequences.fasta.treefile")
 my_tree
 #Define threshold
 threshold <- 60

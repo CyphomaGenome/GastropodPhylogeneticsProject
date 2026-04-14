@@ -24,6 +24,8 @@ combined_sequences
 MSA_Alignment<-msaMuscle(combined_sequences) #msaMuscle(combined_sequences, verbose = TRUE) for future
 MSA_Alignment
 alignment_set <- as(MSA_Alignment, "DNAStringSet")
+#MSA_Subset<-subseq(alignment_set, start = 79, end = 1496)
+#MSA_Subset
 write.DNAStringSet(x = alignment_set, format = "phylip", filename = "Li_et_al_replicate.phy")
 
 #Navigate to proper folder
