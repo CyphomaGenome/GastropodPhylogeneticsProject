@@ -1,0 +1,10 @@
+#Navigate to proper folder
+cd /mnt/c/Bioinformatics/Bioinformatics/GastropodPhylogeneticsProject/Peristernia_ConcatenatedTree
+
+#Concat all .phy files in the folder and generate a partition file
+python3 AMAS.py concat -i *.phy -f phylip -d dna -u phylip -t combined.phy -p partitions.txt -y raxml
+
+#edit the partition file to say DNA or CODON for each MSA
+
+#Run iqtree
+iqtree2 -s combined.phy -p partitions.txt -m MFP+MERGE -bb 1000 -nt AUTO -wbt

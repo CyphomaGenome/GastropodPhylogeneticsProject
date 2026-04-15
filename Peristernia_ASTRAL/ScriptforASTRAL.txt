@@ -1,0 +1,21 @@
+#Go to working directory
+cd /mnt/c/Bioinformatics/Bioinformatics/GastropodPhylogeneticsProject/Peristernia_SuperTree
+
+#combine tree files
+cat *.treefile > all_gene_trees.nwk
+
+#This creates a list of paths to every bootstrap file
+ls *.ufboot > bootstrap_list.txt
+
+#We then might have to open the .nwk file and separate the trees from the same line (possibly same for bootstrap_list.txt)
+#Make sure .nwk and bootstrap_list.txt are in the same order
+
+#sudo apt update
+#sudo apt install openjdk-21-jre-headless
+
+#run ASTRAL
+
+java -jar ../../../Astral.5.7.8/ASTRAL/astral.5.7.8.jar -i all_gene_trees.nwk -b bootstrap_list.txt -g -o super_tree.tre
+
+#Then visualize the resulting .tre file inside of FigTree
+#Root the tree and choose decending node order
