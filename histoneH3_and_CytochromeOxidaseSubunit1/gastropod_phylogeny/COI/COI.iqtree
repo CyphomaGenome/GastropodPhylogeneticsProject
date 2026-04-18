@@ -1,0 +1,400 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: /Users/dj17/Downloads/gastropod_phylogeny/COI/COI_trimmed.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 639033
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 49 sequences with 737 nucleotide sites
+Number of constant sites: 234 (= 31.7503% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 234 (= 31.7503% of all sites)
+Number of parsimony informative sites: 492
+Number of distinct site patterns: 447
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TVM+F+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+R3         -11249.444   22710.888 +    0.143   22746.894 +    0.227   23198.762 +    0.729
+TVM+F+I+R3       -11247.401   22708.803 +    0.405   22745.547 +    0.446   23201.279 +    0.207
+GTR+F+I+R3       -11246.453   22708.906 +    0.384   22746.397 +    0.291   23205.986 -   0.0197
+K3Pu+F+R3        -11259.706   22727.412 - 3.68e-05   22761.969 - 0.000121   23206.082 -   0.0188
+K3Pu+F+I+R3      -11256.583   22723.165 - 0.000308   22758.443 - 0.000706   23206.437 -   0.0157
+GTR+F+R3         -11250.770   22715.540 -   0.0139   22752.284 -   0.0153   23208.017 -  0.00713
+TIM+F+R3         -11259.122   22728.244 - 2.43e-05   22763.521 - 5.57e-05   23211.516 -  0.00124
+TIM+F+I+R3       -11256.064   22724.129 -  0.00019   22760.135 - 0.000303   23212.003 - 0.000972
+GTR+F+I+R4       -11246.452   22712.904 +   0.0521   22751.914 -   0.0185   23219.189 - 2.67e-05
+GTR+F+R4         -11250.811   22719.623 -  0.00181   22757.868 -  0.00094   23221.305 - 9.28e-06
+TPM2u+F+R3       -11287.921   22783.843 - 2.05e-17   22818.400 - 6.75e-17   23262.512 - 1.05e-14
+TPM2u+F+I+R3     -11286.413   22782.826 - 3.41e-17   22818.103 - 7.82e-17   23266.098 - 1.74e-15
+TIM2+F+R3        -11287.142   22784.285 - 1.65e-17   22819.562 - 3.77e-17   23267.557 -  8.4e-16
+TIM2+F+I+R3      -11285.543   22783.087 -    3e-17   22819.093 - 4.77e-17   23270.961 - 1.53e-16
+GTR+F+I+R2       -11287.184   22786.368 - 5.81e-18   22822.375 - 9.25e-18   23274.243 - 2.97e-17
+GTR+F+G4         -11296.998   22801.995 - 2.35e-21   22836.552 - 7.71e-21   23280.664 -  1.2e-18
+GTR+F+I+G4       -11293.761   22797.522 -  2.2e-20   22832.799 - 5.04e-20   23280.794 - 1.12e-18
+GTR+F+R2         -11304.885   22819.770 - 3.24e-25   22855.048 - 7.43e-25   23303.042 - 1.65e-23
+TPM3u+F+R3       -11313.658   22835.316 - 1.36e-28   22869.873 - 4.48e-28   23313.986 - 6.96e-26
+TPM3u+F+I+R3     -11311.962   22833.924 - 2.74e-28   22869.201 - 6.28e-28   23317.195 -  1.4e-26
+TIM3+F+R3        -11313.365   22836.730 - 6.73e-29   22872.008 - 1.54e-28   23320.002 - 3.43e-27
+TIM3+F+I+R3      -11311.685   22835.369 - 1.33e-28   22871.375 - 2.12e-28   23323.243 - 6.79e-28
+HKY+F+R3         -11336.023   22878.047 - 7.18e-38   22911.892 - 3.37e-37   23352.113 - 3.66e-34
+HKY+F+I+R3       -11334.868   22877.736 - 8.39e-38   22912.293 - 2.76e-37   23356.405 - 4.28e-35
+TN+F+R3          -11335.229   22878.459 - 5.84e-38   22913.016 - 1.92e-37   23357.128 - 2.98e-35
+TN+F+I+R3        -11334.441   22878.881 - 4.73e-38   22914.158 - 1.08e-37   23362.153 - 2.42e-36
+TVMe+R3          -11365.421   22936.843 - 1.23e-50   22970.688 - 5.76e-50   23410.909 - 6.25e-47
+TVMe+I+R3        -11362.702   22933.404 - 6.85e-50   22967.961 - 2.25e-49   23412.073 - 3.49e-47
+SYM+R3           -11363.435   22934.870 - 3.29e-50   22969.427 - 1.08e-49   23413.539 - 1.68e-47
+SYM+I+R3         -11360.493   22930.987 - 2.29e-49   22966.264 - 5.26e-49   23414.259 - 1.17e-47
+K3P+R3           -11402.966   23007.932 - 4.49e-66   23040.379 - 4.24e-65   23472.793 - 2.28e-60
+K3P+I+R3         -11400.665   23005.331 - 1.65e-65   23038.473 -  1.1e-64   23474.795 - 8.38e-61
+TIMe+R3          -11401.262   23006.524 - 9.07e-66   23039.666 - 6.05e-65   23475.988 - 4.61e-61
+TIMe+I+R3        -11399.002   23004.004 -  3.2e-65   23037.849 -  1.5e-64   23478.070 - 1.63e-61
+TIM2e+R3         -11473.103   23150.206 - 5.72e-97   23183.348 - 3.82e-96   23619.670 - 2.91e-92
+TPM2+R3          -11476.426   23154.852 - 5.61e-98   23187.299 - 5.29e-97   23619.713 - 2.85e-92
+TPM2+I+R3        -11475.986   23155.972 -  3.2e-98   23189.114 - 2.14e-97   23625.436 - 1.63e-93
+TIM2e+I+R3       -11472.898   23151.795 - 2.59e-97   23185.640 - 1.21e-96   23625.862 - 1.32e-93
+TPM3+R3          -11507.652   23217.304 - 1.54e-111   23249.752 - 1.45e-110   23682.166 - 7.82e-106
+TIM3e+R3         -11506.602   23217.204 - 1.62e-111   23250.346 - 1.08e-110   23686.668 - 8.23e-107
+TPM3+I+R3        -11507.829   23219.658 - 4.75e-112   23252.799 - 3.16e-111   23689.122 - 2.41e-107
+TIM3e+I+R3       -11506.850   23219.699 - 4.65e-112   23253.544 - 2.18e-111   23693.766 - 2.37e-108
+K2P+R3           -11576.120   23352.239 - 7.7e-141   23384.000 - 1.02e-139   23812.498 - 3.91e-134
+TNe+R3           -11574.283   23350.566 - 1.78e-140   23383.013 - 1.68e-139   23815.427 - 9.03e-135
+K2P+I+R3         -11578.789   23359.577 - 1.96e-142   23392.024 - 1.85e-141   23824.438 - 9.98e-137
+TNe+I+R3         -11576.901   23357.801 - 4.77e-142   23390.943 - 3.18e-141   23827.265 - 2.43e-137
+F81+F+R3         -12146.044   24496.088 -        0   24529.230 -        0   24965.552 -        0
+F81+F+I+R3       -12148.545   24503.091 -        0   24536.936 -        0   24977.157 -        0
+JC+R3            -12161.915   24521.830 -        0   24552.913 -        0   24977.486 -        0
+JC+I+R3          -12166.165   24532.331 -        0   24564.092 -        0   24992.590 -        0
+GTR+F+I          -12353.868   24915.737 -        0   24950.294 -        0   25394.406 -        0
+GTR+F            -12963.111   26132.223 -        0   26166.068 -        0   26606.289 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+R3
+
+Rate parameter R:
+
+  A-C: 1.9754
+  A-G: 33.2105
+  A-T: 8.5773
+  C-G: 4.1169
+  C-T: 33.2105
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2742
+  pi(C) = 0.1763
+  pi(G) = 0.1911
+  pi(T) = 0.3585
+
+Rate matrix Q:
+
+  A   -0.9799   0.03494    0.6365    0.3085
+  C   0.05433    -1.328   0.07891     1.194
+  G    0.9134   0.07281    -1.022   0.03596
+  T    0.2359    0.5874   0.01917   -0.8424
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.5952,0.06915) (0.1413,1.087) (0.2635,3.056)
+
+ Category  Relative_rate  Proportion
+  1         0.06915        0.5952
+  2         1.087          0.1413
+  3         3.056          0.2635
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11186.6512 (s.e. 427.7372)
+Unconstrained log-likelihood (without tree): -4128.1708
+Number of free parameters (#branches + #model parameters): 106
+Akaike information criterion (AIC) score: 22585.3025
+Corrected Akaike information criterion (AICc) score: 22621.3088
+Bayesian information criterion (BIC) score: 23073.1768
+
+Total tree length (sum of branch lengths): 16.0273
+Sum of internal branch lengths: 12.5670 (78.4097% of tree length)
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'Peristernia_reinca' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Peristernia_reinca
+|
+|  +--Peristernia_gemmat
++--| (90.5/98)
+|  |  +--Peristernia_nassat
+|  +--| (94.3/100)
+|     +--Peristernia_forska
+|
+|  +--Peristernia_marque
++--| (43.3/94)
+   |                          +--Penion_chathamensi
+   |                       +--| (97.5/100)
+   |                       |  +--Kelletia_lischkei
+   |                    +--| (91.1/70)
+   |                    |  |     +**Mitrella_scripta
+   |                    |  |  +--| (98.8/100)
+   |                    |  |  |  +**Euthria_cumulata
+   |                    |  +--| (99/100)
+   |                    |     +--Buccinulum_linea
+   |                 +--| (84/43)
+   |                 |  |        +--Buccinum_striatiss
+   |                 |  |     +--| (87.7/80)
+   |                 |  |     |  |  +--Neptunea_arthritic
+   |                 |  |     |  +--| (98.5/100)
+   |                 |  |     |     +--Neptunea_polycosta
+   |                 |  |  +--| (84.8/78)
+   |                 |  |  |  |  +--Busycon_carica
+   |                 |  |  |  +--| (87.6/98)
+   |                 |  |  |     +--Fulguropsis_pyrulo
+   |                 |  +--| (67.3/32)
+   |                 |     |  +--Clivipollia_pulchr
+   |                 |     +--| (93.6/83)
+   |                 |        +--Caducifer_decapita
+   |              +--| (38/11)
+   |              |  |                                                                               +--Serratifusus_linea
+   |              |  |                                                                            +--| (70.2/79)
+   |              |  |                                                                            |  +--Antillophos_beauii
+   |              |  |                                                                         +--| (73.8/53)
+   |              |  |                                                                         |  |  +--Buccinastrum_defor
+   |              |  |                                                                         |  +--| (100/99)
+   |              |  |                                                                         |     +--Buccinanops_cochli
+   |              |  |                                                                      +--| (93.2/70)
+   |              |  |                                                                      |  |  +--Belomitra_caudata
+   |              |  |                                                                      |  +--| (99.5/100)
+   |              |  |                                                                      |     +--Belomitra_paschali
+   |              |  |                                                                   +--| (98.4/94)
+   |              |  |                                                                   |  +--Chauvetia_candidis
+   |              |  |                                                                +--| (8.4/83)
+   |              |  |                                                                |  +--Nassarius_conoidal
+   |              |  |        +-------------------------------------------------------| (100/100)
+   |              |  |        |                                                       +--Nassarius_semisulc
+   |              |  |     +--| (52.9/76)
+   |              |  |     |  +**Colubraria_reticul
+   |              |  |  +--| (61.5/61)
+   |              |  |  |  +--Mitrella_bicincta
+   |              |  +--| (94.6/76)
+   |              |     |  +--Colus_islandicus
+   |              |     +--| (95.6/94)
+   |              |        |  +--Eosipho_smithi
+   |              |        +--| (85.3/98)
+   |              |           +--Manaria_kuroharai
+   |           +--| (86.3/15)
+   |           |  |  +--Aristofusus_excava
+   |           |  +--| (97.4/99)
+   |           |     |  +--Fusinus_salisburyi
+   |           |     +--| (91.1/99)
+   |           |        +--Fusinus_forceps
+   |        +--| (83.2/48)
+   |        |  |        +--Tonna_sulcosa
+   |        |  |     +--| (100/98)
+   |        |  |     |  +--Tonna_galea
+   |        |  |  +--| (71.8/22)
+   |        |  |  |  +--Engina_mendicaria
+   |        |  +--| (98.2/89)
+   |        |     +--Pisania_pusio
+   |     +--| (82.2/81)
+   |     |  |     +--Dolicholatirus_lan
+   |     |  |  +--| (94.7/99)
+   |     |  |  |  +--Dolicholatirus_spi
+   |     |  +--| (95.9/71)
+   |     |     |  +--Melongena_melongen
+   |     |     +--| (100/98)
+   |     |        +--Melongena_patula
+   |  +--| (96.4/91)
+   |  |  |     +--Triplofusus_gigant
+   |  |  |  +--| (90.5/93)
+   |  |  |  |  |  +--Cinctura_hunteria
+   |  |  |  |  +--| (65/92)
+   |  |  |  |     |  +--Fasciolaria_bullis
+   |  |  |  |     +--| (92.6/100)
+   |  |  |  |        +--Fasciolaria_tulipa
+   |  |  +--| (80.5/92)
+   |  |     |  +--Hemipolygona_armat
+   |  |     +--| (77/87)
+   |  |        +--Leucozonia_ocellat
+   +--| (100/100)
+      +--Leucozonia_nassa
+
+Tree in newick format:
+
+(Peristernia_reinca:0.0595949689,(Peristernia_gemmat:0.0236837125,(Peristernia_nassat:0.0230858487,Peristernia_forska:0.0031606711)94.3/100:0.0214399732)90.5/98:0.0341500165,(Peristernia_marque:0.0933324143,(((((((((Penion_chathamensi:0.1008840507,Kelletia_lischkei:0.0766751468)97.5/100:0.0558245833,((Mitrella_scripta:0.0000010705,Euthria_cumulata:0.0000010705)98.8/100:0.0454339481,Buccinulum_linea:0.0500215196)99/100:0.0508383101)91.1/70:0.0277693786,(((Buccinum_striatiss:0.1294613501,(Neptunea_arthritic:0.0401530763,Neptunea_polycosta:0.0462692513)98.5/100:0.0572525604)87.7/80:0.0227837216,(Busycon_carica:0.0521685491,Fulguropsis_pyrulo:0.0577045869)87.6/98:0.0179695554)84.8/78:0.0158320901,(Clivipollia_pulchr:0.1450037599,Caducifer_decapita:0.1171715779)93.6/83:0.0564916296)67.3/32:0.0143093683)84/43:0.0119605589,(((((((((Serratifusus_linea:0.0464828567,Antillophos_beauii:0.1794117144)70.2/79:0.0315202561,(Buccinastrum_defor:0.0646981145,Buccinanops_cochli:0.0866033893)100/99:0.1076871723)73.8/53:0.0234522492,(Belomitra_caudata:0.1013222153,Belomitra_paschali:0.0811846086)99.5/100:0.0944264904)93.2/70:0.0551025673,Chauvetia_candidis:0.0846179696)98.4/94:0.0618362448,Nassarius_conoidal:0.0438902863)8.4/83:0.0227900107,Nassarius_semisulc:0.0792791292)100/100:10.7039788000,Colubraria_reticul:0.0000024448)52.9/76:0.1043676532,Mitrella_bicincta:0.1270739897)61.5/61:0.0249184240,(Colus_islandicus:0.1356725730,(Eosipho_smithi:0.0575624404,Manaria_kuroharai:0.0586052948)85.3/98:0.0145801677)95.6/94:0.0375628258)94.6/76:0.0279584998)38/11:0.0044609918,(Aristofusus_excava:0.0830542918,(Fusinus_salisburyi:0.0345335537,Fusinus_forceps:0.0548596142)91.1/99:0.0219481730)97.4/99:0.0377557613)86.3/15:0.0094040546,(((Tonna_sulcosa:0.0541336517,Tonna_galea:0.0476647360)100/98:0.1395226793,Engina_mendicaria:0.0546284191)71.8/22:0.0286500748,Pisania_pusio:0.0969734486)98.2/89:0.0430067468)83.2/48:0.0127388864,((Dolicholatirus_lan:0.1550996794,Dolicholatirus_spi:0.1167253764)94.7/99:0.0643750499,(Melongena_melongen:0.0486626168,Melongena_patula:0.0553392852)100/98:0.1796326800)95.9/71:0.0511375521)82.2/81:0.0097950517,((Triplofusus_gigant:0.0816489619,(Cinctura_hunteria:0.0868316405,(Fasciolaria_bullis:0.0299491108,Fasciolaria_tulipa:0.0476532557)92.6/100:0.0222936472)65/92:0.0192779968)90.5/93:0.0239441850,(Hemipolygona_armat:0.1124815549,Leucozonia_ocellat:0.0580764163)77/87:0.0083832906)80.5/92:0.0075794913)96.4/91:0.0402060013,Leucozonia_nassa:0.0318048643)100/100:0.1187730429)43.3/94:0.0272680398);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -11192.949533
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Peristernia_reinca
+|
+|  +--Peristernia_gemmat
++--| (98)
+|  |  +--Peristernia_nassat
+|  +--| (100)
+|     +--Peristernia_forska
+|
+|  +--Peristernia_marque
++--| (94)
+   |                          +--Penion_chathamensi
+   |                       +--| (100)
+   |                       |  +--Kelletia_lischkei
+   |                    +--| (70)
+   |                    |  |     +--Mitrella_scripta
+   |                    |  |  +--| (100)
+   |                    |  |  |  +--Euthria_cumulata
+   |                    |  +--| (100)
+   |                    |     +--Buccinulum_linea
+   |                 +--| (43)
+   |                 |  |        +--Buccinum_striatiss
+   |                 |  |     +--| (80)
+   |                 |  |     |  |  +--Neptunea_arthritic
+   |                 |  |     |  +--| (100)
+   |                 |  |     |     +--Neptunea_polycosta
+   |                 |  |  +--| (78)
+   |                 |  |  |  |  +--Busycon_carica
+   |                 |  |  |  +--| (98)
+   |                 |  |  |     +--Fulguropsis_pyrulo
+   |                 |  +--| (32)
+   |                 |     |  +--Clivipollia_pulchr
+   |                 |     +--| (83)
+   |                 |        +--Caducifer_decapita
+   |              +--| (61)
+   |              |  |     +--Tonna_sulcosa
+   |              |  |  +--| (98)
+   |              |  |  |  +--Tonna_galea
+   |              |  +--| (89)
+   |              |     |  +--Pisania_pusio
+   |              |     +--| (78)
+   |              |        +--Engina_mendicaria
+   |           +--| (42)
+   |           |  |  +--Aristofusus_excava
+   |           |  +--| (99)
+   |           |     |  +--Fusinus_salisburyi
+   |           |     +--| (99)
+   |           |        +--Fusinus_forceps
+   |        +--| (48)
+   |        |  |                                                                              +--Serratifusus_linea
+   |        |  |                                                                           +--| (79)
+   |        |  |                                                                           |  +--Antillophos_beauii
+   |        |  |                                                                        +--| (53)
+   |        |  |                                                                        |  |  +--Buccinastrum_defor
+   |        |  |                                                                        |  +--| (99)
+   |        |  |                                                                        |     +--Buccinanops_cochli
+   |        |  |                                                                     +--| (70)
+   |        |  |                                                                     |  |  +--Belomitra_caudata
+   |        |  |                                                                     |  +--| (100)
+   |        |  |                                                                     |     +--Belomitra_paschali
+   |        |  |                                                                  +--| (94)
+   |        |  |                                                                  |  +--Chauvetia_candidis
+   |        |  |                                                               +--| (83)
+   |        |  |                                                               |  +--Nassarius_conoidal
+   |        |  |        +------------------------------------------------------| (100)
+   |        |  |        |                                                      +--Nassarius_semisulc
+   |        |  |     +--| (76)
+   |        |  |     |  +--Colubraria_reticul
+   |        |  |  +--| (61)
+   |        |  |  |  +--Mitrella_bicincta
+   |        |  +--| (76)
+   |        |     |  +--Colus_islandicus
+   |        |     +--| (94)
+   |        |        |  +--Eosipho_smithi
+   |        |        +--| (98)
+   |        |           +--Manaria_kuroharai
+   |     +--| (81)
+   |     |  |     +--Dolicholatirus_lan
+   |     |  |  +--| (99)
+   |     |  |  |  +--Dolicholatirus_spi
+   |     |  +--| (71)
+   |     |     |  +--Melongena_melongen
+   |     |     +--| (98)
+   |     |        +--Melongena_patula
+   |  +--| (91)
+   |  |  |     +--Triplofusus_gigant
+   |  |  |  +--| (93)
+   |  |  |  |  |  +--Cinctura_hunteria
+   |  |  |  |  +--| (92)
+   |  |  |  |     |  +--Fasciolaria_bullis
+   |  |  |  |     +--| (100)
+   |  |  |  |        +--Fasciolaria_tulipa
+   |  |  +--| (92)
+   |  |     |  +--Hemipolygona_armat
+   |  |     +--| (87)
+   |  |        +--Leucozonia_ocellat
+   +--| (100)
+      +--Leucozonia_nassa
+
+
+Consensus tree in newick format: 
+
+(Peristernia_reinca:0.0590913794,(Peristernia_gemmat:0.0235946728,(Peristernia_nassat:0.0229556261,Peristernia_forska:0.0031598036)100:0.0212921279)98:0.0340936915,(Peristernia_marque:0.0926656155,(((((((((Penion_chathamensi:0.1015702377,Kelletia_lischkei:0.0752557390)100:0.0559211582,((Mitrella_scripta:0.0000023265,Euthria_cumulata:0.0000023265)100:0.0450860188,Buccinulum_linea:0.0495853512)100:0.0505726829)70:0.0273494266,(((Buccinum_striatiss:0.1299339772,(Neptunea_arthritic:0.0392508408,Neptunea_polycosta:0.0467107869)100:0.0558821040)80:0.0209907079,(Busycon_carica:0.0504729013,Fulguropsis_pyrulo:0.0588573948)98:0.0182937747)78:0.0181223973,(Clivipollia_pulchr:0.1475497017,Caducifer_decapita:0.1129696751)83:0.0547360860)32:0.0116277529)43:0.0102249002,((Tonna_sulcosa:0.0477600557,Tonna_galea:0.0534380347)98:0.1288156847,(Pisania_pusio:0.1051127875,Engina_mendicaria:0.0655757456)78:0.0219556140)89:0.0354251000)61:0.0071060664,(Aristofusus_excava:0.0829785909,(Fusinus_salisburyi:0.0346391988,Fusinus_forceps:0.0542128632)99:0.0212864424)99:0.0365637379)42:0.0092244100,(((((((((Serratifusus_linea:0.0463116312,Antillophos_beauii:0.1782501136)79:0.0313142129,(Buccinastrum_defor:0.0644540625,Buccinanops_cochli:0.0860553854)99:0.1069342813)53:0.0232653470,(Belomitra_caudata:0.1005653441,Belomitra_paschali:0.0808876783)100:0.0938420890)70:0.0548043077,Chauvetia_candidis:0.0841901186)94:0.0613842298,Nassarius_conoidal:0.0435802349)83:0.0584849144,Nassarius_semisulc:0.0438021805)100:9.9999981216,Colubraria_reticul:0.0000021610)76:0.1056772906,Mitrella_bicincta:0.1228003109)61:0.0250535863,(Colus_islandicus:0.1346924802,(Eosipho_smithi:0.0572769387,Manaria_kuroharai:0.0584028190)98:0.0145803571)94:0.0377070423)76:0.0249073444)48:0.0155686801,((Dolicholatirus_lan:0.1544632369,Dolicholatirus_spi:0.1147509332)99:0.0662489846,(Melongena_melongen:0.0482934640,Melongena_patula:0.0551565696)98:0.1759109321)71:0.0489681025)81:0.0114242626,((Triplofusus_gigant:0.0813433770,(Cinctura_hunteria:0.0867611355,(Fasciolaria_bullis:0.0294538961,Fasciolaria_tulipa:0.0477457640)100:0.0220859515)92:0.0189162114)93:0.0247143429,(Hemipolygona_armat:0.1119117525,Leucozonia_ocellat:0.0571126806)87:0.0077152486)92:0.0078146815)91:0.0388956422,Leucozonia_nassa:0.0323263116)100:0.1167929859)94:0.0272065231);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.treefile -m "TVM{1.97541,33.2105,8.57732,4.1169}+F{0.27416,0.176304,0.191057,0.358479}+R3{0.595151,0.0691549,0.141315,1.0865,0.263534,3.05579}" --length 737
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/dj17/Downloads/gastropod_phylogeny/COI/COI_trimmed.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/dj17/Downloads/gastropod_phylogeny/COI/COI_trimmed.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Apr 18 00:20:51 2026
+Total CPU time used: 64.075622 seconds (0h:1m:4s)
+Total wall-clock time used: 32.99657512 seconds (0h:0m:32s)
+

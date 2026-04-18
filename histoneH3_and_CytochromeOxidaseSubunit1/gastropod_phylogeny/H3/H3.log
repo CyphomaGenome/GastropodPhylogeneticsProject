@@ -1,0 +1,290 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Dylans-MacBook-Pro-2.local (AVX512, FMA3, 16 GB RAM)
+Command: /Users/dj17/Downloads/iqtree-2.4.0-macOS-intel/bin/iqtree2 -s /Users/dj17/Downloads/gastropod_phylogeny/H3/H3_trimmed.fasta -m MFP -alrt 1000 -B 1000 -T AUTO --prefix /Users/dj17/Downloads/gastropod_phylogeny/H3/H3
+Seed:    747941 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 18 00:19:05 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/dj17/Downloads/gastropod_phylogeny/H3/H3_trimmed.fasta ... Fasta format detected
+Reading fasta file: done in 0.000295162 secs using 90.46% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 36 sequences with 354 columns, 113 distinct patterns
+69 parsimony-informative, 21 singleton sites, 264 constant sites
+                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.09808e-05 secs using 3317% CPU
+   1  Peristernia_reinca    7.34%    passed     94.09%
+   2  Peristernia_gemmat    7.34%    passed     94.18%
+   3  Peristernia_nassat    9.32%    passed     97.05%
+   4  Peristernia_marque    7.63%    passed     91.63%
+   5  Peristernia_forska    8.47%    passed     94.68%
+   6  Serratifusus_linea    9.32%    passed     75.76%
+   7  Triplofusus_gigant    7.63%    passed    100.00%
+   8  Cinctura_hunteria     7.63%    passed     99.44%
+   9  Fasciolaria_tulipa    9.04%    passed     99.22%
+  10  Fasciolaria_bullis    8.19%    passed     98.77%
+  11  Aristofusus_excava    8.76%    passed     99.85%
+  12  Fusinus_salisburyi    7.34%    passed     99.57%
+  13  Fusinus_forceps       7.34%    passed     99.57%
+  14  Hemipolygona_armat    7.34%    passed     99.25%
+  15  Leucozonia_nassa      7.34%    passed     93.23%
+  16  Leucozonia_ocellat    7.34%    passed     86.83%
+  17  Buccinastrum_defor    6.50%    passed     98.26%
+  18  Buccinanops_cochli    6.50%    passed     97.91%
+  19  Japeuthria_ferrea    39.27%    passed     71.55%
+  20  Busycon_carica        7.34%    passed     99.80%
+  21  Fulguropsis_pyrulo    7.34%    passed     98.00%
+  22  Mitrella_scripta      7.34%    passed     86.16%
+  23  Mitrella_bicincta     0.00%    passed     97.81%
+  24  Dolicholatirus_lan    8.19%    passed     47.84%
+  25  Dolicholatirus_spi    7.34%    passed     21.09%
+  26  Manaria_kuroharai     7.63%    passed     73.66%
+  27  Melongena_melongen    7.63%    passed     61.29%
+  28  Nassarius_conoidal    0.00%    passed     64.37%
+  29  Nassarius_semisulc    6.50%    passed     61.80%
+  30  Antillophos_beauii    6.50%    passed     95.75%
+  31  Pisania_pusio        15.82%    passed     69.79%
+  32  Engina_mendicaria     7.63%    passed     90.82%
+  33  Clivipollia_pulchr    7.34%    passed     77.98%
+  34  Caducifer_decapita    7.63%    passed     72.59%
+  35  Euthria_cumulata      7.34%    passed     96.18%
+  36  Euthria_walleri       7.63%    passed     96.53%
+****  TOTAL                 8.30%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Fusinus_forceps is identical to Fusinus_salisburyi but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+1348 trees examined
+Threads: 1 / Time: 8.000 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2549
+Threads: 2 / Time: 7.980 sec / Speedup: 1.003 / Efficiency: 50% / LogL: -2549
+Threads: 3 / Time: 7.484 sec / Speedup: 1.069 / Efficiency: 36% / LogL: -2549
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1909.669
+Optimal log-likelihood: -1909.593
+Rate parameters:  A-C: 1.10852  A-G: 2.77779  A-T: 1.09262  C-G: 0.84369  C-T: 4.73790  G-T: 1.00000
+Base frequencies:  A: 0.211  C: 0.328  G: 0.290  T: 0.171
+Proportion of invariable sites: 0.406
+Gamma shape alpha: 0.311
+Parameters optimization took 1 rounds (0.006 sec)
+Time for fast ML tree search: 0.039 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 354 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         2139.708     77  4433.415     4476.937     4731.351
+  2  GTR+F+I       1922.594     78  4001.189     4046.003     4302.994
+  3  GTR+F+G4      1913.772     78  3983.545     4028.359     4285.350
+  4  GTR+F+I+G4    1909.559     79  3977.117     4023.249     4282.792
+  5  GTR+F+R2      1913.844     79  3985.689     4031.820     4291.363
+  6  GTR+F+R3      1909.296     81  3980.592     4029.430     4294.005
+ 14  GTR+F+I+R2    1912.284     80  3984.568     4032.041     4294.112
+ 15  GTR+F+I+R3    1908.221     82  3980.442     4030.671     4297.724
+ 25  SYM+G4        1920.411     75  3990.822     4031.829     4281.019
+ 26  SYM+I+G4      1913.637     76  3979.273     4021.526     4273.340
+ 27  SYM+R2        1918.932     76  3989.863     4032.116     4283.930
+ 47  TVM+F+G4      1917.182     77  3988.364     4031.886     4286.300
+ 48  TVM+F+I+G4    1912.533     78  3981.065     4025.880     4282.870
+ 49  TVM+F+R2      1917.172     78  3990.344     4035.159     4292.150
+ 69  TVMe+G4       1924.505     74  3997.010     4036.795     4283.338
+ 70  TVMe+I+G4     1917.060     75  3984.121     4025.128     4274.318
+ 71  TVMe+R2       1922.947     75  3995.895     4036.902     4286.092
+ 91  TIM3+F+G4     1914.451     76  3980.901     4023.154     4274.968
+ 92  TIM3+F+I+G4   1909.734     77  3973.469     4016.990     4271.405
+ 93  TIM3+F+R2     1914.455     77  3982.911     4026.432     4280.847
+113  TIM3e+G4      1920.411     73  3986.822     4025.408     4269.281
+114  TIM3e+I+G4    1913.202     74  3974.404     4014.188     4260.731
+115  TIM3e+R2      1918.935     74  3985.871     4025.656     4272.199
+135  TIM2+F+G4     1913.967     76  3979.935     4022.188     4274.001
+136  TIM2+F+I+G4   1909.278     77  3972.557     4016.078     4270.492
+137  TIM2+F+R2     1913.957     77  3981.914     4025.436     4279.850
+157  TIM2e+G4      1921.490     73  3988.980     4027.566     4271.439
+158  TIM2e+I+G4    1914.589     74  3977.177     4016.962     4263.505
+159  TIM2e+R2      1920.130     74  3988.260     4028.045     4274.588
+179  TIM+F+G4      1914.356     76  3980.712     4022.965     4274.779
+180  TIM+F+I+G4    1909.310     77  3972.620     4016.142     4270.556
+181  TIM+F+R2      1914.293     77  3982.587     4026.109     4280.523
+201  TIMe+G4       1921.453     73  3988.905     4027.491     4271.364
+202  TIMe+I+G4     1914.428     74  3976.857     4016.642     4263.185
+203  TIMe+R2       1920.094     74  3988.189     4027.974     4274.517
+223  TPM3u+F+G4    1917.708     75  3985.417     4026.424     4275.614
+224  TPM3u+F+I+G4  1912.599     76  3977.198     4019.451     4271.265
+225  TPM3u+F+R2    1917.645     76  3987.290     4029.543     4281.357
+245  TPM3+G4       1924.540     72  3993.080     4030.490     4271.670
+246  TPM3+I+G4     1916.728     73  3979.457     4018.043     4261.916
+247  TPM3+R2       1922.984     73  3991.969     4030.555     4274.428
+267  TPM2u+F+G4    1917.387     75  3984.774     4025.781     4274.971
+268  TPM2u+F+I+G4  1912.345     76  3976.690     4018.943     4270.757
+269  TPM2u+F+R2    1917.261     76  3986.523     4028.775     4280.589
+289  TPM2+G4       1925.401     72  3994.802     4032.212     4273.392
+290  TPM2+I+G4     1917.970     73  3981.939     4020.525     4264.398
+291  TPM2+R2       1924.019     73  3994.039     4032.624     4276.497
+311  K3Pu+F+G4     1917.633     75  3985.267     4026.274     4275.464
+312  K3Pu+F+I+G4   1912.381     76  3976.762     4019.014     4270.828
+313  K3Pu+F+R2     1917.456     76  3986.911     4029.164     4280.978
+333  K3P+G4        1925.396     72  3994.792     4032.201     4273.382
+334  K3P+I+G4      1918.049     73  3982.098     4020.684     4264.557
+335  K3P+R2        1924.010     73  3994.021     4032.607     4276.480
+355  TN+F+G4       1914.602     75  3979.204     4020.212     4269.402
+356  TN+F+I+G4     1909.102     76  3970.204     4012.457     4264.270
+357  TN+F+R2       1914.494     76  3980.988     4023.241     4275.055
+377  TNe+G4        1921.489     72  3986.978     4024.388     4265.568
+378  TNe+I+G4      1914.190     73  3974.379     4012.965     4256.838
+379  TNe+R2        1920.133     73  3986.265     4024.851     4268.724
+399  HKY+F+G4      1917.860     74  3983.720     4023.505     4270.048
+400  HKY+F+I+G4    1912.455     75  3974.911     4015.918     4265.108
+401  HKY+F+R2      1917.685     75  3985.370     4026.377     4275.567
+421  K2P+G4        1925.430     71  3992.860     4029.115     4267.580
+422  K2P+I+G4      1918.085     72  3980.170     4017.579     4258.759
+423  K2P+R2        1924.050     72  3992.101     4029.510     4270.690
+443  F81+F+G4      1974.756     73  4095.511     4134.097     4377.970
+444  F81+F+I+G4    1970.058     74  4088.116     4127.901     4374.444
+445  F81+F+R2      1973.804     74  4095.607     4135.392     4381.935
+465  JC+G4         1975.260     70  4090.520     4125.643     4361.370
+466  JC+I+G4       1969.220     71  4080.439     4116.695     4355.159
+467  JC+R2         1973.804     71  4089.609     4125.864     4364.329
+Akaike Information Criterion:           TN+F+I+G4
+Corrected Akaike Information Criterion: TN+F+I+G4
+Bayesian Information Criterion:         TNe+I+G4
+Best-fit model: TNe+I+G4 chosen according to BIC
+
+All model information printed to /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.model.gz
+CPU time for ModelFinder: 48.708 seconds (0h:0m:48s)
+Wall-clock time for ModelFinder: 24.292 seconds (0h:0m:24s)
+Generating 1000 samples for ultrafast bootstrap (seed: 747941)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.690 / Estimate: 0.000, 0.145 / LogL: -1921.489
+Init pinv, alpha: 0.083, 0.690 / Estimate: 0.097, 0.165 / LogL: -1919.593
+Init pinv, alpha: 0.166, 0.690 / Estimate: 0.206, 0.196 / LogL: -1917.928
+Init pinv, alpha: 0.249, 0.690 / Estimate: 0.280, 0.229 / LogL: -1916.990
+Init pinv, alpha: 0.331, 0.690 / Estimate: 0.366, 0.282 / LogL: -1915.983
+Init pinv, alpha: 0.414, 0.690 / Estimate: 0.448, 0.356 / LogL: -1915.117
+Init pinv, alpha: 0.497, 0.690 / Estimate: 0.519, 0.458 / LogL: -1914.510
+Init pinv, alpha: 0.580, 0.690 / Estimate: 0.583, 0.618 / LogL: -1914.192
+Init pinv, alpha: 0.663, 0.690 / Estimate: 0.635, 0.865 / LogL: -1914.203
+Init pinv, alpha: 0.746, 0.690 / Estimate: 0.657, 1.034 / LogL: -1914.382
+Optimal pinv,alpha: 0.583, 0.618 / LogL: -1914.192
+
+Parameters optimization took 0.157 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00377417 secs using 99.36% CPU
+Computing ML distances took 0.003828 sec (of wall-clock time) 0.003787 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 8.89301e-05 secs using 85.46% CPU
+Computing RapidNJ tree took 0.000334 sec (of wall-clock time) 0.000437 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1913.134
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.101 second
+Computing log-likelihood of 98 initial trees ... 0.086 seconds
+Current best score: -1911.660
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1907.981
+Iteration 10 / LogL: -1911.853 / Time: 0h:0m:24s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 16: -1907.872
+Iteration 20 / LogL: -1909.823 / Time: 0h:0m:24s
+Finish initializing candidate tree set (16)
+Current best tree score: -1907.872 / CPU time: 0.512
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1908.016 / Time: 0h:0m:25s (0h:0m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -1906.916
+BETTER TREE FOUND at iteration 34: -1906.914
+Iteration 40 / LogL: -1912.579 / Time: 0h:0m:25s (0h:0m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -1906.453
+Iteration 50 / LogL: -1909.751 / Time: 0h:0m:25s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -1936.220
+Iteration 60 / LogL: -1908.226 / Time: 0h:0m:26s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -1906.453
+Iteration 70 / LogL: -1908.667 / Time: 0h:0m:26s (0h:0m:2s left)
+Iteration 80 / LogL: -1908.668 / Time: 0h:0m:26s (0h:0m:1s left)
+Iteration 90 / LogL: -1906.726 / Time: 0h:0m:26s (0h:0m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -1906.309
+Iteration 100 / LogL: -1908.630 / Time: 0h:0m:27s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -1936.746
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 110 / LogL: -1906.388 / Time: 0h:0m:27s (0h:0m:2s left)
+Iteration 120 / LogL: -1906.447 / Time: 0h:0m:27s (0h:0m:2s left)
+Iteration 130 / LogL: -1906.657 / Time: 0h:0m:27s (0h:0m:1s left)
+Iteration 140 / LogL: -1906.357 / Time: 0h:0m:28s (0h:0m:1s left)
+Iteration 150 / LogL: -1906.592 / Time: 0h:0m:28s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -1932.137
+Iteration 160 / LogL: -1906.574 / Time: 0h:0m:28s (0h:0m:1s left)
+Iteration 170 / LogL: -1909.099 / Time: 0h:0m:29s (0h:0m:0s left)
+Iteration 180 / LogL: -1908.986 / Time: 0h:0m:29s (0h:0m:0s left)
+Iteration 190 / LogL: -1906.447 / Time: 0h:0m:29s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 199 ITERATIONS / Time: 0h:0m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1906.309
+2. Current log-likelihood: -1906.295
+3. Current log-likelihood: -1906.283
+4. Current log-likelihood: -1906.270
+5. Current log-likelihood: -1906.257
+6. Current log-likelihood: -1906.245
+7. Current log-likelihood: -1906.233
+8. Current log-likelihood: -1906.222
+9. Current log-likelihood: -1906.212
+10. Current log-likelihood: -1906.201
+Optimal log-likelihood: -1906.189
+Rate parameters:  A-C: 1.00000  A-G: 2.56800  A-T: 1.00000  C-G: 1.00000  C-T: 4.73051  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.542
+Gamma shape alpha: 0.479
+Parameters optimization took 10 rounds (0.021 sec)
+BEST SCORE FOUND : -1906.189
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.117 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.splits.nex
+Total tree length: 1.075
+
+Total number of iterations: 199
+CPU time used for tree search: 5.541 sec (0h:0m:5s)
+Wall-clock time used for tree search: 5.395 sec (0h:0m:5s)
+Total CPU time used: 54.612 sec (0h:0m:54s)
+Total wall-clock time used: 30.056 sec (0h:0m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.splits.nex...
+36 taxa and 455 splits.
+Consensus tree written to /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.contree
+Reading input trees file /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.contree
+Log-likelihood of consensus tree: -1907.332
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.iqtree
+  Maximum-likelihood tree:       /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.treefile
+  Likelihood distances:          /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.splits.nex
+  Consensus tree:                /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.contree
+  Screen log file:               /Users/dj17/Downloads/gastropod_phylogeny/H3/H3.log
+
+Date and Time: Sat Apr 18 00:19:35 2026
