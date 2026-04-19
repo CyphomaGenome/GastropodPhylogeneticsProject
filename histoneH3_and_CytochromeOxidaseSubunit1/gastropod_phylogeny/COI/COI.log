@@ -1,0 +1,302 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Dylans-MacBook-Pro-2.local (AVX512, FMA3, 16 GB RAM)
+Command: /Users/dj17/Downloads/iqtree-2.4.0-macOS-intel/bin/iqtree2 -s /Users/dj17/Downloads/gastropod_phylogeny/COI/COI_trimmed.fasta -m MFP -alrt 1000 -B 1000 -T AUTO --prefix /Users/dj17/Downloads/gastropod_phylogeny/COI/COI
+Seed:    201547 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 18 01:15:29 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/dj17/Downloads/gastropod_phylogeny/COI/COI_trimmed.fasta ... Fasta format detected
+Reading fasta file: done in 0.000674009 secs using 89.91% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 49 sequences with 737 columns, 447 distinct patterns
+492 parsimony-informative, 11 singleton sites, 234 constant sites
+                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.10352e-05 secs using 571.8% CPU
+   1  Peristernia_reinca   10.72%    passed     20.82%
+   2  Peristernia_gemmat   10.72%    passed      6.39%
+   3  Peristernia_nassat   10.72%    failed      4.72%
+   4  Peristernia_forska   10.72%    failed      3.54%
+   5  Peristernia_marque   14.93%    passed     10.05%
+   6  Penion_chathamensi   11.40%    passed     16.93%
+   7  Triplofusus_gigant   10.72%    passed     47.60%
+   8  Cinctura_hunteria    10.72%    passed     55.70%
+   9  Fasciolaria_bullis   10.99%    passed     14.99%
+  10  Serratifusus_linea   10.72%    failed      0.00%
+  11  Fasciolaria_tulipa   14.79%    passed     21.66%
+  12  Aristofusus_excava   10.72%    passed     34.15%
+  13  Fusinus_salisburyi   10.72%    passed     10.00%
+  14  Fusinus_forceps      10.72%    passed     43.97%
+  15  Hemipolygona_armat   10.72%    passed      8.68%
+  16  Leucozonia_nassa     10.72%    passed     29.88%
+  17  Leucozonia_ocellat   10.72%    passed     20.79%
+  18  Belomitra_caudata    16.15%    failed      0.00%
+  19  Belomitra_paschali   10.72%    failed      0.00%
+  20  Buccinastrum_defor   10.72%    failed      0.00%
+  21  Buccinanops_cochli   10.72%    failed      0.00%
+  22  Buccinum_striatiss   33.51%    passed     68.02%
+  23  Neptunea_arthritic   10.72%    passed     83.58%
+  24  Neptunea_polycosta   10.72%    passed     90.19%
+  25  Busycon_carica       10.72%    passed     65.65%
+  26  Fulguropsis_pyrulo   10.72%    passed     49.22%
+  27  Chauvetia_candidis   10.72%    failed      0.00%
+  28  Colus_islandicus      9.50%    passed     25.67%
+  29  Colubraria_reticul   13.43%    passed     27.45%
+  30  Mitrella_scripta     11.40%    passed     31.59%
+  31  Mitrella_bicincta     9.50%    failed      0.25%
+  32  Tonna_sulcosa        10.72%    passed     21.70%
+  33  Tonna_galea          10.72%    passed      5.90%
+  34  Dolicholatirus_lan   10.72%    passed     21.14%
+  35  Dolicholatirus_spi   10.72%    passed     69.65%
+  36  Eosipho_smithi       10.72%    passed     52.82%
+  37  Manaria_kuroharai    10.72%    passed     39.66%
+  38  Melongena_melongen   10.72%    failed      4.80%
+  39  Melongena_patula     13.16%    failed      2.62%
+  40  Nassarius_conoidal   10.72%    failed      0.00%
+  41  Nassarius_semisulc   33.51%    failed      0.00%
+  42  Antillophos_beauii   10.72%    failed      0.00%
+  43  Pisania_pusio        10.72%    passed     24.79%
+  44  Engina_mendicaria    10.72%    passed     12.66%
+  45  Clivipollia_pulchr   10.72%    passed     57.83%
+  46  Caducifer_decapita   10.72%    passed     49.67%
+  47  Euthria_cumulata     10.72%    passed     34.85%
+  48  Buccinulum_linea     22.25%    passed     37.82%
+  49  Kelletia_lischkei     7.06%    passed     32.60%
+****  TOTAL                12.18%  14 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+311 trees examined
+Threads: 1 / Time: 8.011 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -16319
+Threads: 2 / Time: 6.900 sec / Speedup: 1.161 / Efficiency: 58% / LogL: -16319
+Threads: 3 / Time: 5.424 sec / Speedup: 1.477 / Efficiency: 49% / LogL: -16319
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -11254.058
+2. Current log-likelihood: -11252.138
+3. Current log-likelihood: -11250.993
+Optimal log-likelihood: -11249.989
+Rate parameters:  A-C: 2.39053  A-G: 43.28791  A-T: 11.04743  C-G: 3.52809  C-T: 40.35754  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.176  G: 0.191  T: 0.358
+Proportion of invariable sites: 0.060
+Gamma shape alpha: 0.365
+Parameters optimization took 3 rounds (0.057 sec)
+Time for fast ML tree search: 0.251 seconds
+
+NOTE: ModelFinder requires 8 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 737 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         12930.001    103 26066.002    26099.847    26540.069
+  2  GTR+F+I       12319.852    104 24847.704    24882.261    25326.373
+  3  GTR+F+G4      11256.366    104 22720.731    22755.288    23199.401
+  4  GTR+F+I+G4    11252.814    105 22715.629    22750.906    23198.900
+  5  GTR+F+R2      11265.789    105 22741.577    22776.854    23224.849
+  6  GTR+F+R3      11212.748    107 22639.496    22676.240    23131.973
+  7  GTR+F+R4      11212.765    109 22643.531    22681.776    23145.213
+ 14  GTR+F+I+R2    11244.933    106 22701.865    22737.872    23189.739
+ 15  GTR+F+I+R3    11206.743    108 22629.485    22666.975    23126.565
+ 16  GTR+F+I+R4    11206.745    110 22633.489    22672.499    23139.774
+ 28  SYM+R3        11326.894    104 22861.789    22896.346    23340.458
+ 37  SYM+I+R3      11322.919    105 22855.837    22891.114    23339.109
+ 50  TVM+F+R3      11211.780    106 22635.560    22671.566    23123.434
+ 59  TVM+F+I+R3    11207.437    107 22628.874    22665.618    23121.351
+ 72  TVMe+R3       11328.618    103 22863.237    22897.082    23337.303
+ 81  TVMe+I+R3     11324.588    104 22857.177    22891.734    23335.846
+ 94  TIM3+F+R3     11278.217    105 22766.433    22801.711    23249.705
+103  TIM3+F+I+R3   11274.718    106 22761.435    22797.441    23249.309
+116  TIM3e+R3      11473.634    102 23151.268    23184.410    23620.732
+125  TIM3e+I+R3    11472.136    103 23150.273    23184.118    23624.339
+138  TIM2+F+R3     11249.496    105 22708.993    22744.270    23192.264
+147  TIM2+F+I+R3   11246.561    106 22705.123    22741.129    23192.997
+160  TIM2e+R3      11437.035    102 23078.071    23111.213    23547.535
+169  TIM2e+I+R3    11436.121    103 23078.243    23112.088    23552.309
+182  TIM+F+R3      11223.720    105 22657.440    22692.717    23140.712
+191  TIM+F+I+R3    11218.544    106 22649.087    22685.094    23136.962
+204  TIMe+R3       11367.378    102 22938.757    22971.899    23408.221
+213  TIMe+I+R3     11363.915    103 22933.831    22967.676    23407.897
+226  TPM3u+F+R3    11278.698    104 22765.395    22799.952    23244.064
+235  TPM3u+F+I+R3  11275.005    105 22760.010    22795.287    23243.282
+248  TPM3+R3       11474.414    101 23150.827    23183.274    23615.689
+257  TPM3+I+R3     11472.958    102 23149.917    23183.059    23619.381
+270  TPM2u+F+R3    11250.095    104 22708.191    22742.748    23186.860
+279  TPM2u+F+I+R3  11247.072    105 22704.143    22739.420    23187.415
+292  TPM2+R3       11439.567    101 23081.134    23113.581    23545.995
+301  TPM2+I+R3     11438.438    102 23080.877    23114.019    23550.341
+314  K3Pu+F+R3     11224.061    104 22656.123    22690.680    23134.792
+323  K3Pu+F+I+R3   11218.875    105 22647.751    22683.028    23131.022
+336  K3P+R3        11368.582    101 22939.165    22971.612    23404.026
+345  K3P+I+R3      11365.023    102 22934.045    22967.187    23403.509
+358  TN+F+R3       11300.609    104 22809.219    22843.776    23287.888
+367  TN+F+I+R3     11298.076    105 22806.152    22841.429    23289.423
+380  TNe+R3        11540.823    101 23283.645    23316.093    23748.507
+389  TNe+I+R3      11542.221    102 23288.442    23321.584    23757.906
+402  HKY+F+R3      11301.307    103 22808.615    22842.460    23282.681
+411  HKY+F+I+R3    11298.241    104 22804.481    22839.038    23283.150
+424  K2P+R3        11542.155    100 23284.310    23316.071    23744.569
+433  K2P+I+R3      11543.440    101 23288.879    23321.327    23753.741
+446  F81+F+R3      12134.485    102 24472.969    24506.111    24942.433
+455  F81+F+I+R3    12135.083    103 24476.167    24510.012    24950.234
+468  JC+R3         12148.647    99  24495.295    24526.378    24950.951
+477  JC+I+R3       12151.449    100 24502.899    24534.660    24963.158
+Akaike Information Criterion:           TVM+F+I+R3
+Corrected Akaike Information Criterion: TVM+F+I+R3
+Bayesian Information Criterion:         TVM+F+I+R3
+Best-fit model: TVM+F+I+R3 chosen according to BIC
+
+All model information printed to /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.model.gz
+CPU time for ModelFinder: 45.677 seconds (0h:0m:45s)
+Wall-clock time for ModelFinder: 23.966 seconds (0h:0m:23s)
+Generating 1000 samples for ultrafast bootstrap (seed: 201547)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -12141.929
+2. Current log-likelihood: -11219.985
+3. Current log-likelihood: -11207.520
+4. Current log-likelihood: -11206.966
+5. Current log-likelihood: -11206.865
+6. Current log-likelihood: -11206.733
+Optimal log-likelihood: -11206.654
+Rate parameters:  A-C: 1.88915  A-G: 35.57070  A-T: 9.44164  C-G: 3.37924  C-T: 35.57070  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.176  G: 0.191  T: 0.358
+Proportion of invariable sites: 0.159
+Site proportion and rates:  (0.458,0.129) (0.124,1.255) (0.260,3.025)
+Parameters optimization took 6 rounds (0.169 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00219703 secs using 200.2% CPU
+Computing ML distances took 0.002344 sec (of wall-clock time) 0.004555 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000108957 secs using 98.2% CPU
+Computing RapidNJ tree took 0.000391 sec (of wall-clock time) 0.000520 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -11246.513
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.343 second
+Computing log-likelihood of 98 initial trees ... 0.248 seconds
+Current best score: -11206.654
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -11206.485
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -11197.731
+Iteration 10 / LogL: -11207.100 / Time: 0h:0m:25s
+Iteration 20 / LogL: -11215.518 / Time: 0h:0m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -11197.731 / CPU time: 1.756
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -11191.126
+Iteration 30 / LogL: -11192.733 / Time: 0h:0m:26s (0h:0m:8s left)
+Iteration 40 / LogL: -11193.957 / Time: 0h:0m:27s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -11188.995
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11188.657
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -11187.684
+Iteration 50 / LogL: -11189.726 / Time: 0h:0m:27s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -11248.772
+Iteration 60 / LogL: -11196.557 / Time: 0h:0m:28s (0h:0m:6s left)
+Iteration 70 / LogL: -11195.619 / Time: 0h:0m:28s (0h:0m:5s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11186.736
+Iteration 80 / LogL: -11197.421 / Time: 0h:0m:29s (0h:0m:4s left)
+Iteration 90 / LogL: -11191.545 / Time: 0h:0m:30s (0h:0m:3s left)
+Iteration 100 / LogL: -11187.953 / Time: 0h:0m:30s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -11248.772
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11186.656
+Iteration 110 / LogL: -11186.656 / Time: 0h:0m:31s (0h:0m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 111: -11185.751
+Iteration 120 / LogL: -11186.712 / Time: 0h:0m:31s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11185.697
+Iteration 130 / LogL: -11190.701 / Time: 0h:0m:32s (0h:0m:5s left)
+Iteration 140 / LogL: -11197.318 / Time: 0h:0m:32s (0h:0m:4s left)
+Iteration 150 / LogL: -11187.568 / Time: 0h:0m:33s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -11248.772
+Iteration 160 / LogL: -11193.647 / Time: 0h:0m:33s (0h:0m:3s left)
+Iteration 170 / LogL: -11186.591 / Time: 0h:0m:34s (0h:0m:2s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11185.643
+Iteration 180 / LogL: -11185.643 / Time: 0h:0m:35s (0h:0m:1s left)
+Iteration 190 / LogL: -11186.330 / Time: 0h:0m:35s (0h:0m:1s left)
+Iteration 200 / LogL: -11186.890 / Time: 0h:0m:36s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -11248.772
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -11194.441 / Time: 0h:0m:36s (0h:0m:5s left)
+Iteration 220 / LogL: -11217.250 / Time: 0h:0m:37s (0h:0m:4s left)
+Iteration 230 / LogL: -11194.091 / Time: 0h:0m:37s (0h:0m:4s left)
+Iteration 240 / LogL: -11186.587 / Time: 0h:0m:38s (0h:0m:3s left)
+Iteration 250 / LogL: -11193.469 / Time: 0h:0m:38s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -11248.772
+Iteration 260 / LogL: -11191.832 / Time: 0h:0m:39s (0h:0m:2s left)
+Iteration 270 / LogL: -11194.694 / Time: 0h:0m:40s (0h:0m:1s left)
+Iteration 280 / LogL: -11187.983 / Time: 0h:0m:40s (0h:0m:1s left)
+Iteration 290 / LogL: -11187.366 / Time: 0h:0m:41s (0h:0m:0s left)
+Iteration 300 / LogL: -11190.196 / Time: 0h:0m:41s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -11248.772
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 0h:0m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -11185.643
+Optimal log-likelihood: -11185.639
+Rate parameters:  A-C: 1.92792  A-G: 35.75567  A-T: 9.31209  C-G: 3.93762  C-T: 35.75567  G-T: 1.00000
+Base frequencies:  A: 0.274  C: 0.176  G: 0.191  T: 0.358
+Proportion of invariable sites: 0.144
+Site proportion and rates:  (0.468,0.118) (0.126,1.204) (0.263,3.022)
+Parameters optimization took 1 rounds (0.010 sec)
+BEST SCORE FOUND : -11185.639
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.176 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.splits.nex
+Total tree length: 16.223
+
+Total number of iterations: 300
+CPU time used for tree search: 34.487 sec (0h:0m:34s)
+Wall-clock time used for tree search: 17.469 sec (0h:0m:17s)
+Total CPU time used: 81.323 sec (0h:1m:21s)
+Total wall-clock time used: 42.026 sec (0h:0m:42s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.splits.nex...
+49 taxa and 471 splits.
+Consensus tree written to /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.contree
+Reading input trees file /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.contree
+Log-likelihood of consensus tree: -11193.417
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.iqtree
+  Maximum-likelihood tree:       /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.treefile
+  Likelihood distances:          /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.splits.nex
+  Consensus tree:                /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.contree
+  Screen log file:               /Users/dj17/Downloads/gastropod_phylogeny/COI/COI.log
+
+Date and Time: Sat Apr 18 01:16:11 2026
