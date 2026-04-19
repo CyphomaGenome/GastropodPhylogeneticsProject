@@ -1,2 +1,0 @@
-DNA, p1_Peristernia_16S = 1-517
-DNA, p2_Peristernia_28S = 518-1246

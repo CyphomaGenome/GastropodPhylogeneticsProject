@@ -65,7 +65,6 @@ final_tree <- di2multi(my_tree, tol = 1e-08)
 final_tree
 write.tree(my_tree, "Peristernia_28S.phy60threshold.tre")
 
-
 ###################################################################################
 STORAGE
 

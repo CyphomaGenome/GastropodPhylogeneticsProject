@@ -1,0 +1,303 @@
+IQ-TREE 2.2.2.7 COVID-edition built May 31 2023
+
+Input file name: Peristernia_18S.phy
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 841531
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 22 sequences with 1732 nucleotide sites
+Number of constant sites: 1646 (= 95.0346% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1646 (= 95.0346% of all sites)
+Number of parsimony informative sites: 42
+Number of distinct site patterns: 94
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: K2P+I
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+K2P+I             -3275.041    6628.083 -  0.00806    6629.927 -  0.00994    6840.907 +    0.646
+K2P+R2            -3272.743    6625.486 -   0.0295    6627.426 -   0.0347    6843.767 +    0.155
+TNe+I             -3273.687    6627.375 -   0.0115    6629.314 -   0.0135    6845.656 +   0.0601
+TPM2+I            -3274.320    6628.640 -   0.0061    6630.579 -  0.00717    6846.921 -   0.0319
+TPM3+I            -3274.363    6628.726 -  0.00584    6630.666 -  0.00687    6847.008 -   0.0306
+TNe+R2            -3270.845    6623.691 +   0.0724    6625.729 +   0.0811    6847.429 -   0.0248
+K3P+I             -3274.963    6629.927 -   0.0032    6631.867 -  0.00377    6848.208 -   0.0168
+TPM3+R2           -3271.687    6625.373 -   0.0312    6627.411 -    0.035    6849.112 -   0.0107
+TPM2+R2           -3272.115    6626.230 -   0.0203    6628.268 -   0.0228    6849.969 -  0.00696
+K3P+R2            -3272.657    6627.314 -   0.0118    6629.352 -   0.0133    6851.052 -  0.00405
+TIM2e+I           -3272.921    6627.842 -  0.00909    6629.880 -   0.0102    6851.580 -  0.00311
+TIM3e+I           -3273.013    6628.027 -  0.00829    6630.064 -  0.00928    6851.765 -  0.00283
+TIM3e+R2          -3269.562    6623.124 +   0.0961    6625.263 +    0.102    6852.320 -  0.00215
+TIMe+I            -3273.615    6629.230 -  0.00454    6631.268 -  0.00508    6852.968 -  0.00155
+K2P+I+R2          -3273.719    6629.437 -  0.00409    6631.475 -  0.00458    6853.175 -   0.0014
+TIM2e+R2          -3270.172    6624.344 +   0.0522    6626.483 +   0.0556    6853.539 -  0.00117
+TIMe+R2           -3270.763    6625.525 -   0.0289    6627.664 -   0.0308    6854.721 - 0.000646
+TNe+I+R2          -3271.061    6626.121 -   0.0215    6628.260 -   0.0229    6855.317 -  0.00048
+TPM3+I+R2         -3272.110    6628.221 -  0.00752    6630.359 -  0.00801    6857.416 - 0.000168
+HKY+F+I           -3273.010    6630.020 -  0.00306    6632.159 -  0.00326    6859.215 - 6.83e-05
+TPM2+I+R2         -3273.045    6630.090 -  0.00295    6632.228 -  0.00314    6859.285 -  6.6e-05
+TIM3e+I+R2        -3269.761    6625.521 -    0.029    6627.763 -   0.0293    6860.174 - 4.23e-05
+TVMe+I            -3273.604    6631.207 -  0.00169    6633.346 -   0.0018    6860.403 - 3.77e-05
+K3P+I+R2          -3273.636    6631.272 -  0.00164    6633.411 -  0.00174    6860.468 - 3.65e-05
+TIM2e+I+R2        -3270.483    6626.965 -   0.0141    6629.207 -   0.0142    6861.618 - 2.06e-05
+HKY+F+R2          -3270.698    6627.395 -   0.0114    6629.637 -   0.0115    6862.047 - 1.66e-05
+TIMe+I+R2         -3270.978    6627.956 -  0.00858    6630.198 -  0.00868    6862.608 - 1.25e-05
+TVMe+R2           -3271.022    6628.043 -  0.00822    6630.285 -  0.00831    6862.696 -  1.2e-05
+TN+F+I            -3271.187    6628.374 -  0.00697    6630.616 -  0.00704    6863.026 - 1.02e-05
+JC+I              -3290.100    6656.199 - 6.32e-09    6657.950 - 8.17e-09    6863.567 - 7.76e-06
+TPM2u+F+I         -3271.789    6629.578 -  0.00381    6631.820 -  0.00386    6864.230 - 5.57e-06
+TN+F+R2           -3268.108    6624.215 +   0.0557    6626.562 +   0.0534    6864.324 - 5.31e-06
+TPM3u+F+I         -3272.190    6630.379 -  0.00256    6632.621 -  0.00258    6865.032 - 3.73e-06
+SYM+I             -3272.214    6630.428 -  0.00249    6632.669 -  0.00252    6865.080 - 3.64e-06
+SYM+R2            -3268.854    6625.708 -   0.0264    6628.055 -   0.0253    6865.817 - 2.52e-06
+K3Pu+F+I          -3272.937    6631.873 -  0.00121    6634.115 -  0.00122    6866.525 - 1.77e-06
+JC+R2             -3287.911    6653.823 - 2.07e-08    6655.667 - 2.56e-08    6866.647 - 1.66e-06
+TPM3u+F+R2        -3269.417    6626.834 -    0.015    6629.181 -   0.0144    6866.943 - 1.43e-06
+TPM2u+F+R2        -3269.602    6627.203 -   0.0125    6629.551 -    0.012    6867.313 - 1.19e-06
+TIM2+F+I          -3269.944    6627.888 -  0.00888    6630.235 -  0.00852    6867.997 - 8.46e-07
+TIM3+F+R2         -3266.534    6623.068 +   0.0989    6625.523 +   0.0899    6868.634 - 6.16e-07
+TIM3+F+I          -3270.359    6628.718 -  0.00586    6631.066 -  0.00562    6868.828 - 5.59e-07
+K3Pu+F+R2         -3270.622    6629.245 -  0.00451    6631.592 -  0.00432    6869.354 - 4.29e-07
+TIM2+F+R2         -3267.001    6624.002 +    0.062    6626.458 +   0.0563    6869.569 - 3.86e-07
+TIM+F+I           -3271.118    6630.235 -  0.00275    6632.582 -  0.00263    6870.345 - 2.62e-07
+TVMe+I+R2         -3271.528    6631.056 -  0.00182    6633.403 -  0.00175    6871.165 - 1.74e-07
+HKY+F+I+R2        -3271.679    6631.358 -  0.00157    6633.706 -   0.0015    6871.468 - 1.49e-07
+TIM+F+R2          -3268.036    6626.071 -    0.022    6628.527 -     0.02    6871.638 - 1.37e-07
+TN+F+I+R2         -3268.303    6626.607 -   0.0169    6629.062 -   0.0153    6872.173 - 1.05e-07
+SYM+I+R2          -3269.059    6628.118 -  0.00792    6630.573 -  0.00719    6873.684 - 4.93e-08
+TPM3u+F+I+R2      -3269.748    6629.497 -  0.00397    6631.952 -  0.00361    6875.063 - 2.47e-08
+JC+I+R2           -3288.840    6657.681 - 3.01e-09    6659.621 - 3.54e-09    6875.962 - 1.58e-08
+TPM2u+F+I+R2      -3270.516    6631.032 -  0.00184    6633.488 -  0.00168    6876.599 - 1.15e-08
+TIM3+F+I+R2       -3266.797    6625.594 -    0.028    6628.160 -    0.024    6876.617 - 1.14e-08
+TVM+F+I           -3270.930    6631.860 -  0.00122    6634.315 -  0.00111    6877.426 - 7.59e-09
+TIM2+F+I+R2       -3267.297    6626.593 -    0.017    6629.160 -   0.0146    6877.617 -  6.9e-09
+K3Pu+F+I+R2       -3271.604    6633.209 - 0.000621    6635.664 - 0.000564    6878.775 - 3.86e-09
+TIM+F+I+R2        -3268.235    6628.471 -  0.00664    6631.037 -   0.0057    6879.494 -  2.7e-09
+TVM+F+R2          -3268.290    6628.580 -  0.00628    6631.146 -   0.0054    6879.603 - 2.55e-09
+GTR+F+I           -3269.083    6630.166 -  0.00284    6632.732 -  0.00244    6881.189 - 1.16e-09
+GTR+F+R2          -3265.486    6624.973 -   0.0382    6627.652 -    0.031    6881.453 - 1.01e-09
+F81+F+I           -3288.495    6658.990 - 1.57e-09    6661.028 - 1.75e-09    6882.728 - 5.36e-10
+F81+F+R2          -3286.268    6656.536 - 5.34e-09    6658.675 - 5.69e-09    6885.732 - 1.19e-10
+TVM+F+I+R2        -3268.796    6631.592 -  0.00139    6634.271 -  0.00113    6888.072 -  3.7e-11
+GTR+F+I+R2        -3265.676    6627.352 -   0.0116    6630.147 -   0.0089    6889.290 - 2.01e-11
+GTR+F+I+G4        -3270.900    6635.800 -  0.00017    6638.479 - 0.000138    6892.281 - 4.51e-12
+F81+F+I+R2        -3287.223    6660.445 - 7.56e-10    6662.687 - 7.65e-10    6895.098 -  1.1e-12
+GTR+F+R3          -3265.389    6628.778 -  0.00569    6631.691 -  0.00411    6896.173 - 6.45e-13
+GTR+F+I+R3        -3265.491    6630.982 -  0.00189    6634.016 -  0.00129    6903.834 -  1.4e-14
+GTR+F+G4          -3287.947    6667.895 - 1.82e-11    6670.461 - 1.57e-11    6918.918 - 7.42e-18
+GTR+F             -3336.289    6762.578 - 5.02e-32    6765.033 - 4.56e-32    7008.144 - 3.13e-37
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K2P+I
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.8969
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.8969
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.2042    0.5916    0.2042
+  C    0.2042        -1    0.2042    0.5916
+  G    0.5916    0.2042        -1    0.2042
+  T    0.2042    0.5916    0.2042        -1
+
+Model of rate heterogeneity: Invar
+Proportion of invariable sites: 0.9182
+
+ Category  Relative_rate  Proportion
+  0         0              0.9182
+  1         12.22          0.08184
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3274.0710 (s.e. 88.8333)
+Unconstrained log-likelihood (without tree): -3188.7237
+Number of free parameters (#branches + #model parameters): 39
+Akaike information criterion (AIC) score: 6626.1420
+Corrected Akaike information criterion (AICc) score: 6627.9859
+Bayesian information criterion (BIC) score: 6838.9662
+
+Total tree length (sum of branch lengths): 0.0782
+Sum of internal branch lengths: 0.0188 (24.0284% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Pisania_striata' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---------------------------------Pisania_striata
+|
+|                                    +**Fusinus_salisburyi
++------------------------------------| (100)
+|                                    +**Fusinus_forceps
+|
+|                 +-------------------------Mitrella_scripta
+|              +--| (71)
+|              |  |   +-------------Dolicholatirus_lancea
+|              |  +---| (89)
+|              |      +-----Dolicholatirus_spiceri
+|           +--| (44)
+|           |  +----------Euthria_cumulata
+|        +--| (22)
+|        |  |     +--------------------------------------------Tonna_galea
+|        |  |  +--| (48)
+|        |  |  |  |                            +--Cinctura_hunteria
+|        |  |  |  |            +---------------| (100)
+|        |  |  |  |            |               |  +---Fasciolaria_tulipa
+|        |  |  |  |            |               +**| (65)
+|        |  |  |  |            |                  +--Fasciolaria_bullisi
+|        |  |  |  |         +**| (80)
+|        |  |  |  |         |  +**Triplofusus_giganteus
+|        |  |  |  |      +--| (55)
+|        |  |  |  |      |  |          +---Leucozonia_ocellata
+|        |  |  |  |      |  +----------| (89)
+|        |  |  |  |      |             |              +**Peristernia_reincarnata
+|        |  |  |  |      |             |        +-----| (99)
+|        |  |  |  |      |             |        |     +**Peristernia_gemmata
+|        |  |  |  |      |             +--------| (97)
+|        |  |  |  |      |                      +**Peristernia_marquesana
+|        |  |  |  |   +--| (27)
+|        |  |  |  |   |  +-----Neptunea_cumingi
+|        |  |  |  +---| (54)
+|        |  |  |      +**Hemipolygona_armata
+|        |  +**| (31)
+|        |     +-----Peristernia_sulcata
++--------| (57)
+         +-----------------Nassarius_conoidalis
+
+Tree in newick format:
+
+(Pisania_striata:0.0087456479,(Fusinus_salisburyi:0.0000010000,Fusinus_forceps:0.0000010000)100:0.0097093044,((((Mitrella_scripta:0.0067922714,(Dolicholatirus_lancea:0.0037862704,Dolicholatirus_spiceri:0.0016694622)89:0.0012077344)71:0.0006691189,Euthria_cumulata:0.0030117124)44:0.0005802649,((Tonna_galea:0.0116287689,(((((Cinctura_hunteria:0.0005904570,(Fasciolaria_tulipa:0.0011772315,Fasciolaria_bullisi:0.0005828021)65:0.0000010000)100:0.0041931386,Triplofusus_giganteus:0.0000020134)80:0.0005762610,(Leucozonia_ocellata:0.0011669429,((Peristernia_reincarnata:0.0000010000,Peristernia_gemmata:0.0000010000)99:0.0017885369,Peristernia_marquesana:0.0005604483)97:0.0024544782)89:0.0030256791)55:0.0005972321,Neptunea_cumingi:0.0017688938)27:0.0005851044,Hemipolygona_armata:0.0000010000)54:0.0011560594)48:0.0006046143,Peristernia_sulcata:0.0017721451)31:0.0000021135)22:0.0007992463,Nassarius_conoidalis:0.0046240977)57:0.0023293747);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -3274.861589
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------------------------Pisania_striata
+|
+|                                    +--Fusinus_salisburyi
++------------------------------------| (100)
+|                                    +--Fusinus_forceps
+|
+|                 +-------------------------Mitrella_scripta
+|              +--| (71)
+|              |  |   +-------------Dolicholatirus_lancea
+|              |  +---| (89)
+|              |      +-----Dolicholatirus_spiceri
+|           +--| (44)
+|           |  +----------Euthria_cumulata
+|        +--| (22)
+|        |  |     +--------------------------------------------Tonna_galea
+|        |  |  +--| (48)
+|        |  |  |  |                           +--Cinctura_hunteria
+|        |  |  |  |           +---------------| (100)
+|        |  |  |  |           |               |  +---Fasciolaria_tulipa
+|        |  |  |  |           |               +--| (65)
+|        |  |  |  |           |                  +--Fasciolaria_bullisi
+|        |  |  |  |        +--| (80)
+|        |  |  |  |        |  +--Triplofusus_giganteus
+|        |  |  |  |     +--| (55)
+|        |  |  |  |     |  |          +----Leucozonia_ocellata
+|        |  |  |  |     |  +----------| (89)
+|        |  |  |  |     |             |                   +**Peristernia_reincarnata
+|        |  |  |  |     |             |                +**|
+|        |  |  |  |     |             |                |  +**Peristernia_nassatula
+|        |  |  |  |     |             |             +--|
+|        |  |  |  |     |             |             |  +**Peristernia_forskalii
+|        |  |  |  |     |             |       +-----| (99)
+|        |  |  |  |     |             |       |     +--Peristernia_gemmata
+|        |  |  |  |     |             +-------| (97)
+|        |  |  |  |     |                     +--Peristernia_marquesana
+|        |  |  |  |  +--| (30)
+|        |  |  |  |  |  +--Hemipolygona_armata
+|        |  |  |  +--| (54)
+|        |  |  |     +-----Neptunea_cumingi
+|        |  +--| (31)
+|        |     +-----Peristernia_sulcata
++--------| (57)
+         +-----------------Nassarius_conoidalis
+
+
+Consensus tree in newick format: 
+
+(Pisania_striata:0.0087468294,(Fusinus_salisburyi:0.0000021262,Fusinus_forceps:0.0000021262)100:0.0097100743,((((Mitrella_scripta:0.0067934538,(Dolicholatirus_lancea:0.0037863703,Dolicholatirus_spiceri:0.0016691091)89:0.0012070309)71:0.0006682194,Euthria_cumulata:0.0030123701)44:0.0005807483,((Tonna_galea:0.0116150246,(((((Cinctura_hunteria:0.0005903418,(Fasciolaria_tulipa:0.0011781047,Fasciolaria_bullisi:0.0005826716)65:0.0000021262)100:0.0041956036,Triplofusus_giganteus:0.0000021262)80:0.0007540771,(Leucozonia_ocellata:0.0013581179,((((Peristernia_reincarnata:0.0000000000,Peristernia_nassatula:0.0000000000):0.0000000000,Peristernia_forskalii:0.0000000000):0.0000021262,Peristernia_gemmata:0.0000021262)99:0.0017876618,Peristernia_marquesana:0.0005624276)97:0.0022586771)89:0.0030244529)55:0.0010101147,Hemipolygona_armata:0.0000021262)30:0.0005829449,Neptunea_cumingi:0.0017854260)54:0.0005510165)48:0.0006213473,Peristernia_sulcata:0.0017717367)31:0.0000021262)22:0.0007992578,Nassarius_conoidalis:0.0046244529)57:0.0023285547);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Peristernia_18S.phy.treefile -m "K2P{2.89688}+FQ+I{0.918161}" --length 1732
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Peristernia_18S.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Peristernia_18S.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 17 19:03:42 2026
+Total CPU time used: 6.23617 seconds (0h:0m:6s)
+Total wall-clock time used: 10.17429018 seconds (0h:0m:10s)
+
