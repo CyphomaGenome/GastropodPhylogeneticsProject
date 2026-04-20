@@ -1,8 +1,8 @@
 IQ-TREE 2.4.0 built Feb  7 2025
 
-Input file name: /Users/dj17/Downloads/CytochromeOxidaseSubunit1/COI.fasta
+Input file name: /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta
 Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
-Random seed number: 719266
+Random seed number: 638348
 
 REFERENCES
 ----------
@@ -46,28 +46,28 @@ Best-fit model according to BIC: GY+F+G4
 List of models sorted by BIC scores: 
 
 Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
-GY+F+G4           -6001.493   12320.986 +    0.732   63200.986 -        0   12802.825 +    0.926
-GY+F+I+G4         -6001.500   12323.000 +    0.268   63843.000 -        0   12807.870 +   0.0743
-MGK+F3X4+G4       -6141.731   12497.462 - 3.49e-39   13011.062 +        1   12821.719 - 7.31e-05
-MGK+F3X4+I+G4     -6141.728   12499.455 - 1.29e-39   13034.546 - 7.95e-06   12826.743 - 5.93e-06
-GY+F3X4+G4        -6178.457   12570.914 - 3.92e-55   13084.514 - 1.12e-16   12895.171 -  8.2e-21
-GY+F3X4+I+G4      -6178.411   12572.822 - 1.51e-55   13107.913 - 9.31e-22   12900.109 - 6.94e-22
-GY+F3X4+R3        -6177.316   12574.631 - 6.11e-56   13156.060 - 3.27e-32   12907.979 - 1.36e-23
-GY+F3X4+I+R3      -6177.217   12576.434 - 2.48e-56   13182.873 - 4.92e-38   12912.813 - 1.21e-24
-GY+F3X4+R2        -6187.263   12590.526 - 2.16e-59   13125.617 - 1.33e-25   12917.814 - 9.93e-26
-GY+F3X4+R4        -6177.365   12578.729 - 7.88e-57   13211.529 - 2.95e-44   12918.138 - 8.44e-26
-GY+F3X4+I+R2      -6187.035   12592.071 - 9.99e-60   13149.745 - 7.68e-31   12922.388 - 1.01e-26
-GY+F3X4+I+R4      -6177.266   12580.531 -  3.2e-57   13241.147 - 1.09e-50   12922.971 - 7.54e-27
-MG+F3X4+G4        -6205.396   12622.793 - 2.13e-66   13115.923 -  1.7e-23   12944.019 - 2.03e-31
-MG+F3X4+I+G4      -6205.394   12624.789 - 7.85e-67   13138.389 - 2.25e-28   12949.046 - 1.64e-32
-GY+F3X4           -6292.777   12797.554 - 2.39e-104   13290.685 - 1.91e-61   13118.781 - 2.28e-69
-GY+F3X4+I         -6290.811   12795.622 - 6.29e-104   13309.222 -  1.8e-65   13119.879 - 1.32e-69
-MG+F1X4+G4        -6345.506   12891.012 - 1.22e-124   13279.474 - 5.19e-59   13194.056 - 1.03e-85
-MG+F1X4+I+G4      -6345.507   12893.013 - 4.47e-125   13297.013 - 8.06e-63   13199.088 -  8.3e-87
-MGK+F1X4+G4       -6345.523   12893.046 - 4.4e-125   13297.046 - 7.93e-63   13199.120 - 8.17e-87
-MGK+F1X4+I+G4     -6345.507   12895.013 - 1.65e-125   13315.253 - 8.82e-67   13204.118 - 6.71e-88
-GY+F1X4+G4        -6371.514   12945.028 - 2.27e-136   13349.028 - 4.09e-74   13251.102 - 4.21e-98
-GY+F1X4+I+G4      -6370.275   12944.549 - 2.88e-136   13364.789 - 1.55e-77   13253.654 - 1.18e-98
+GY+F+G4           -6002.911   12323.822 +    0.649   63203.822 -        0   12805.662 +    0.884
+GY+F+I+G4         -6002.527   12325.055 +    0.351   63845.055 -        0   12809.925 +    0.105
+MGK+F3X4+G4       -6138.151   12490.302 - 4.59e-37   13003.902 +        1   12814.559 -   0.0103
+MGK+F3X4+I+G4     -6138.146   12492.291 -  1.7e-37   13027.382 - 7.97e-06   12819.579 -  0.00084
+GY+F3X4+G4        -6174.370   12562.740 - 8.56e-53   13076.340 - 1.86e-16   12886.996 - 1.93e-18
+GY+F3X4+I+G4      -6174.256   12564.512 - 3.53e-53   13099.603 - 1.66e-21   12891.800 - 1.75e-19
+GY+F3X4+R3        -6173.589   12567.179 -  9.3e-54   13148.607 - 3.78e-32   12900.527 - 2.22e-21
+GY+F3X4+I+R3      -6173.403   12568.805 - 4.12e-54   13175.244 - 6.22e-38   12905.184 - 2.17e-22
+GY+F3X4+R2        -6181.903   12579.806 - 1.68e-56   13114.897 - 7.91e-25   12907.093 - 8.34e-23
+GY+F3X4+R4        -6173.575   12571.149 - 1.28e-54   13203.949 - 3.63e-44   12910.558 - 1.47e-23
+GY+F3X4+I+R2      -6181.588   12581.175 - 8.49e-57   13138.850 - 4.97e-30   12911.493 - 9.24e-24
+GY+F3X4+I+R4      -6173.390   12572.779 - 5.65e-55   13233.394 - 1.47e-50   12915.219 - 1.43e-24
+MG+F3X4+G4        -6204.418   12620.835 - 2.07e-65   13113.966 - 1.26e-24   12942.062 - 2.13e-30
+MG+F3X4+I+G4      -6204.411   12622.821 - 7.69e-66   13136.421 - 1.67e-29   12947.078 - 1.73e-31
+GY+F3X4           -6282.095   12776.190 - 3.82e-99   13269.321 - 2.32e-58   13097.417 - 3.91e-64
+GY+F3X4+I         -6280.034   12774.069 -  1.1e-98   13287.669 -  2.4e-62   13098.326 - 2.48e-64
+MG+F1X4+G4        -6356.325   12912.651 - 8.91e-129   13301.112 -  2.9e-65   13215.694 - 8.11e-90
+MG+F1X4+I+G4      -6356.322   12914.643 - 3.29e-129   13318.643 - 4.52e-69   13220.717 - 6.58e-91
+MGK+F1X4+G4       -6356.346   12914.691 - 3.21e-129   13318.691 - 4.41e-69   13220.765 - 6.42e-91
+MGK+F1X4+I+G4     -6356.323   12916.646 - 1.21e-129   13336.886 - 4.94e-73   13225.750 - 5.31e-92
+GY+F1X4+G4        -6380.083   12962.165 - 1.58e-139   13366.165 - 2.17e-79   13268.239 - 3.15e-101
+GY+F1X4+I+G4      -6378.639   12961.279 - 2.46e-139   13381.519 -    1e-82   13270.383 - 1.08e-101
 
 AIC, w-AIC   : Akaike information criterion scores and weights.
 AICc, w-AICc : Corrected AIC scores and weights.
@@ -100,24 +100,24 @@ State frequencies: (empirical counts from alignment)
   pi(TGG) = 0.0072  pi(TGT) = 0.0000  pi(TTA) = 0.0863  pi(TTC) = 0.0128
   pi(TTG) = 0.0164  pi(TTT) = 0.0465
 Model of rate heterogeneity: Gamma with 4 categories
-Gamma shape alpha: 1.3246
+Gamma shape alpha: 1.3662
 
  Category  Relative_rate  Proportion
-  1         0.1969         0.2500
-  2         0.5565         0.2500
-  3         1.0382         0.2500
-  4         2.2084         0.2500
+  1         0.2039         0.2500
+  2         0.5647         0.2500
+  3         1.0415         0.2500
+  4         2.1899         0.2500
 Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -5961.4343 (s.e. 198.9302)
+Log-likelihood of the tree: -5961.5754 (s.e. 197.8858)
 Unconstrained log-likelihood (without tree): -768.2707
 Number of free parameters (#branches + #model parameters): 159
-Akaike information criterion (AIC) score: 12240.8685
-Corrected Akaike information criterion (AICc) score: 63120.8685
-Bayesian information criterion (BIC) score: 12722.7081
+Akaike information criterion (AIC) score: 12241.1508
+Corrected Akaike information criterion (AICc) score: 63121.1508
+Bayesian information criterion (BIC) score: 12722.9904
 
 **************************** WARNING ****************************
 Number of parameters (K, model parameters and branch lengths): 159
@@ -150,233 +150,233 @@ Inference: A Practical Information-Theoretic Approach. Springer,
 New York.
 ************************ END OF WARNING ***********************
 
-Total tree length (sum of branch lengths): 92.9279
-Sum of internal branch lengths: 44.2633 (47.6318% of tree length)
+Total tree length (sum of branch lengths): 90.5523
+Sum of internal branch lengths: 42.7294 (47.1876% of tree length)
 
 WARNING: 3 near-zero internal branches (<0.0065) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
-NOTE: Tree is UNROOTED although outgroup taxon '_gene_COX1___protein_cytochrome' is drawn at root
+NOTE: Tree is UNROOTED although outgroup taxon 'Peristernia_reincarnata' is drawn at root
 
 NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
       Rescale them by 1/3 if you want to have #nt substitutions per nt site
 Numbers in parentheses are  ultrafast bootstrap support (%)
 
-+--_gene_COX1___protein_cytochrome
++--Peristernia_reincarnata
 |
-|     +--_gene_COI___protein_cytochrome
-|  +--| (96)
-|  |  +---_gene_COI___protein_cytochrome.3
-+--| (97)
-|  |  +--_gene_COI___protein_cytochrome.1
+|     +--Peristernia_gemmata
 |  +--| (98)
-|     +--_gene_COI___protein_cytochrome.2
+|  |  +--Peristernia_marquesana
++--| (97)
+|  |  +--Peristernia_nassatula
+|  +--| (98)
+|     +--Peristernia_forskalii
 |
-|                                   +----_gene_COI___protein_cytochrome.4
-|                                +--| (86)
-|                                |  +--_gene_COI___protein_cytochrome.46
-|                             +--| (47)
-|                             |  |         +**_gene_COI___protein_cytochrome.27
-|                             |  |      +--| (100)
-|                             |  |      |  +**_gene_COI___protein_cytochrome.44
-|                             |  +------| (99)
-|                             |         +--_gene_COI___protein_cytochrome.45
-|                          +**| (11)
-|                          |  +--_gene_COI___protein_cytochrome.8
-|                       +--| (19)
-|                       |  |   +-----_gene_COI___protein_cytochrome.39
-|                       |  +---| (93)
-|                       |      +---_gene_COI___protein_cytochrome.43
-|                    +**| (2)
-|                    |  |                     +**_gene_COI___protein_cytochrome.35
-|                    |  +---------------------| (100)
-|                    |                        +--_gene_COI___protein_cytochrome.36
-|                 +--| (12)
-|                 |  |                         +**_gene_COI___protein_cytochrome.29
-|                 |  |         +---------------| (100)
-|                 |  |         |               +--_gene_COI___protein_cytochrome.30
-|                 |  |  +------| (65)
-|                 |  |  |      +**_gene_COI___protein_cytochrome.42
-|                 |  +--| (58)
-|                 |     |     +--_gene_COI___protein_cytochrome.40
-|                 |     +-----| (96)
-|                 |           +-------_gene_COI___protein_cytochrome.41
-|              +--| (58)
-|              |  |                      +-----------------------_gene_COI___protein_cytochrome.16
-|              |  |                   +--| (49)
-|              |  |                   |  +--_gene_COI___protein_cytochrome.33
-|              |  |                +--| (53)
-|              |  |                |  +--_gene_COI___protein_cytochrome.34
-|              |  |             +**| (8)
-|              |  |             |  |  +-----------------_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_
-|              |  |             |  +--| (69)
-|              |  |             |     +---------------------_gene_COI___protein_cytochrome.28
-|              |  |        +----| (38)
-|              |  |        |    |                  +------_gene_COI___protein_cytochrome.25
-|              |  |        |    |  +---------------| (98)
-|              |  |        |    |  |               |        +--_gene_COI___protein_cytochrome.37
-|              |  |        |    |  |               +--------| (63)
-|              |  |        |    |  |                        +-----_gene_COI___protein_cytochrome.38
-|              |  |        |    +--| (50)
-|              |  |        |       +---_gene_COI___protein_cytochrome.26
-|              |  |     +--| (56)
-|              |  |     |  |            +--_gene_COI___protein_cytochrome.18
-|              |  |     |  |  +---------| (98)
-|              |  |     |  |  |         +--_gene_COI___protein_cytochrome.19
-|              |  |     |  +--| (46)
-|              |  |     |     +---_gene_COI___protein_cytochrome.20
-|              |  |  +--| (14)
-|              |  |  |  |     +--_gene_COI___protein_cytochrome.21
-|              |  |  |  |  +--| (94)
-|              |  |  |  |  |  +--_gene_COI___protein_cytochrome.22
-|              |  |  |  +--| (26)
-|              |  |  |     |                    +-------_gene_COI___protein_cytochrome.31
-|              |  |  |     +--------------------| (89)
-|              |  |  |                          +----------_gene_COI___protein_cytochrome.32
-|              |  +--| (21)
-|              |     |     +----------------_gene_COI___protein_cytochrome.17
-|              |     |  +--| (19)
-|              |     |  |  +--_gene_COI___protein_cytochrome.23
-|              |     +--| (31)
-|              |        +**_gene_COI___protein_cytochrome.24
-|           +--| (87)
-|           |  |  +--_gene_COI___protein_cytochrome.10
-|           |  +--| (88)
-|           |     |  +--_gene_COI___protein_cytochrome.11
-|           |     +--| (82)
-|           |        +--_gene_COI___protein_cytochrome.12
+|                                +----Penion_chathamensis
+|                             +--| (70)
+|                             |  +--Kelletia_lischkei
+|                          +--| (38)
+|                          |  |         +**Mitrella_scripta
+|                          |  |      +--| (100)
+|                          |  |      |  +**Euthria_cumulata
+|                          |  +------| (99)
+|                          |         +--Buccinulum_linea
+|                       +--| (23)
+|                       |  |     +**Serratifusus_lineatus
+|                       |  |  +--| (57)
+|                       |  |  |  |                    +--Tonna_sulcosa
+|                       |  |  |  +--------------------| (100)
+|                       |  |  |                       +--Tonna_galea
+|                       |  +**| (26)
+|                       |     |   +-----Antillophos_beauii
+|                       |     +---| (90)
+|                       |         +---Caducifer_decapitatus
+|                    +**| (26)
+|                    |  |        +--Pisania_pusio
+|                    |  |  +-----| (98)
+|                    |  |  |     +-------Engina_mendicaria
+|                    |  +--| (66)
+|                    |     +-----Clivipollia_pulchra
+|                 +--| (18)
+|                 |  |                     +**Melongena_melongena
+|                 |  +---------------------| (100)
+|                 |                        +--Melongena_patula
+|              +--| (57)
+|              |  |                      +----------------------Belomitra_caudata
+|              |  |                   +--| (39)
+|              |  |                   |  +--Eosipho_smithi
+|              |  |                +--| (38)
+|              |  |                |  +--Manaria_kuroharai
+|              |  |             +**| (19)
+|              |  |             |  |                  +------Chauvetia_candidissima
+|              |  |             |  |  +---------------| (98)
+|              |  |             |  |  |               |        +--Nassarius_conoidalis
+|              |  |             |  |  |               +--------| (75)
+|              |  |             |  |  |                        +-----Nassarius_semisulcatus
+|              |  |             |  +--| (62)
+|              |  |             |     +---Colus_islandicus
+|              |  |        +----| (30)
+|              |  |        |    |  +-----------------Colubraria_reticulata
+|              |  |        |    +--| (61)
+|              |  |        |       +---------------------Mitrella_bicincta
+|              |  |     +--| (39)
+|              |  |     |  |            +--Buccinastrum_deforme
+|              |  |     |  |  +---------| (99)
+|              |  |     |  |  |         +--Buccinanops_cochlidium
+|              |  |     |  +--| (69)
+|              |  |     |     +---Buccinum_striatissimum
+|              |  |  +--| (21)
+|              |  |  |  |     +--Neptunea_arthritica
+|              |  |  |  |  +--| (89)
+|              |  |  |  |  |  +--Neptunea_polycostata
+|              |  |  |  +--| (44)
+|              |  |  |     |                    +------Dolicholatirus_lancea
+|              |  |  |     +--------------------| (96)
+|              |  |  |                          +----------Dolicholatirus_spiceri
+|              |  +--| (33)
+|              |     |     +----------------Belomitra_paschalis
+|              |     |  +--| (28)
+|              |     |  |  +--Busycon_carica
+|              |     +--| (37)
+|              |        +**Fulguropsis_pyruloides
+|           +--| (86)
+|           |  |  +--Aristofusus_excavatus
+|           |  +--| (85)
+|           |     |  +--Fusinus_salisburyi
+|           |     +--| (75)
+|           |        +--Fusinus_forceps
 |        +--| (97)
-|        |  |     +--_gene_COI___protein_cytochrome.5
-|        |  |  +--| (98)
-|        |  |  |  |  +--_gene_COI___protein_cytochrome.6
-|        |  |  |  +--| (96)
-|        |  |  |     |  +--_gene_COI___protein_cytochrome.7
+|        |  |     +--Triplofusus_giganteus
+|        |  |  +--| (96)
+|        |  |  |  |  +--Cinctura_hunteria
+|        |  |  |  +--| (95)
+|        |  |  |     |  +--Fasciolaria_bullisi
 |        |  |  |     +--| (99)
-|        |  |  |        +--_gene_COI___protein_cytochrome.9
-|        |  +--| (90)
-|        |     |  +-----_gene_COI___protein_cytochrome.13
-|        |     +--| (93)
-|        |        +--_gene_COI___protein_cytochrome.15
+|        |  |  |        +--Fasciolaria_tulipa
+|        |  +--| (88)
+|        |     |  +-----Hemipolygona_armata
+|        |     +--| (95)
+|        |        +--Leucozonia_ocellata
 +--------| (100)
-         +**_gene_COI___protein_cytochrome.14
+         +**Leucozonia_nassa
 
 Tree in newick format:
 
-(_gene_COX1___protein_cytochrome:0.1265063517,((_gene_COI___protein_cytochrome:0.0597339242,_gene_COI___protein_cytochrome.3:0.9553159282)96:0.0634188230,(_gene_COI___protein_cytochrome.1:0.0927797068,_gene_COI___protein_cytochrome.2:0.0097100773)98:0.0790976666)97:0.2760593470,((((((((((_gene_COI___protein_cytochrome.4:1.2413253180,_gene_COI___protein_cytochrome.46:0.2910435966)86:0.3398406308,((_gene_COI___protein_cytochrome.27:0.0000010000,_gene_COI___protein_cytochrome.44:0.0000010000)100:0.8671460930,_gene_COI___protein_cytochrome.45:0.3280912683)99:1.7484286390)47:0.5304457127,_gene_COI___protein_cytochrome.8:0.4277397087)11:0.0000025174,(_gene_COI___protein_cytochrome.39:1.6000243873,_gene_COI___protein_cytochrome.43:0.9632652513)93:1.0889273620)19:0.1857112624,(_gene_COI___protein_cytochrome.35:0.0000029153,_gene_COI___protein_cytochrome.36:0.5263505692)100:5.3168838030)2:0.0000023034,(((_gene_COI___protein_cytochrome.29:0.0000025557,_gene_COI___protein_cytochrome.30:0.8263116967)100:3.8026657350,_gene_COI___protein_cytochrome.42:0.0000028940)65:1.6735371120,(_gene_COI___protein_cytochrome.40:0.8276610791,_gene_COI___protein_cytochrome.41:2.0077814352)96:1.5574329720)58:0.3927641907)12:0.2040400877,(((((((_gene_COI___protein_cytochrome.16:5.7229158252,_gene_COI___protein_cytochrome.33:0.3118518233)49:0.3693459948,_gene_COI___protein_cytochrome.34:0.4279293984)53:0.1774218953,(_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_:4.3143957706,_gene_COI___protein_cytochrome.28:5.2995053696)69:0.7833526327)8:0.0000026930,((_gene_COI___protein_cytochrome.25:1.7613334623,(_gene_COI___protein_cytochrome.37:0.4074926195,_gene_COI___protein_cytochrome.38:1.4727101992)63:2.1293378020)98:3.9399389860,_gene_COI___protein_cytochrome.26:1.1698263262)50:0.1906226844)38:1.3531177150,((_gene_COI___protein_cytochrome.18:0.5077636091,_gene_COI___protein_cytochrome.19:0.6078667049)98:2.3946945920,_gene_COI___protein_cytochrome.20:0.9909347067)46:0.4394710351)56:0.4214818216,((_gene_COI___protein_cytochrome.21:0.4551312816,_gene_COI___protein_cytochrome.22:0.0210674867)94:0.2177789373,(_gene_COI___protein_cytochrome.31:1.9026172900,_gene_COI___protein_cytochrome.32:2.6298499462)89:5.1752832110)26:0.7384998622)14:0.1081995576,((_gene_COI___protein_cytochrome.17:4.1785741417,_gene_COI___protein_cytochrome.23:0.3785062243)19:0.3523612465,_gene_COI___protein_cytochrome.24:0.0000024517)31:0.7721337250)21:0.2968000390)58:0.5514117507,(_gene_COI___protein_cytochrome.10:0.4281553565,(_gene_COI___protein_cytochrome.11:0.0758248414,_gene_COI___protein_cytochrome.12:0.4904536276)82:0.6045308728)88:0.4899943454)87:0.6713749762,((_gene_COI___protein_cytochrome.5:0.8858735370,(_gene_COI___protein_cytochrome.6:0.6804741420,(_gene_COI___protein_cytochrome.7:0.1584186625,_gene_COI___protein_cytochrome.9:0.3192264374)99:0.1730753462)96:0.4857306741)98:0.6772358663,(_gene_COI___protein_cytochrome.13:1.4368060087,_gene_COI___protein_cytochrome.15:0.4783846935)93:0.2082259300)90:0.2803407575)97:0.6664345083,_gene_COI___protein_cytochrome.14:0.0000023351)100:2.3358001210);
+(Peristernia_reincarnata:0.1239610172,((Peristernia_gemmata:0.0622036810,Peristernia_marquesana:0.9136616299)98:0.0619230762,(Peristernia_nassatula:0.0916784012,Peristernia_forskalii:0.0095792421)98:0.0749753947)97:0.2700910525,(((((((((Penion_chathamensis:1.2130406820,Kelletia_lischkei:0.2846420216)70:0.3032611273,((Mitrella_scripta:0.0000010000,Euthria_cumulata:0.0000010000)100:0.8317351917,Buccinulum_linea:0.3170947672)99:1.6779943460)38:0.5224468467,((Serratifusus_lineatus:0.0000024873,(Tonna_sulcosa:0.4165147801,Tonna_galea:0.3718657070)100:4.8316949460)57:0.4296082293,(Antillophos_beauii:1.5328725512,Caducifer_decapitatus:0.9286943527)90:1.0324139910)26:0.0000023653)23:0.1824081331,((Pisania_pusio:0.7726510203,Engina_mendicaria:1.9577783388)98:1.5247421680,Clivipollia_pulchra:1.5597150215)66:0.3743838033)26:0.0000024325,(Melongena_melongena:0.0000029123,Melongena_patula:0.5131774213)100:5.1753577760)18:0.1883567654,(((((((Belomitra_caudata:5.4407458619,Eosipho_smithi:0.2979401723)39:0.3619008818,Manaria_kuroharai:0.4144128285)38:0.1731790399,((Chauvetia_candidissima:1.6522489591,(Nassarius_conoidalis:0.3878464536,Nassarius_semisulcatus:1.4281354539)75:2.1118468370)98:3.7488446720,Colus_islandicus:1.1298459555)62:0.1851982289)19:0.0000028439,(Colubraria_reticulata:4.1870691363,Mitrella_bicincta:5.0779376193)61:0.6984221896)30:1.3567196040,((Buccinastrum_deforme:0.4852806113,Buccinanops_cochlidium:0.5954973285)99:2.3481817880,Buccinum_striatissimum:0.9205892501)69:0.3818438056)39:0.3916394538,((Neptunea_arthritica:0.4521527082,Neptunea_polycostata:0.0143526175)89:0.1980935639,(Dolicholatirus_lancea:1.8089999571,Dolicholatirus_spiceri:2.5321844725)96:5.0146997010)44:0.7439250016)21:0.1019895507,((Belomitra_paschalis:3.9483731338,Busycon_carica:0.3598135851)28:0.3506726273,Fulguropsis_pyruloides:0.0000025165)37:0.7049944710)33:0.2882341750)57:0.5231053443,(Aristofusus_excavatus:0.4027988950,(Fusinus_salisburyi:0.0746490160,Fusinus_forceps:0.4808552361)75:0.6037988440)85:0.4868727774)86:0.6608216502,((Triplofusus_giganteus:0.8650387381,(Cinctura_hunteria:0.6568874878,(Fasciolaria_bullisi:0.1630424161,Fasciolaria_tulipa:0.2991938664)99:0.1712899955)95:0.4627358490)96:0.6342211651,(Hemipolygona_armata:1.3812534786,Leucozonia_ocellata:0.4648107321)95:0.2030605018)88:0.2520761605)97:0.6637702402,Leucozonia_nassa:0.0000026488)100:2.2576400700);
 
 CONSENSUS TREE
 --------------
 
 Consensus tree is constructed from 10000 bootstrap trees
-Log-likelihood of consensus tree: -5963.316650
-Robinson-Foulds distance between ML tree and consensus tree: 12
+Log-likelihood of consensus tree: -5963.662408
+Robinson-Foulds distance between ML tree and consensus tree: 18
 
 Branches with support >0.000000% are kept (extended consensus)
 Branch lengths are optimized by maximum likelihood on original alignment
 Numbers in parentheses are bootstrap supports (%)
 
-+--_gene_COX1___protein_cytochrome
++--Peristernia_reincarnata
 |
-|     +--_gene_COI___protein_cytochrome
-|  +--| (96)
-|  |  +---_gene_COI___protein_cytochrome.3
-+--| (97)
-|  |  +--_gene_COI___protein_cytochrome.1
+|     +--Peristernia_gemmata
 |  +--| (98)
-|     +--_gene_COI___protein_cytochrome.2
+|  |  +--Peristernia_marquesana
++--| (97)
+|  |  +--Peristernia_nassatula
+|  +--| (98)
+|     +--Peristernia_forskalii
 |
-|                           +----_gene_COI___protein_cytochrome.4
-|                        +--| (86)
-|                        |  +--_gene_COI___protein_cytochrome.46
-|                     +--| (47)
-|                     |  |         +--_gene_COI___protein_cytochrome.27
-|                     |  |      +--| (100)
-|                     |  |      |  +--_gene_COI___protein_cytochrome.44
-|                     |  +------| (99)
-|                     |         +--_gene_COI___protein_cytochrome.45
-|                  +--| (34)
-|                  |  |     +--_gene_COI___protein_cytochrome.8
-|                  |  |  +--| (34)
-|                  |  |  |  |    +------_gene_COI___protein_cytochrome.39
-|                  |  |  |  +----| (93)
-|                  |  |  |       +---_gene_COI___protein_cytochrome.43
-|                  |  +--| (33)
-|                  |     |                         +--_gene_COI___protein_cytochrome.29
-|                  |     |         +---------------| (100)
-|                  |     |         |               +--_gene_COI___protein_cytochrome.30
-|                  |     |  +------| (65)
-|                  |     |  |      +--_gene_COI___protein_cytochrome.42
-|                  |     +--| (58)
-|                  |        |     +---_gene_COI___protein_cytochrome.40
-|                  |        +-----| (96)
-|                  |              +-------_gene_COI___protein_cytochrome.41
-|               +--| (58)
-|               |  |                         +------------------------_gene_COI___protein_cytochrome.16
-|               |  |                      +--| (49)
-|               |  |                      |  +--_gene_COI___protein_cytochrome.33
-|               |  |                   +--| (53)
-|               |  |                   |  +--_gene_COI___protein_cytochrome.34
-|               |  |                +--| (28)
-|               |  |                |  |                   +------_gene_COI___protein_cytochrome.25
-|               |  |                |  |  +----------------| (98)
-|               |  |                |  |  |                |        +--_gene_COI___protein_cytochrome.37
-|               |  |                |  |  |                +--------| (63)
-|               |  |                |  |  |                         +-----_gene_COI___protein_cytochrome.38
-|               |  |                |  +--| (50)
-|               |  |                |     +----_gene_COI___protein_cytochrome.26
-|               |  |           +----| (38)
-|               |  |           |    |  +------------------_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_
-|               |  |           |    +--| (69)
-|               |  |           |       +----------------------_gene_COI___protein_cytochrome.28
-|               |  |        +--| (56)
-|               |  |        |  |           +--_gene_COI___protein_cytochrome.18
-|               |  |        |  |  +--------| (98)
-|               |  |        |  |  |        +--_gene_COI___protein_cytochrome.19
-|               |  |        |  +--| (46)
-|               |  |        |     +---_gene_COI___protein_cytochrome.20
-|               |  |     +--| (14)
-|               |  |     |  |     +--_gene_COI___protein_cytochrome.21
-|               |  |     |  |  +--| (94)
-|               |  |     |  |  |  +--_gene_COI___protein_cytochrome.22
-|               |  |     |  +--| (26)
-|               |  |     |     |                     +-------_gene_COI___protein_cytochrome.31
-|               |  |     |     +---------------------| (89)
-|               |  |     |                           +----------_gene_COI___protein_cytochrome.32
-|               |  |  +--| (21)
-|               |  |  |  |  +--------------_gene_COI___protein_cytochrome.17
-|               |  |  |  +--| (31)
-|               |  |  |     |  +--_gene_COI___protein_cytochrome.23
-|               |  |  |     +--| (61)
-|               |  |  |        +--_gene_COI___protein_cytochrome.24
-|               |  +--| (28)
-|               |     |                     +--_gene_COI___protein_cytochrome.35
-|               |     +---------------------| (100)
-|               |                           +--_gene_COI___protein_cytochrome.36
-|            +--| (87)
-|            |  |  +--_gene_COI___protein_cytochrome.10
-|            |  +--| (88)
-|            |     |  +--_gene_COI___protein_cytochrome.11
-|            |     +--| (82)
-|            |        +--_gene_COI___protein_cytochrome.12
-|         +--| (97)
-|         |  |     +--_gene_COI___protein_cytochrome.5
-|         |  |  +--| (98)
-|         |  |  |  |  +--_gene_COI___protein_cytochrome.6
-|         |  |  |  +--| (96)
-|         |  |  |     |  +--_gene_COI___protein_cytochrome.7
-|         |  |  |     +--| (99)
-|         |  |  |        +--_gene_COI___protein_cytochrome.9
-|         |  +--| (90)
-|         |     |  +-----_gene_COI___protein_cytochrome.13
-|         |     +--| (93)
-|         |        +--_gene_COI___protein_cytochrome.15
-+---------| (100)
-          +--_gene_COI___protein_cytochrome.14
+|                             +----Penion_chathamensis
+|                          +--| (70)
+|                          |  +--Kelletia_lischkei
+|                       +--| (38)
+|                       |  |         +--Mitrella_scripta
+|                       |  |      +--| (100)
+|                       |  |      |  +--Euthria_cumulata
+|                       |  +------| (99)
+|                       |         +--Buccinulum_linea
+|                    +--| (23)
+|                    |  |     +--Serratifusus_lineatus
+|                    |  |  +--| (57)
+|                    |  |  |  |                    +--Tonna_sulcosa
+|                    |  |  |  +--------------------| (100)
+|                    |  |  |                       +--Tonna_galea
+|                    |  +--| (26)
+|                    |     |   +-----Antillophos_beauii
+|                    |     +---| (90)
+|                    |         +---Caducifer_decapitatus
+|                 +--| (26)
+|                 |  |        +--Pisania_pusio
+|                 |  |  +-----| (98)
+|                 |  |  |     +-------Engina_mendicaria
+|                 |  +--| (66)
+|                 |     +-----Clivipollia_pulchra
+|              +--| (57)
+|              |  |                      +----------Belomitra_caudata
+|              |  |        +-------------| (56)
+|              |  |        |             +--Belomitra_paschalis
+|              |  |     +--| (14)
+|              |  |     |  |  +--Busycon_carica
+|              |  |     |  +--| (58)
+|              |  |     |     +--Fulguropsis_pyruloides
+|              |  |  +--| (33)
+|              |  |  |  |                 +--Buccinastrum_deforme
+|              |  |  |  |        +--------| (99)
+|              |  |  |  |        |        +--Buccinanops_cochlidium
+|              |  |  |  |     +--| (69)
+|              |  |  |  |     |  +---Buccinum_striatissimum
+|              |  |  |  |  +--| (39)
+|              |  |  |  |  |  |                          +------Chauvetia_candidissima
+|              |  |  |  |  |  |          +---------------| (98)
+|              |  |  |  |  |  |          |               |        +--Nassarius_conoidalis
+|              |  |  |  |  |  |          |               +--------| (75)
+|              |  |  |  |  |  |          |                        +-----Nassarius_semisulcatus
+|              |  |  |  |  |  |       +--| (62)
+|              |  |  |  |  |  |       |  +----Colus_islandicus
+|              |  |  |  |  |  |    +--| (27)
+|              |  |  |  |  |  |    |  |  +--Eosipho_smithi
+|              |  |  |  |  |  |    |  +--| (52)
+|              |  |  |  |  |  |    |     +--Manaria_kuroharai
+|              |  |  |  |  |  +----| (35)
+|              |  |  |  |  |       |  +-----------------Colubraria_reticulata
+|              |  |  |  |  |       +--| (61)
+|              |  |  |  |  |          +---------------------Mitrella_bicincta
+|              |  |  |  +--| (6)
+|              |  |  |     |     +--Neptunea_arthritica
+|              |  |  |     |  +--| (89)
+|              |  |  |     |  |  +--Neptunea_polycostata
+|              |  |  |     +--| (44)
+|              |  |  |        |                   +------Dolicholatirus_lancea
+|              |  |  |        +-------------------| (96)
+|              |  |  |                            +----------Dolicholatirus_spiceri
+|              |  +--| (19)
+|              |     |                     +--Melongena_melongena
+|              |     +---------------------| (100)
+|              |                           +--Melongena_patula
+|           +--| (86)
+|           |  |  +--Aristofusus_excavatus
+|           |  +--| (85)
+|           |     |  +--Fusinus_salisburyi
+|           |     +--| (75)
+|           |        +--Fusinus_forceps
+|        +--| (97)
+|        |  |     +--Triplofusus_giganteus
+|        |  |  +--| (96)
+|        |  |  |  |  +--Cinctura_hunteria
+|        |  |  |  +--| (95)
+|        |  |  |     |  +--Fasciolaria_bullisi
+|        |  |  |     +--| (99)
+|        |  |  |        +--Fasciolaria_tulipa
+|        |  +--| (88)
+|        |     |  +-----Hemipolygona_armata
+|        |     +--| (95)
+|        |        +--Leucozonia_ocellata
++--------| (100)
+         +--Leucozonia_nassa
 
 
 Consensus tree in newick format: 
 
-(_gene_COX1___protein_cytochrome:0.1237162991,((_gene_COI___protein_cytochrome:0.0567033683,_gene_COI___protein_cytochrome.3:0.9461597420)96:0.0619041789,(_gene_COI___protein_cytochrome.1:0.0925211740,_gene_COI___protein_cytochrome.2:0.0094923427)98:0.0823879054)97:0.2724129390,(((((((_gene_COI___protein_cytochrome.4:1.2218531063,_gene_COI___protein_cytochrome.46:0.2627949134)86:0.4347530731,((_gene_COI___protein_cytochrome.27:0.0000026050,_gene_COI___protein_cytochrome.44:0.0000026050)100:0.8601470086,_gene_COI___protein_cytochrome.45:0.3264773060)99:1.5753941712)47:0.3250668072,((_gene_COI___protein_cytochrome.8:0.3617941503,(_gene_COI___protein_cytochrome.39:1.5699213456,_gene_COI___protein_cytochrome.43:0.9514340938)93:1.1210053323)34:0.0000028969,(((_gene_COI___protein_cytochrome.29:0.0000028314,_gene_COI___protein_cytochrome.30:0.8221826189)100:3.7061809455,_gene_COI___protein_cytochrome.42:0.0000025421)65:1.5977417196,(_gene_COI___protein_cytochrome.40:0.9048372514,_gene_COI___protein_cytochrome.41:1.9351018946)96:1.5412241182)58:0.6259379761)33:0.2598315500)34:0.2869765290,((((((((_gene_COI___protein_cytochrome.16:5.6420700591,_gene_COI___protein_cytochrome.33:0.3171594953)49:0.3520655563,_gene_COI___protein_cytochrome.34:0.4314322761)53:0.1861974317,((_gene_COI___protein_cytochrome.25:1.7607897248,(_gene_COI___protein_cytochrome.37:0.4139658650,_gene_COI___protein_cytochrome.38:1.4834994451)63:2.0520578916)98:3.8958288641,_gene_COI___protein_cytochrome.26:1.1658699570)50:0.1845194609)28:0.0000023845,(_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_:4.2822413774,_gene_COI___protein_cytochrome.28:5.2799125911)69:0.7491823548)38:1.2284231098,((_gene_COI___protein_cytochrome.18:0.4562375269,_gene_COI___protein_cytochrome.19:0.6550834731)98:2.0348087803,_gene_COI___protein_cytochrome.20:1.0820914830)46:0.4260047128)56:0.3321584015,((_gene_COI___protein_cytochrome.21:0.4268390516,_gene_COI___protein_cytochrome.22:0.0492358809)94:0.3406497972,(_gene_COI___protein_cytochrome.31:1.8649430853,_gene_COI___protein_cytochrome.32:2.6039617311)89:4.9172126715)26:0.7256685619)14:0.0000027644,(_gene_COI___protein_cytochrome.17:3.4210205408,(_gene_COI___protein_cytochrome.23:0.6782381793,_gene_COI___protein_cytochrome.24:0.0507770608)61:0.5092074700)31:0.4404760110)21:0.2101701489,(_gene_COI___protein_cytochrome.35:0.0000028794,_gene_COI___protein_cytochrome.36:0.5230228113)100:4.9720696703)28:0.1616170069)58:0.3235532274,(_gene_COI___protein_cytochrome.10:0.4204615078,(_gene_COI___protein_cytochrome.11:0.0757019792,_gene_COI___protein_cytochrome.12:0.4869663390)82:0.6035544410)88:0.5610467299)87:0.5740399942,((_gene_COI___protein_cytochrome.5:0.8861026061,(_gene_COI___protein_cytochrome.6:0.6818523388,(_gene_COI___protein_cytochrome.7:0.1589709225,_gene_COI___protein_cytochrome.9:0.3170004292)99:0.1618175236)96:0.4974991577)98:0.6599351774,(_gene_COI___protein_cytochrome.13:1.4574944171,_gene_COI___protein_cytochrome.15:0.4653718962)93:0.2107849131)90:0.3020069996)97:0.6484479940,_gene_COI___protein_cytochrome.14:0.0000025451)100:2.3066533941);
+(Peristernia_reincarnata:0.1321894385,((Peristernia_gemmata:0.0604157463,Peristernia_marquesana:0.9031056506)98:0.0624907910,(Peristernia_nassatula:0.0914753373,Peristernia_forskalii:0.0091994651)98:0.0764799883)97:0.2593233984,((((((((Penion_chathamensis:1.2370351365,Kelletia_lischkei:0.2976042905)70:0.3004589392,((Mitrella_scripta:0.0000026049,Euthria_cumulata:0.0000026049)100:0.8199592601,Buccinulum_linea:0.3226325767)99:1.6515725333)38:0.5379109280,((Serratifusus_lineatus:0.0000024387,(Tonna_sulcosa:0.4492693143,Tonna_galea:0.3549714393)100:4.9409006891)57:0.3871949758,(Antillophos_beauii:1.5526193183,Caducifer_decapitatus:0.9493941018)90:1.0637405940)26:0.0000026171)23:0.1840817826,((Pisania_pusio:0.7564644757,Engina_mendicaria:1.9852036001)98:1.5458225345,Clivipollia_pulchra:1.5851112185)66:0.3701547979)26:0.2365585510,((((Belomitra_caudata:2.5888063511,Belomitra_paschalis:0.2127338010)56:3.2729225767,(Busycon_carica:0.6799259485,Fulguropsis_pyruloides:0.0297118078)58:0.4314482957)14:0.4114180222,((((Buccinastrum_deforme:0.4872423952,Buccinanops_cochlidium:0.5911888470)99:2.2201890505,Buccinum_striatissimum:0.9524901008)69:0.3978121674,((((Chauvetia_candidissima:1.7169554616,(Nassarius_conoidalis:0.3844878730,Nassarius_semisulcatus:1.4277753475)75:2.1586665210)98:3.8189607681,Colus_islandicus:1.1477123875)62:0.1871705758,(Eosipho_smithi:0.6581407765,Manaria_kuroharai:0.4074297371)52:0.1691230092)27:0.0508123010,(Colubraria_reticulata:4.2850935665,Mitrella_bicincta:5.1487271884)61:0.6276666862)35:1.2192183103)39:0.3692905223,((Neptunea_arthritica:0.4334169477,Neptunea_polycostata:0.0342158548)89:0.4776649656,(Dolicholatirus_lancea:1.7483744697,Dolicholatirus_spiceri:2.5353213815)96:4.6466416565)44:0.4985647583)6:0.0000022878)33:0.2145058769,(Melongena_melongena:0.0000027889,Melongena_patula:0.5116481858)100:5.2005767534)19:0.1146217313)57:0.4515507172,(Aristofusus_excavatus:0.4042895547,(Fusinus_salisburyi:0.0757158276,Fusinus_forceps:0.4856533689)75:0.5875950153)85:0.4871793725)86:0.6439543255,((Triplofusus_giganteus:0.8731347760,(Cinctura_hunteria:0.6489734381,(Fasciolaria_bullisi:0.1572041894,Fasciolaria_tulipa:0.3006423601)99:0.1704733840)95:0.4695360365)96:0.6419480636,(Hemipolygona_armata:1.3869661187,Leucozonia_ocellata:0.4526583804)95:0.2214698422)88:0.2346661165)97:0.6934771015,Leucozonia_nassa:0.0000020119)100:2.2551015073);
 
 ALISIM COMMAND
 --------------
@@ -387,7 +387,7 @@ For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
 TIME STAMP
 ----------
 
-Date and time: Sun Apr 19 22:46:29 2026
-Total CPU time used: 3200.22437 seconds (0h:53m:20s)
-Total wall-clock time used: 1621.515077 seconds (0h:27m:1s)
+Date and time: Mon Apr 20 00:00:44 2026
+Total CPU time used: 2529.333347 seconds (0h:42m:9s)
+Total wall-clock time used: 1295.116207 seconds (0h:21m:35s)
 

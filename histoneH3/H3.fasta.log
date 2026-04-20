@@ -1,0 +1,376 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Dylans-MacBook-Pro-2.local (AVX512, FMA3, 16 GB RAM)
+Command: /Users/dylanschool/Downloads/iqtree-2.4.0-macOS-intel/bin/iqtree2 -s /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta -m MFP -st CODON -bb 10000 -T AUTO
+Seed:    12564 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Apr 20 00:04:13 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta ... Fasta format detected
+Reading fasta file: done in 0.000250101 secs using 82.77% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code  ...
+WARNING: Sequence Aristofusus_excavatus has ambiguous character MGG at site 1
+WARNING: Sequence Peristernia_nassatula has ambiguous character ACM at site 10
+WARNING: Sequence Peristernia_forskalii has ambiguous character ACM at site 10
+WARNING: Sequence Fasciolaria_tulipa has ambiguous character GGR at site 16
+WARNING: Sequence Dolicholatirus_lancea has ambiguous character GCK at site 22
+WARNING: Sequence Pisania_pusio has ambiguous character AAN at site 31
+WARNING: Sequence Dolicholatirus_lancea has ambiguous character GCM at site 52
+WARNING: Sequence Fasciolaria_bullisi has ambiguous character GGM at site 76
+WARNING: Sequence Peristernia_nassatula has ambiguous character GTS at site 82
+WARNING: Sequence Peristernia_forskalii has ambiguous character GTS at site 82
+WARNING: Sequence Fasciolaria_bullisi has ambiguous character CCY at site 106
+WARNING: Sequence Aristofusus_excavatus has ambiguous character CCY at site 106
+WARNING: Sequence Caducifer_decapitatus has ambiguous character CCN at site 106
+WARNING: Sequence Fasciolaria_tulipa has ambiguous character CTK at site 121
+WARNING: Sequence Fasciolaria_tulipa has ambiguous character AAR at site 145
+WARNING: Sequence Aristofusus_excavatus has ambiguous character ACM at site 151
+WARNING: Sequence Peristernia_nassatula has ambiguous character CTY at site 160
+WARNING: Sequence Peristernia_forskalii has ambiguous character CTY at site 160
+WARNING: Sequence Fasciolaria_tulipa has ambiguous character YTG at site 187
+WARNING: Sequence Peristernia_nassatula has ambiguous character GCM at site 202
+WARNING: Sequence Aristofusus_excavatus has ambiguous character ACY at site 217
+WARNING: Sequence Peristernia_nassatula has ambiguous character TTY at site 229
+WARNING: Sequence Engina_mendicaria has ambiguous character CNG at site 232
+WARNING: Sequence Fasciolaria_tulipa has ambiguous character AGY at site 235
+WARNING: Sequence Peristernia_nassatula has ambiguous character GCY at site 241
+WARNING: Sequence Peristernia_forskalii has ambiguous character GCY at site 241
+WARNING: Sequence Cinctura_hunteria has ambiguous character GTS at site 244
+WARNING: Sequence Dolicholatirus_lancea has ambiguous character GCY at site 271
+WARNING: Sequence Peristernia_nassatula has ambiguous character GTR at site 280
+WARNING: Sequence Peristernia_marquesana has ambiguous character GTY at site 280
+WARNING: Sequence Fasciolaria_bullisi has ambiguous character GTK at site 280
+WARNING: Sequence Aristofusus_excavatus has ambiguous character GTK at site 280
+WARNING: Sequence Triplofusus_giganteus has ambiguous character CTS at site 286
+WARNING: Sequence Japeuthria_ferrea has ambiguous character C-- at site 304
+WARNING: Sequence Serratifusus_lineatus has ambiguous character GC- at site 319
+WARNING: Sequence Manaria_kuroharai has ambiguous character ANG at site 322
+WARNING: Sequence Melongena_melongena has ambiguous character ANG at site 322
+WARNING: Sequence Euthria_walleri has ambiguous character ANG at site 322
+Alignment has 36 sequences with 109 columns, 102 distinct patterns
+65 parsimony-informative, 18 singleton sites, 26 constant sites
+                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.09673e-05 secs using 218.8% CPU
+   1  Peristernia_reincarnata    0.00%    passed    100.00%
+   2  Peristernia_gemmata        0.00%    passed     99.80%
+   3  Peristernia_nassatula      6.42%    passed    100.00%
+   4  Peristernia_marquesana     0.92%    passed     99.66%
+   5  Peristernia_forskalii      3.67%    passed    100.00%
+   6  Serratifusus_lineatus      2.75%    passed     75.01%
+   7  Triplofusus_giganteus      0.92%    passed    100.00%
+   8  Cinctura_hunteria          0.92%    passed    100.00%
+   9  Fasciolaria_tulipa         4.59%    passed    100.00%
+  10  Fasciolaria_bullisi        2.75%    passed    100.00%
+  11  Aristofusus_excavatus      4.59%    passed    100.00%
+  12  Fusinus_salisburyi         0.00%    passed     99.99%
+  13  Fusinus_forceps            0.00%    passed     99.99%
+  14  Hemipolygona_armata        0.00%    passed    100.00%
+  15  Leucozonia_nassa           0.00%    passed    100.00%
+  16  Leucozonia_ocellata        0.00%    passed    100.00%
+  17  Buccinastrum_deforme       0.00%    passed    100.00%
+  18  Buccinanops_cochlidium     0.00%    passed    100.00%
+  19  Japeuthria_ferrea         34.86%    passed    100.00%
+  20  Busycon_carica             0.00%    passed    100.00%
+  21  Fulguropsis_pyruloides     0.00%    passed     99.44%
+  22  Mitrella_scripta           0.00%    failed      2.68%
+  23  Mitrella_bicincta          0.00%    passed     96.88%
+  24  Dolicholatirus_lancea      2.75%    passed     68.67%
+  25  Dolicholatirus_spiceri     0.00%    failed      0.00%
+  26  Manaria_kuroharai          0.92%    passed    100.00%
+  27  Melongena_melongena        0.92%    passed     99.97%
+  28  Nassarius_conoidalis       0.00%    passed     99.71%
+  29  Nassarius_semisulcatus     0.00%    passed    100.00%
+  30  Antillophos_beauii         0.00%    passed    100.00%
+  31  Pisania_pusio             10.09%    passed     99.78%
+  32  Engina_mendicaria          0.92%    passed     93.59%
+  33  Clivipollia_pulchra        0.00%    passed     47.68%
+  34  Caducifer_decapitatus      0.92%    passed     36.43%
+  35  Euthria_cumulata           0.00%    passed    100.00%
+  36  Euthria_walleri            0.92%    passed    100.00%
+****  TOTAL                      2.22%  2 sequences failed composition chi2 test (p-value<5%; df=60)
+NOTE: Fusinus_forceps is identical to Fusinus_salisburyi but kept for subsequent analysis
+
+NOTE: Restoring information from model checkpoint file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.model.gz
+
+CHECKPOINT: Initial tree restored
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+59 trees examined
+Threads: 1 / Time: 8.134 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2944
+Threads: 2 / Time: 6.372 sec / Speedup: 1.277 / Efficiency: 64% / LogL: -2944
+Threads: 3 / Time: 5.234 sec / Speedup: 1.554 / Efficiency: 52% / LogL: -2944
+Threads: 4 / Time: 4.813 sec / Speedup: 1.690 / Efficiency: 42% / LogL: -2944
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GY+F3X4+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1845.384
+2. Current log-likelihood: -1844.371
+Optimal log-likelihood: -1843.988
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 50.000
+Proportion of invariable sites: 0.018
+Gamma shape alpha: 0.756
+Parameters optimization took 2 rounds (1.936 sec)
+Time for fast ML tree search: 4.354 seconds
+
+NOTE: ModelFinder requires 34 MB RAM!
+ModelFinder will test up to 330 codon models (sample size: 109 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GY+F3X4       1879.113     80  3918.225     4381.083     4133.533
+  2  GY+F3X4+I     1863.755     81  3889.511     4381.511     4107.510
+  3  GY+F3X4+G4    1829.208     81  3820.416     4312.416     4038.416
+  4  GY+F3X4+I+G4  1828.956     82  3821.913     4345.451     4042.603
+  5  GY+F3X4+R2    1831.903     82  3827.806     4351.345     4048.497
+  6  GY+F3X4+R3    1802.507     84  3773.014     4368.014     3999.088
+  7  GY+F3X4+R4    1796.575     86  3765.151     4445.333     3996.607
+  8  GY+F3X4+R5    1794.354     88  3764.708     4547.908     4001.547
+ 14  GY+F3X4+I+R2  1808.309     83  3782.619     4340.379     4006.001
+ 15  GY+F3X4+I+R3  1796.739     85  3763.478     4399.131     3992.243
+ 16  GY+F3X4+I+R4  1795.673     87  3765.346     4494.489     3999.494
+ 28  GY+F1X4+R3    1810.987     78  3777.973     4188.773     3987.898
+ 29  GY+F1X4+R4    1810.324     80  3780.649     4243.506     3995.957
+ 37  GY+F1X4+I+R3  1809.505     79  3777.010     4212.872     3989.627
+ 38  GY+F1X4+I+R4  1809.474     81  3780.948     4272.948     3998.947
+ 50  GY+F+R3       1745.414     135 3760.827     40480.827    4124.159
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+ 51  GY+F+R4       1745.550     137 3765.100     41577.100    4133.815
+ 59  GY+F+I+R3     1741.693     136 3755.386     41019.386    4121.409
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
+ 60  GY+F+I+R4     1741.787     138 3759.573     42123.573    4130.979
+ 72  MGK+F3X4+R3   1788.554     84  3745.108     4340.108     3971.181
+ 73  MGK+F3X4+R4   1788.427     86  3748.855     4429.037     3980.311
+ 81  MGK+F3X4+I+R3 1789.240     85  3748.480     4384.132     3977.244
+ 82  MGK+F3X4+I+R4 1788.789     87  3751.577     4480.720     3985.725
+ 94  MGK+F1X4+R3   1812.600     78  3781.200     4192.000     3991.126
++R4 reinitialized from +R3 with factor 0.500
+ 95  MGK+F1X4+R4   1812.337     80  3784.673     4247.530     3999.981
+103  MGK+F1X4+I+R3 1811.497     79  3780.995     4216.857     3993.611
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
+104  MGK+F1X4+I+R4 1811.591     81  3785.182     4277.182     4003.181
+116  MG+F3X4+R3    1788.494     83  3742.988     4300.748     3966.370
++R4 reinitialized from +R3 with factor 0.500
+117  MG+F3X4+R4    1788.502     85  3747.005     4382.657     3975.769
+125  MG+F3X4+I+R3  1789.460     84  3746.920     4341.920     3972.993
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+126  MG+F3X4+I+R4  1789.561     86  3751.121     4431.303     3982.577
+138  MG+F1X4+R3    1812.562     77  3779.123     4166.607     3986.357
+139  MG+F1X4+R4    1812.619     79  3783.238     4219.100     3995.854
+147  MG+F1X4+I+R3  1811.652     78  3779.304     4190.104     3989.229
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
+148  MG+F1X4+I+R4  1811.731     80  3783.462     4246.319     3998.770
+160  KOSI07+F3X4+R3 1795.898     82  3755.796     4279.334     3976.486
+161  KOSI07+F3X4+R4 1795.581     84  3759.162     4354.162     3985.236
+169  KOSI07+F3X4+I+R3 1795.366     83  3756.732     4314.492     3980.114
++I+R4 reinitialized from +I+R3 with factor 0.500
+170  KOSI07+F3X4+I+R4 1795.457     85  3760.913     4396.565     3989.678
+182  KOSI07+F1X4+R3 1808.992     76  3769.984     4135.734     3974.526
+183  KOSI07+F1X4+R4 1806.091     78  3768.182     4178.982     3978.108
+191  KOSI07+F1X4+I+R3 1808.098     77  3770.195     4157.679     3977.429
+192  KOSI07+F1X4+I+R4 1806.904     79  3771.809     4207.671     3984.425
+204  KOSI07+F+R3   1716.415     133 3698.831     39342.831    4056.780
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+205  KOSI07+F+R4   1716.747     135 3703.495     40423.495    4066.827
+213  KOSI07+F+I+R3 1715.405     134 3698.810     39878.810    4059.451
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+WARNING: Log-likelihood -1716.46 of KOSI07+F+I+R4 worse than KOSI07+F+I+R3 -1715.41
+214  KOSI07+F+I+R4 1716.459     136 3704.918     40968.918    4070.941
+226  KOSI07+FU+R3  1800.242     73  3746.483     4055.169     3942.952
+227  KOSI07+FU+R4  1798.584     75  3747.168     4092.623     3949.019
+235  KOSI07+FU+I+R3 1798.776     74  3745.552     4072.023     3944.712
++I+R4 reinitialized from +I+R3 with factor 0.500
+236  KOSI07+FU+I+R4 1798.775     76  3749.551     4115.301     3954.093
+248  SCHN05+F3X4+R3 1813.691     82  3791.382     4314.920     4012.072
+249  SCHN05+F3X4+R4 1813.235     84  3794.470     4389.470     4020.543
+257  SCHN05+F3X4+I+R3 1814.144     83  3794.287     4352.047     4017.669
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
+258  SCHN05+F3X4+I+R4 1814.198     85  3798.395     4434.047     4027.160
+270  SCHN05+F1X4+R3 1831.944     76  3815.889     4181.639     4020.431
+271  SCHN05+F1X4+R4 1831.280     78  3818.560     4229.360     4028.486
+279  SCHN05+F1X4+I+R3 1833.771     77  3821.543     4209.027     4028.776
++I+R4 reinitialized from +I+R3 with factor 0.500
+280  SCHN05+F1X4+I+R4 1833.316     79  3824.633     4260.495     4037.249
+292  SCHN05+F+R3   1729.461     133 3724.922     39368.922    4082.872
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+293  SCHN05+F+R4   1730.403     135 3730.806     40450.806    4094.138
+301  SCHN05+F+I+R3 1726.617     134 3721.234     39901.234    4081.874
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+302  SCHN05+F+I+R4 1727.569     136 3727.138     40991.138    4093.161
+314  SCHN05+FU+R3  1823.868     73  3793.736     4102.421     3990.204
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+315  SCHN05+FU+R4  1823.997     75  3797.995     4143.449     3999.846
+323  SCHN05+FU+I+R3 1820.990     74  3789.981     4116.451     3989.140
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+324  SCHN05+FU+I+R4 1821.254     76  3794.507     4160.257     3999.050
+Akaike Information Criterion:           KOSI07+F+I+R3
+Corrected Akaike Information Criterion: KOSI07+FU+R3
+Bayesian Information Criterion:         KOSI07+FU+R3
+Best-fit model: KOSI07+FU+R3 chosen according to BIC
+
+All model information printed to /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.model.gz
+CPU time for ModelFinder: 981.439 seconds (0h:16m:21s)
+Wall-clock time for ModelFinder: 335.719 seconds (0h:5m:35s)
+WARNING: States(s) ATA, CTA, TGG, TTA rarely appear in alignment and may cause numerical problems
+Generating 10000 samples for ultrafast bootstrap (seed: 12564)...
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1806.950
+2. Current log-likelihood: -1801.046
+3. Current log-likelihood: -1800.345
+4. Current log-likelihood: -1800.228
+Optimal log-likelihood: -1800.156
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 50.000
+Site proportion and rates:  (0.568,0.052) (0.327,0.383) (0.105,8.051)
+Parameters optimization took 4 rounds (1.700 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.41485 secs using 236.5% CPU
+Computing ML distances took 1.415011 sec (of wall-clock time) 3.345581 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 9.39369e-05 secs using 125.6% CPU
+Computing RapidNJ tree took 0.000333 sec (of wall-clock time) 0.000466 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1802.264
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.071 second
+Computing log-likelihood of 98 initial trees ... 5.271 seconds
+Current best score: -1800.156
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1785.576
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -1778.574
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -1769.055
+Iteration 10 / LogL: -1776.901 / Time: 0h:6m:4s
+Iteration 20 / LogL: -1796.382 / Time: 0h:6m:20s
+Finish initializing candidate tree set (20)
+Current best tree score: -1769.055 / CPU time: 41.004
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -1766.260
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -1760.631
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -1758.704
+Iteration 30 / LogL: -1760.668 / Time: 0h:6m:36s (0h:3m:21s left)
+UPDATE BEST LOG-LIKELIHOOD: -1758.703
+Iteration 40 / LogL: -1758.703 / Time: 0h:6m:51s (0h:2m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -1758.427
+BETTER TREE FOUND at iteration 50: -1758.427
+Iteration 50 / LogL: -1758.427 / Time: 0h:7m:4s (0h:3m:1s left)
+Log-likelihood cutoff on original alignment: -1827.133
+UPDATE BEST LOG-LIKELIHOOD: -1758.427
+Iteration 60 / LogL: -1760.688 / Time: 0h:7m:18s (0h:2m:37s left)
+BETTER TREE FOUND at iteration 67: -1758.427
+Iteration 70 / LogL: -1758.427 / Time: 0h:7m:33s (0h:2m:45s left)
+Iteration 80 / LogL: -1758.720 / Time: 0h:7m:47s (0h:2m:25s left)
+Iteration 90 / LogL: -1760.642 / Time: 0h:7m:59s (0h:2m:4s left)
+Iteration 100 / LogL: -1783.330 / Time: 0h:8m:14s (0h:1m:47s left)
+Log-likelihood cutoff on original alignment: -1827.133
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+UPDATE BEST LOG-LIKELIHOOD: -1758.427
+Iteration 110 / LogL: -1781.316 / Time: 0h:8m:27s (0h:2m:21s left)
+Iteration 120 / LogL: -1787.088 / Time: 0h:8m:41s (0h:2m:4s left)
+Iteration 130 / LogL: -1758.720 / Time: 0h:8m:54s (0h:1m:48s left)
+Iteration 140 / LogL: -1758.993 / Time: 0h:9m:8s (0h:1m:31s left)
+Iteration 150 / LogL: -1762.432 / Time: 0h:9m:20s (0h:1m:15s left)
+Log-likelihood cutoff on original alignment: -1827.133
+Iteration 160 / LogL: -1758.720 / Time: 0h:9m:34s (0h:0m:59s left)
+TREE SEARCH COMPLETED AFTER 168 ITERATIONS / Time: 0h:9m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1758.427
+Optimal log-likelihood: -1758.425
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 50.000
+Site proportion and rates:  (0.644,0.054) (0.252,0.427) (0.104,8.278)
+Parameters optimization took 1 rounds (0.361 sec)
+BEST SCORE FOUND : -1758.425
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.splits.nex
+Total tree length: 22.141
+
+Total number of iterations: 168
+CPU time used for tree search: 727.004 sec (0h:12m:7s)
+Wall-clock time used for tree search: 245.393 sec (0h:4m:5s)
+Total CPU time used: 1720.089 sec (0h:28m:40s)
+Total wall-clock time used: 585.586 sec (0h:9m:45s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.splits.nex...
+36 taxa and 943 splits.
+Consensus tree written to /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.contree
+Reading input trees file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.contree
+Log-likelihood of consensus tree: -1758.727
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.iqtree
+  Maximum-likelihood tree:       /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.treefile
+  Likelihood distances:          /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.splits.nex
+  Consensus tree:                /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.contree
+  Screen log file:               /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta.log
+
+Date and Time: Mon Apr 20 00:13:58 2026

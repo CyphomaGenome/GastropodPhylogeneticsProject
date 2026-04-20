@@ -7,16 +7,55 @@ library(ape)
 library(DECIPHER)
 
 Accession_list <- c(
-  "MZ560149.1","KT753980.1","KT753957.1","KT753904.1","KT753914.1",
-  "HM431881.1","KT754003.1","KT754011.1","KT753988.1","JQ950211.1",
-  "KT753954.1","KT754000.1","KT753975.1","KT753940.1","KT753974.1",
-  "KT753994.1","KT753978.1","JQ950201.1","JQ950231.1","KY451220.1",
-  "KY451221.1","AB183328.1","AB498778.1","AB498775.1","MW077017.1",
-  "MW077023.1","KY451269.1","OZ240484.1","FM999178.1","KT754022.1",
-  "HM180684.1","MH581380.1","MH581378.1","KT753938.1","KT753936.1",
-  "KC756048.1","KC756032.1","MN322468.1","AY885128.1","KY451284.1",
-  "KY451360.1","KY451406.1","MW077025.1","MW077012.1","MW077033.1",
-  "MW077031.1","KT753949.1","KP694157.1","HM180636.1"
+  "MZ560149.1",  # Peristernia_reincarnata
+  "KT753980.1", # Peristernia_gemmata
+  "KT753957.1", # Peristernia_nassatula
+  "KT753904.1", # Peristernia_forskalii
+  "KT753914.1", # Peristernia_marquesana
+  "HM431881.1", # Penion_chathamensis
+  "KT754003.1", # Triplofusus_giganteus
+  "KT754011.1", # Cinctura_hunteria
+  "KT753988.1", # Fasciolaria_bullisi
+  "JQ950211.1", # Serratifusus_lineatus
+  "KT753954.1", # Fasciolaria_tulipa
+  "KT754000.1", # Aristofusus_excavatus
+  "KT753975.1", # Fusinus_salisburyi
+  "KT753940.1", # Fusinus_forceps
+  "KT753974.1", # Hemipolygona_armata
+  "KT753994.1", # Leucozonia_nassa
+  "KT753978.1", # Leucozonia_ocellata
+  "JQ950201.1", # Belomitra_caudata
+  "JQ950231.1", # Belomitra_paschalis
+  "KY451220.1", # Buccinastrum_deforme
+  "KY451221.1", # Buccinanops_cochlidium
+  "AB183328.1", # Buccinum_striatissimum
+  "AB498778.1", # Neptunea_arthritica
+  "AB498775.1", # Neptunea_polycostata
+  "MW077017.1", # Busycon_carica
+  "MW077023.1", # Fulguropsis_pyruloides
+  "KY451269.1", # Chauvetia_candidissima
+  "OZ240484.1", # Colus_islandicus
+  "FM999178.1", # Colubraria_reticulata
+  "KT754022.1", # Mitrella_scripta
+  "HM180684.1", # Mitrella_bicincta
+  "MH581380.1", # Tonna_sulcosa
+  "MH581378.1", # Tonna_galea
+  "KT753938.1", # Dolicholatirus_lancea
+  "KT753936.1", # Dolicholatirus_spiceri
+  "KC756048.1", # Eosipho_smithi
+  "KC756032.1", # Manaria_kuroharai
+  "MN322468.1", # Melongena_melongena
+  "AY885128.1", # Melongena_patula
+  "KY451284.1", # Nassarius_conoidalis
+  "KY451360.1", # Nassarius_semisulcatus
+  "KY451406.1", # Antillophos_beauii
+  "MW077025.1", # Pisania_pusio
+  "MW077012.1", # Engina_mendicaria
+  "MW077033.1", # Clivipollia_pulchra
+  "MW077031.1", # Caducifer_decapitatus
+  "KT753949.1", # Euthria_cumulata
+  "KP694157.1", # Buccinulum_linea
+  "HM180636.1"  # Kelletia_lischkei
 )
 
 fasta_data <- entrez_fetch(
@@ -25,26 +64,78 @@ fasta_data <- entrez_fetch(
   rettype = "fasta_cds_na"
 )
 
-writeLines(fasta_data, "COI_raw.fasta")
+writeLines(fasta_data, "fastas.fasta")
 
-# read ONLY this file
-combined_sequences <- readDNAStringSet("COI_raw.fasta")
+combined_sequences <- readDNAStringSet("fastas.fasta")
+combined_sequences <- DNAStringSet(gsub("-", "", as.character(combined_sequences)))
 
-# clean names safely
-shortnames <- gsub("^[^ ]* (([^ ]* )[^ ]*).*", "\\1", names(combined_sequences))
-finishednames <- gsub(" ", "_", trimws(shortnames))
-names(combined_sequences) <- make.unique(finishednames)
+acc <- sub("^lcl\\|([^_]+)_cds_.*$", "\\1", names(combined_sequences))
 
-print(names(combined_sequences))
+name_map <- c(
+  "MZ560149.1" = "Peristernia_reincarnata",
+  "KT753980.1" = "Peristernia_gemmata",
+  "KT753957.1" = "Peristernia_nassatula",
+  "KT753904.1" = "Peristernia_forskalii",
+  "KT753914.1" = "Peristernia_marquesana",
+  "HM431881.1" = "Penion_chathamensis",
+  "KT754003.1" = "Triplofusus_giganteus",
+  "KT754011.1" = "Cinctura_hunteria",
+  "KT753988.1" = "Fasciolaria_bullisi",
+  "JQ950211.1" = "Serratifusus_lineatus",
+  "KT753954.1" = "Fasciolaria_tulipa",
+  "KT754000.1" = "Aristofusus_excavatus",
+  "KT753975.1" = "Fusinus_salisburyi",
+  "KT753940.1" = "Fusinus_forceps",
+  "KT753974.1" = "Hemipolygona_armata",
+  "KT753994.1" = "Leucozonia_nassa",
+  "KT753978.1" = "Leucozonia_ocellata",
+  "JQ950201.1" = "Belomitra_caudata",
+  "JQ950231.1" = "Belomitra_paschalis",
+  "KY451220.1" = "Buccinastrum_deforme",
+  "KY451221.1" = "Buccinanops_cochlidium",
+  "AB183328.1" = "Buccinum_striatissimum",
+  "AB498778.1" = "Neptunea_arthritica",
+  "AB498775.1" = "Neptunea_polycostata",
+  "MW077017.1" = "Busycon_carica",
+  "MW077023.1" = "Fulguropsis_pyruloides",
+  "KY451269.1" = "Chauvetia_candidissima",
+  "OZ240484.1" = "Colus_islandicus",
+  "FM999178.1" = "Colubraria_reticulata",
+  "KT754022.1" = "Mitrella_scripta",
+  "HM180684.1" = "Mitrella_bicincta",
+  "MH581380.1" = "Tonna_sulcosa",
+  "MH581378.1" = "Tonna_galea",
+  "KT753938.1" = "Dolicholatirus_lancea",
+  "KT753936.1" = "Dolicholatirus_spiceri",
+  "KC756048.1" = "Eosipho_smithi",
+  "KC756032.1" = "Manaria_kuroharai",
+  "MN322468.1" = "Melongena_melongena",
+  "AY885128.1" = "Melongena_patula",
+  "KY451284.1" = "Nassarius_conoidalis",
+  "KY451360.1" = "Nassarius_semisulcatus",
+  "KY451406.1" = "Antillophos_beauii",
+  "MW077025.1" = "Pisania_pusio",
+  "MW077012.1" = "Engina_mendicaria",
+  "MW077033.1" = "Clivipollia_pulchra",
+  "MW077031.1" = "Caducifer_decapitatus",
+  "KT753949.1" = "Euthria_cumulata",
+  "KP694157.1" = "Buccinulum_linea",
+  "HM180636.1" = "Kelletia_lischkei"
+)
 
-# codon alignment
+names(combined_sequences) <- unname(name_map[acc])
+
+print(data.frame(accession = acc, assigned_name = names(combined_sequences)))
+
+if (any(is.na(names(combined_sequences)))) {
+  stop("Some accessions did not get mapped to names.")
+}
+
 codon_aligned <- AlignTranslation(combined_sequences)
-
-# optional check
-msa(codon_aligned)
-
-# trim region
+codon_aligned
+my_msa_object <- msa(codon_aligned)
+print(my_msa_object, show = "complete")
 trimmed_dna <- subseq(codon_aligned, start = 43, end = 501)
+trimmed_dna
+writeXStringSet(trimmed_dna, filepath = "COI.fasta")
 
-# export FASTA
-writeXStringSet(trimmed_dna, "COI.fasta")
