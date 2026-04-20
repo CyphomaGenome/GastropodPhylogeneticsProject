@@ -1,0 +1,6 @@
+DNA, p1_H3 = 1-297
+DNA, p2_Peristernia_16S = 298-814
+DNA, p3_Peristernia_18S = 815-2546
+DNA, p4_Peristernia_28S = 2547-3275
+CODON, p5_Peristernia_COI = 3276-3731
+CODON, p6_Peristernia_H3 = 3732-4028

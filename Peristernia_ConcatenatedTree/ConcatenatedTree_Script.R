@@ -7,6 +7,11 @@ library(ape)
 library(RADami)
 library(DECIPHER)
 
+stringH3<-readDNAStringSet("H3.fasta")
+stringCOI<-readDNAStringSet("COI.fasta")
+write.DNAStringSet(stringH3, format="phylip", filename="Peristernia_H3.phy")
+write.DNAStringSet(stringCOI, format="phylip", filename="Peristernia_COI.phy")
+
 ###these lines of code turn uncertainty into polytomies
 my_tree <- read.tree("partitions.txt.treefile")
 my_tree
@@ -26,3 +31,4 @@ my_tree$edge.length[my_tree$edge[,2] %in% nodes_to_collapse] <- 0
 final_tree <- di2multi(my_tree, tol = 1e-08)
 final_tree
 write.tree(my_tree, "ConcatenatedCaenogastropoda.tre")
+

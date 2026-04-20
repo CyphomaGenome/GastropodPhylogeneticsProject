@@ -1,0 +1,10 @@
+#nexus
+begin sets;
+  charset p1_H3_p2_Peristernia_16S_p5_Peristernia_COI_p6_Peristernia_H3 = 1-297  298-814  3276-3731  3732-4028;
+  charset p3_Peristernia_18S = 815-2546;
+  charset p4_Peristernia_28S = 2547-3275;
+  charpartition mymodels =
+    TVM+F+I+R4: p1_H3_p2_Peristernia_16S_p5_Peristernia_COI_p6_Peristernia_H3,
+    GTR+F+I+G4: p3_Peristernia_18S,
+    GTR+F+I+G4: p4_Peristernia_28S;
+end;
