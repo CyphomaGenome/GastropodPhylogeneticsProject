@@ -1,0 +1,393 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: /Users/dj17/Downloads/CytochromeOxidaseSubunit1/COI.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 719266
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 49 sequences with 153 codon sites
+Number of constant sites: 2 (= 1.30719% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2 (= 1.30719% of all sites)
+Number of parsimony informative sites: 147
+Number of distinct site patterns: 152
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GY+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GY+F+G4           -6001.493   12320.986 +    0.732   63200.986 -        0   12802.825 +    0.926
+GY+F+I+G4         -6001.500   12323.000 +    0.268   63843.000 -        0   12807.870 +   0.0743
+MGK+F3X4+G4       -6141.731   12497.462 - 3.49e-39   13011.062 +        1   12821.719 - 7.31e-05
+MGK+F3X4+I+G4     -6141.728   12499.455 - 1.29e-39   13034.546 - 7.95e-06   12826.743 - 5.93e-06
+GY+F3X4+G4        -6178.457   12570.914 - 3.92e-55   13084.514 - 1.12e-16   12895.171 -  8.2e-21
+GY+F3X4+I+G4      -6178.411   12572.822 - 1.51e-55   13107.913 - 9.31e-22   12900.109 - 6.94e-22
+GY+F3X4+R3        -6177.316   12574.631 - 6.11e-56   13156.060 - 3.27e-32   12907.979 - 1.36e-23
+GY+F3X4+I+R3      -6177.217   12576.434 - 2.48e-56   13182.873 - 4.92e-38   12912.813 - 1.21e-24
+GY+F3X4+R2        -6187.263   12590.526 - 2.16e-59   13125.617 - 1.33e-25   12917.814 - 9.93e-26
+GY+F3X4+R4        -6177.365   12578.729 - 7.88e-57   13211.529 - 2.95e-44   12918.138 - 8.44e-26
+GY+F3X4+I+R2      -6187.035   12592.071 - 9.99e-60   13149.745 - 7.68e-31   12922.388 - 1.01e-26
+GY+F3X4+I+R4      -6177.266   12580.531 -  3.2e-57   13241.147 - 1.09e-50   12922.971 - 7.54e-27
+MG+F3X4+G4        -6205.396   12622.793 - 2.13e-66   13115.923 -  1.7e-23   12944.019 - 2.03e-31
+MG+F3X4+I+G4      -6205.394   12624.789 - 7.85e-67   13138.389 - 2.25e-28   12949.046 - 1.64e-32
+GY+F3X4           -6292.777   12797.554 - 2.39e-104   13290.685 - 1.91e-61   13118.781 - 2.28e-69
+GY+F3X4+I         -6290.811   12795.622 - 6.29e-104   13309.222 -  1.8e-65   13119.879 - 1.32e-69
+MG+F1X4+G4        -6345.506   12891.012 - 1.22e-124   13279.474 - 5.19e-59   13194.056 - 1.03e-85
+MG+F1X4+I+G4      -6345.507   12893.013 - 4.47e-125   13297.013 - 8.06e-63   13199.088 -  8.3e-87
+MGK+F1X4+G4       -6345.523   12893.046 - 4.4e-125   13297.046 - 7.93e-63   13199.120 - 8.17e-87
+MGK+F1X4+I+G4     -6345.507   12895.013 - 1.65e-125   13315.253 - 8.82e-67   13204.118 - 6.71e-88
+GY+F1X4+G4        -6371.514   12945.028 - 2.27e-136   13349.028 - 4.09e-74   13251.102 - 4.21e-98
+GY+F1X4+I+G4      -6370.275   12944.549 - 2.88e-136   13364.789 - 1.55e-77   13253.654 - 1.18e-98
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GY+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(AAA) = 0.0003  pi(AAC) = 0.0100  pi(AAG) = 0.0000  pi(AAT) = 0.0357
+  pi(ACA) = 0.0163  pi(ACC) = 0.0023  pi(ACG) = 0.0032  pi(ACT) = 0.0174
+  pi(AGA) = 0.0107  pi(AGC) = 0.0012  pi(AGG) = 0.0020  pi(AGT) = 0.0060
+  pi(ATA) = 0.0433  pi(ATC) = 0.0031  pi(ATG) = 0.0156  pi(ATT) = 0.0557
+  pi(CAA) = 0.0131  pi(CAC) = 0.0043  pi(CAG) = 0.0064  pi(CAT) = 0.0154
+  pi(CCA) = 0.0124  pi(CCC) = 0.0047  pi(CCG) = 0.0029  pi(CCT) = 0.0389
+  pi(CGA) = 0.0180  pi(CGC) = 0.0013  pi(CGG) = 0.0033  pi(CGT) = 0.0035
+  pi(CTA) = 0.0190  pi(CTC) = 0.0044  pi(CTG) = 0.0039  pi(CTT) = 0.0395
+  pi(GAA) = 0.0150  pi(GAC) = 0.0092  pi(GAG) = 0.0047  pi(GAT) = 0.0170
+  pi(GCA) = 0.0275  pi(GCC) = 0.0096  pi(GCG) = 0.0041  pi(GCT) = 0.0650
+  pi(GGA) = 0.0485  pi(GGC) = 0.0029  pi(GGG) = 0.0214  pi(GGT) = 0.0441
+  pi(GTA) = 0.0335  pi(GTC) = 0.0028  pi(GTG) = 0.0059  pi(GTT) = 0.0333
+  pi(TAC) = 0.0027  pi(TAT) = 0.0104  pi(TCA) = 0.0151  pi(TCC) = 0.0005
+  pi(TCG) = 0.0035  pi(TCT) = 0.0216  pi(TGA) = 0.0190  pi(TGC) = 0.0000
+  pi(TGG) = 0.0072  pi(TGT) = 0.0000  pi(TTA) = 0.0863  pi(TTC) = 0.0128
+  pi(TTG) = 0.0164  pi(TTT) = 0.0465
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.3246
+
+ Category  Relative_rate  Proportion
+  1         0.1969         0.2500
+  2         0.5565         0.2500
+  3         1.0382         0.2500
+  4         2.2084         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5961.4343 (s.e. 198.9302)
+Unconstrained log-likelihood (without tree): -768.2707
+Number of free parameters (#branches + #model parameters): 159
+Akaike information criterion (AIC) score: 12240.8685
+Corrected Akaike information criterion (AICc) score: 63120.8685
+Bayesian information criterion (BIC) score: 12722.7081
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 159
+Sample size (n, alignment length): 153
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 92.9279
+Sum of internal branch lengths: 44.2633 (47.6318% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0065) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon '_gene_COX1___protein_cytochrome' is drawn at root
+
+NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
+      Rescale them by 1/3 if you want to have #nt substitutions per nt site
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--_gene_COX1___protein_cytochrome
+|
+|     +--_gene_COI___protein_cytochrome
+|  +--| (96)
+|  |  +---_gene_COI___protein_cytochrome.3
++--| (97)
+|  |  +--_gene_COI___protein_cytochrome.1
+|  +--| (98)
+|     +--_gene_COI___protein_cytochrome.2
+|
+|                                   +----_gene_COI___protein_cytochrome.4
+|                                +--| (86)
+|                                |  +--_gene_COI___protein_cytochrome.46
+|                             +--| (47)
+|                             |  |         +**_gene_COI___protein_cytochrome.27
+|                             |  |      +--| (100)
+|                             |  |      |  +**_gene_COI___protein_cytochrome.44
+|                             |  +------| (99)
+|                             |         +--_gene_COI___protein_cytochrome.45
+|                          +**| (11)
+|                          |  +--_gene_COI___protein_cytochrome.8
+|                       +--| (19)
+|                       |  |   +-----_gene_COI___protein_cytochrome.39
+|                       |  +---| (93)
+|                       |      +---_gene_COI___protein_cytochrome.43
+|                    +**| (2)
+|                    |  |                     +**_gene_COI___protein_cytochrome.35
+|                    |  +---------------------| (100)
+|                    |                        +--_gene_COI___protein_cytochrome.36
+|                 +--| (12)
+|                 |  |                         +**_gene_COI___protein_cytochrome.29
+|                 |  |         +---------------| (100)
+|                 |  |         |               +--_gene_COI___protein_cytochrome.30
+|                 |  |  +------| (65)
+|                 |  |  |      +**_gene_COI___protein_cytochrome.42
+|                 |  +--| (58)
+|                 |     |     +--_gene_COI___protein_cytochrome.40
+|                 |     +-----| (96)
+|                 |           +-------_gene_COI___protein_cytochrome.41
+|              +--| (58)
+|              |  |                      +-----------------------_gene_COI___protein_cytochrome.16
+|              |  |                   +--| (49)
+|              |  |                   |  +--_gene_COI___protein_cytochrome.33
+|              |  |                +--| (53)
+|              |  |                |  +--_gene_COI___protein_cytochrome.34
+|              |  |             +**| (8)
+|              |  |             |  |  +-----------------_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_
+|              |  |             |  +--| (69)
+|              |  |             |     +---------------------_gene_COI___protein_cytochrome.28
+|              |  |        +----| (38)
+|              |  |        |    |                  +------_gene_COI___protein_cytochrome.25
+|              |  |        |    |  +---------------| (98)
+|              |  |        |    |  |               |        +--_gene_COI___protein_cytochrome.37
+|              |  |        |    |  |               +--------| (63)
+|              |  |        |    |  |                        +-----_gene_COI___protein_cytochrome.38
+|              |  |        |    +--| (50)
+|              |  |        |       +---_gene_COI___protein_cytochrome.26
+|              |  |     +--| (56)
+|              |  |     |  |            +--_gene_COI___protein_cytochrome.18
+|              |  |     |  |  +---------| (98)
+|              |  |     |  |  |         +--_gene_COI___protein_cytochrome.19
+|              |  |     |  +--| (46)
+|              |  |     |     +---_gene_COI___protein_cytochrome.20
+|              |  |  +--| (14)
+|              |  |  |  |     +--_gene_COI___protein_cytochrome.21
+|              |  |  |  |  +--| (94)
+|              |  |  |  |  |  +--_gene_COI___protein_cytochrome.22
+|              |  |  |  +--| (26)
+|              |  |  |     |                    +-------_gene_COI___protein_cytochrome.31
+|              |  |  |     +--------------------| (89)
+|              |  |  |                          +----------_gene_COI___protein_cytochrome.32
+|              |  +--| (21)
+|              |     |     +----------------_gene_COI___protein_cytochrome.17
+|              |     |  +--| (19)
+|              |     |  |  +--_gene_COI___protein_cytochrome.23
+|              |     +--| (31)
+|              |        +**_gene_COI___protein_cytochrome.24
+|           +--| (87)
+|           |  |  +--_gene_COI___protein_cytochrome.10
+|           |  +--| (88)
+|           |     |  +--_gene_COI___protein_cytochrome.11
+|           |     +--| (82)
+|           |        +--_gene_COI___protein_cytochrome.12
+|        +--| (97)
+|        |  |     +--_gene_COI___protein_cytochrome.5
+|        |  |  +--| (98)
+|        |  |  |  |  +--_gene_COI___protein_cytochrome.6
+|        |  |  |  +--| (96)
+|        |  |  |     |  +--_gene_COI___protein_cytochrome.7
+|        |  |  |     +--| (99)
+|        |  |  |        +--_gene_COI___protein_cytochrome.9
+|        |  +--| (90)
+|        |     |  +-----_gene_COI___protein_cytochrome.13
+|        |     +--| (93)
+|        |        +--_gene_COI___protein_cytochrome.15
++--------| (100)
+         +**_gene_COI___protein_cytochrome.14
+
+Tree in newick format:
+
+(_gene_COX1___protein_cytochrome:0.1265063517,((_gene_COI___protein_cytochrome:0.0597339242,_gene_COI___protein_cytochrome.3:0.9553159282)96:0.0634188230,(_gene_COI___protein_cytochrome.1:0.0927797068,_gene_COI___protein_cytochrome.2:0.0097100773)98:0.0790976666)97:0.2760593470,((((((((((_gene_COI___protein_cytochrome.4:1.2413253180,_gene_COI___protein_cytochrome.46:0.2910435966)86:0.3398406308,((_gene_COI___protein_cytochrome.27:0.0000010000,_gene_COI___protein_cytochrome.44:0.0000010000)100:0.8671460930,_gene_COI___protein_cytochrome.45:0.3280912683)99:1.7484286390)47:0.5304457127,_gene_COI___protein_cytochrome.8:0.4277397087)11:0.0000025174,(_gene_COI___protein_cytochrome.39:1.6000243873,_gene_COI___protein_cytochrome.43:0.9632652513)93:1.0889273620)19:0.1857112624,(_gene_COI___protein_cytochrome.35:0.0000029153,_gene_COI___protein_cytochrome.36:0.5263505692)100:5.3168838030)2:0.0000023034,(((_gene_COI___protein_cytochrome.29:0.0000025557,_gene_COI___protein_cytochrome.30:0.8263116967)100:3.8026657350,_gene_COI___protein_cytochrome.42:0.0000028940)65:1.6735371120,(_gene_COI___protein_cytochrome.40:0.8276610791,_gene_COI___protein_cytochrome.41:2.0077814352)96:1.5574329720)58:0.3927641907)12:0.2040400877,(((((((_gene_COI___protein_cytochrome.16:5.7229158252,_gene_COI___protein_cytochrome.33:0.3118518233)49:0.3693459948,_gene_COI___protein_cytochrome.34:0.4279293984)53:0.1774218953,(_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_:4.3143957706,_gene_COI___protein_cytochrome.28:5.2995053696)69:0.7833526327)8:0.0000026930,((_gene_COI___protein_cytochrome.25:1.7613334623,(_gene_COI___protein_cytochrome.37:0.4074926195,_gene_COI___protein_cytochrome.38:1.4727101992)63:2.1293378020)98:3.9399389860,_gene_COI___protein_cytochrome.26:1.1698263262)50:0.1906226844)38:1.3531177150,((_gene_COI___protein_cytochrome.18:0.5077636091,_gene_COI___protein_cytochrome.19:0.6078667049)98:2.3946945920,_gene_COI___protein_cytochrome.20:0.9909347067)46:0.4394710351)56:0.4214818216,((_gene_COI___protein_cytochrome.21:0.4551312816,_gene_COI___protein_cytochrome.22:0.0210674867)94:0.2177789373,(_gene_COI___protein_cytochrome.31:1.9026172900,_gene_COI___protein_cytochrome.32:2.6298499462)89:5.1752832110)26:0.7384998622)14:0.1081995576,((_gene_COI___protein_cytochrome.17:4.1785741417,_gene_COI___protein_cytochrome.23:0.3785062243)19:0.3523612465,_gene_COI___protein_cytochrome.24:0.0000024517)31:0.7721337250)21:0.2968000390)58:0.5514117507,(_gene_COI___protein_cytochrome.10:0.4281553565,(_gene_COI___protein_cytochrome.11:0.0758248414,_gene_COI___protein_cytochrome.12:0.4904536276)82:0.6045308728)88:0.4899943454)87:0.6713749762,((_gene_COI___protein_cytochrome.5:0.8858735370,(_gene_COI___protein_cytochrome.6:0.6804741420,(_gene_COI___protein_cytochrome.7:0.1584186625,_gene_COI___protein_cytochrome.9:0.3192264374)99:0.1730753462)96:0.4857306741)98:0.6772358663,(_gene_COI___protein_cytochrome.13:1.4368060087,_gene_COI___protein_cytochrome.15:0.4783846935)93:0.2082259300)90:0.2803407575)97:0.6664345083,_gene_COI___protein_cytochrome.14:0.0000023351)100:2.3358001210);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -5963.316650
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--_gene_COX1___protein_cytochrome
+|
+|     +--_gene_COI___protein_cytochrome
+|  +--| (96)
+|  |  +---_gene_COI___protein_cytochrome.3
++--| (97)
+|  |  +--_gene_COI___protein_cytochrome.1
+|  +--| (98)
+|     +--_gene_COI___protein_cytochrome.2
+|
+|                           +----_gene_COI___protein_cytochrome.4
+|                        +--| (86)
+|                        |  +--_gene_COI___protein_cytochrome.46
+|                     +--| (47)
+|                     |  |         +--_gene_COI___protein_cytochrome.27
+|                     |  |      +--| (100)
+|                     |  |      |  +--_gene_COI___protein_cytochrome.44
+|                     |  +------| (99)
+|                     |         +--_gene_COI___protein_cytochrome.45
+|                  +--| (34)
+|                  |  |     +--_gene_COI___protein_cytochrome.8
+|                  |  |  +--| (34)
+|                  |  |  |  |    +------_gene_COI___protein_cytochrome.39
+|                  |  |  |  +----| (93)
+|                  |  |  |       +---_gene_COI___protein_cytochrome.43
+|                  |  +--| (33)
+|                  |     |                         +--_gene_COI___protein_cytochrome.29
+|                  |     |         +---------------| (100)
+|                  |     |         |               +--_gene_COI___protein_cytochrome.30
+|                  |     |  +------| (65)
+|                  |     |  |      +--_gene_COI___protein_cytochrome.42
+|                  |     +--| (58)
+|                  |        |     +---_gene_COI___protein_cytochrome.40
+|                  |        +-----| (96)
+|                  |              +-------_gene_COI___protein_cytochrome.41
+|               +--| (58)
+|               |  |                         +------------------------_gene_COI___protein_cytochrome.16
+|               |  |                      +--| (49)
+|               |  |                      |  +--_gene_COI___protein_cytochrome.33
+|               |  |                   +--| (53)
+|               |  |                   |  +--_gene_COI___protein_cytochrome.34
+|               |  |                +--| (28)
+|               |  |                |  |                   +------_gene_COI___protein_cytochrome.25
+|               |  |                |  |  +----------------| (98)
+|               |  |                |  |  |                |        +--_gene_COI___protein_cytochrome.37
+|               |  |                |  |  |                +--------| (63)
+|               |  |                |  |  |                         +-----_gene_COI___protein_cytochrome.38
+|               |  |                |  +--| (50)
+|               |  |                |     +----_gene_COI___protein_cytochrome.26
+|               |  |           +----| (38)
+|               |  |           |    |  +------------------_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_
+|               |  |           |    +--| (69)
+|               |  |           |       +----------------------_gene_COI___protein_cytochrome.28
+|               |  |        +--| (56)
+|               |  |        |  |           +--_gene_COI___protein_cytochrome.18
+|               |  |        |  |  +--------| (98)
+|               |  |        |  |  |        +--_gene_COI___protein_cytochrome.19
+|               |  |        |  +--| (46)
+|               |  |        |     +---_gene_COI___protein_cytochrome.20
+|               |  |     +--| (14)
+|               |  |     |  |     +--_gene_COI___protein_cytochrome.21
+|               |  |     |  |  +--| (94)
+|               |  |     |  |  |  +--_gene_COI___protein_cytochrome.22
+|               |  |     |  +--| (26)
+|               |  |     |     |                     +-------_gene_COI___protein_cytochrome.31
+|               |  |     |     +---------------------| (89)
+|               |  |     |                           +----------_gene_COI___protein_cytochrome.32
+|               |  |  +--| (21)
+|               |  |  |  |  +--------------_gene_COI___protein_cytochrome.17
+|               |  |  |  +--| (31)
+|               |  |  |     |  +--_gene_COI___protein_cytochrome.23
+|               |  |  |     +--| (61)
+|               |  |  |        +--_gene_COI___protein_cytochrome.24
+|               |  +--| (28)
+|               |     |                     +--_gene_COI___protein_cytochrome.35
+|               |     +---------------------| (100)
+|               |                           +--_gene_COI___protein_cytochrome.36
+|            +--| (87)
+|            |  |  +--_gene_COI___protein_cytochrome.10
+|            |  +--| (88)
+|            |     |  +--_gene_COI___protein_cytochrome.11
+|            |     +--| (82)
+|            |        +--_gene_COI___protein_cytochrome.12
+|         +--| (97)
+|         |  |     +--_gene_COI___protein_cytochrome.5
+|         |  |  +--| (98)
+|         |  |  |  |  +--_gene_COI___protein_cytochrome.6
+|         |  |  |  +--| (96)
+|         |  |  |     |  +--_gene_COI___protein_cytochrome.7
+|         |  |  |     +--| (99)
+|         |  |  |        +--_gene_COI___protein_cytochrome.9
+|         |  +--| (90)
+|         |     |  +-----_gene_COI___protein_cytochrome.13
+|         |     +--| (93)
+|         |        +--_gene_COI___protein_cytochrome.15
++---------| (100)
+          +--_gene_COI___protein_cytochrome.14
+
+
+Consensus tree in newick format: 
+
+(_gene_COX1___protein_cytochrome:0.1237162991,((_gene_COI___protein_cytochrome:0.0567033683,_gene_COI___protein_cytochrome.3:0.9461597420)96:0.0619041789,(_gene_COI___protein_cytochrome.1:0.0925211740,_gene_COI___protein_cytochrome.2:0.0094923427)98:0.0823879054)97:0.2724129390,(((((((_gene_COI___protein_cytochrome.4:1.2218531063,_gene_COI___protein_cytochrome.46:0.2627949134)86:0.4347530731,((_gene_COI___protein_cytochrome.27:0.0000026050,_gene_COI___protein_cytochrome.44:0.0000026050)100:0.8601470086,_gene_COI___protein_cytochrome.45:0.3264773060)99:1.5753941712)47:0.3250668072,((_gene_COI___protein_cytochrome.8:0.3617941503,(_gene_COI___protein_cytochrome.39:1.5699213456,_gene_COI___protein_cytochrome.43:0.9514340938)93:1.1210053323)34:0.0000028969,(((_gene_COI___protein_cytochrome.29:0.0000028314,_gene_COI___protein_cytochrome.30:0.8221826189)100:3.7061809455,_gene_COI___protein_cytochrome.42:0.0000025421)65:1.5977417196,(_gene_COI___protein_cytochrome.40:0.9048372514,_gene_COI___protein_cytochrome.41:1.9351018946)96:1.5412241182)58:0.6259379761)33:0.2598315500)34:0.2869765290,((((((((_gene_COI___protein_cytochrome.16:5.6420700591,_gene_COI___protein_cytochrome.33:0.3171594953)49:0.3520655563,_gene_COI___protein_cytochrome.34:0.4314322761)53:0.1861974317,((_gene_COI___protein_cytochrome.25:1.7607897248,(_gene_COI___protein_cytochrome.37:0.4139658650,_gene_COI___protein_cytochrome.38:1.4834994451)63:2.0520578916)98:3.8958288641,_gene_COI___protein_cytochrome.26:1.1658699570)50:0.1845194609)28:0.0000023845,(_gene_COI___db_xref_GOA_D3UBV8_InterPro_IPR000883_UniProtKB/TrEMBL_D3UBV8_:4.2822413774,_gene_COI___protein_cytochrome.28:5.2799125911)69:0.7491823548)38:1.2284231098,((_gene_COI___protein_cytochrome.18:0.4562375269,_gene_COI___protein_cytochrome.19:0.6550834731)98:2.0348087803,_gene_COI___protein_cytochrome.20:1.0820914830)46:0.4260047128)56:0.3321584015,((_gene_COI___protein_cytochrome.21:0.4268390516,_gene_COI___protein_cytochrome.22:0.0492358809)94:0.3406497972,(_gene_COI___protein_cytochrome.31:1.8649430853,_gene_COI___protein_cytochrome.32:2.6039617311)89:4.9172126715)26:0.7256685619)14:0.0000027644,(_gene_COI___protein_cytochrome.17:3.4210205408,(_gene_COI___protein_cytochrome.23:0.6782381793,_gene_COI___protein_cytochrome.24:0.0507770608)61:0.5092074700)31:0.4404760110)21:0.2101701489,(_gene_COI___protein_cytochrome.35:0.0000028794,_gene_COI___protein_cytochrome.36:0.5230228113)100:4.9720696703)28:0.1616170069)58:0.3235532274,(_gene_COI___protein_cytochrome.10:0.4204615078,(_gene_COI___protein_cytochrome.11:0.0757019792,_gene_COI___protein_cytochrome.12:0.4869663390)82:0.6035544410)88:0.5610467299)87:0.5740399942,((_gene_COI___protein_cytochrome.5:0.8861026061,(_gene_COI___protein_cytochrome.6:0.6818523388,(_gene_COI___protein_cytochrome.7:0.1589709225,_gene_COI___protein_cytochrome.9:0.3170004292)99:0.1618175236)96:0.4974991577)98:0.6599351774,(_gene_COI___protein_cytochrome.13:1.4574944171,_gene_COI___protein_cytochrome.15:0.4653718962)93:0.2107849131)90:0.3020069996)97:0.6484479940,_gene_COI___protein_cytochrome.14:0.0000025451)100:2.3066533941);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Apr 19 22:46:29 2026
+Total CPU time used: 3200.22437 seconds (0h:53m:20s)
+Total wall-clock time used: 1621.515077 seconds (0h:27m:1s)
+

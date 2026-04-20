@@ -1,0 +1,482 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Dylans-MacBook-Pro-2.local (AVX512, FMA3, 16 GB RAM)
+Command: /Users/dj17/Downloads/iqtree-2.4.0-macOS-intel/bin/iqtree2 -s /Users/dj17/Downloads/histoneH3/H3_trimmed.fasta -st CODON -m MFP -alrt 1000 -B 1000 -bnni -T AUTO --prefix /Users/dj17/Downloads/histoneH3
+Seed:    810019 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr 19 21:57:07 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/dj17/Downloads/histoneH3/H3_trimmed.fasta ... Fasta format detected
+Reading fasta file: done in 0.00061202 secs using 50.82% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code  ...
+WARNING: Sequence [protein=histone_H3].9 has ambiguous character MGG at site 1
+WARNING: Sequence [protein=histone_H3].2 has ambiguous character ACM at site 10
+WARNING: Sequence [protein=histone_H3].4 has ambiguous character ACM at site 10
+WARNING: Sequence [protein=histone_H3].7 has ambiguous character GGR at site 16
+WARNING: Sequence [protein=histone_H3].18 has ambiguous character GCK at site 22
+WARNING: Sequence [protein=histone_H3].19 has ambiguous character GCK at site 22
+WARNING: Sequence [gene=H3]_[protein=histone.9 has ambiguous character AAN at site 31
+WARNING: Sequence [protein=histone_H3].18 has ambiguous character GCM at site 52
+WARNING: Sequence [protein=histone_H3].19 has ambiguous character GCM at site 52
+WARNING: Sequence [protein=histone_H3].8 has ambiguous character GGM at site 76
+WARNING: Sequence [protein=histone_H3].2 has ambiguous character GTS at site 82
+WARNING: Sequence [protein=histone_H3].4 has ambiguous character GTS at site 82
+WARNING: Sequence [protein=histone_H3].8 has ambiguous character CCY at site 106
+WARNING: Sequence [protein=histone_H3].9 has ambiguous character CCY at site 106
+WARNING: Sequence [gene=H3]_[protein=histone.12 has ambiguous character CCN at site 106
+WARNING: Sequence [protein=histone_H3].7 has ambiguous character CTK at site 121
+WARNING: Sequence [protein=histone_H3].7 has ambiguous character AAR at site 145
+WARNING: Sequence [protein=histone_H3].9 has ambiguous character ACM at site 151
+WARNING: Sequence [protein=histone_H3].2 has ambiguous character CTY at site 160
+WARNING: Sequence [protein=histone_H3].4 has ambiguous character CTY at site 160
+WARNING: Sequence [protein=histone_H3].7 has ambiguous character YTG at site 187
+WARNING: Sequence [protein=histone_H3].2 has ambiguous character GCM at site 202
+WARNING: Sequence [protein=histone_H3].9 has ambiguous character ACY at site 217
+WARNING: Sequence [protein=histone_H3].2 has ambiguous character TTY at site 229
+WARNING: Sequence [gene=H3]_[protein=histone.10 has ambiguous character CNG at site 232
+WARNING: Sequence [protein=histone_H3].7 has ambiguous character AGY at site 235
+WARNING: Sequence [protein=histone_H3].2 has ambiguous character GCY at site 241
+WARNING: Sequence [protein=histone_H3].4 has ambiguous character GCY at site 241
+WARNING: Sequence [protein=histone_H3].6 has ambiguous character GTS at site 244
+WARNING: Sequence [protein=histone_H3].18 has ambiguous character GCY at site 271
+WARNING: Sequence [protein=histone_H3].19 has ambiguous character GCY at site 271
+WARNING: Sequence [protein=histone_H3].2 has ambiguous character GTR at site 280
+WARNING: Sequence [protein=histone_H3].3 has ambiguous character GTY at site 280
+WARNING: Sequence [protein=histone_H3].8 has ambiguous character GTK at site 280
+WARNING: Sequence [protein=histone_H3].9 has ambiguous character GTK at site 280
+WARNING: Sequence [protein=histone_H3].5 has ambiguous character CTS at site 286
+WARNING: Sequence [protein=histone_H3].15 has ambiguous character C-- at site 304
+WARNING: Sequence [gene=H3]_[protein=histone has ambiguous character GC- at site 319
+WARNING: Sequence [gene=H3]_[protein=histone.5 has ambiguous character ANG at site 322
+WARNING: Sequence [gene=H3]_[protein=histone.6 has ambiguous character ANG at site 322
+WARNING: Sequence [gene=H3]_[protein=histone.13 has ambiguous character ANG at site 322
+Alignment has 36 sequences with 109 columns, 100 distinct patterns
+64 parsimony-informative, 17 singleton sites, 28 constant sites
+WARNING: Some sequence names are changed as follows:
+[protein=histone_H3] -> _protein_histone_H3_
+[protein=histone_H3].1 -> _protein_histone_H3_.1
+[protein=histone_H3].2 -> _protein_histone_H3_.2
+[protein=histone_H3].3 -> _protein_histone_H3_.3
+[protein=histone_H3].4 -> _protein_histone_H3_.4
+[gene=H3]_[protein=histone -> _gene_H3___protein_histone
+[protein=histone_H3].5 -> _protein_histone_H3_.5
+[protein=histone_H3].6 -> _protein_histone_H3_.6
+[protein=histone_H3].7 -> _protein_histone_H3_.7
+[protein=histone_H3].8 -> _protein_histone_H3_.8
+[protein=histone_H3].9 -> _protein_histone_H3_.9
+[protein=histone_H3].10 -> _protein_histone_H3_.10
+[protein=histone_H3].11 -> _protein_histone_H3_.11
+[protein=histone_H3].12 -> _protein_histone_H3_.12
+[protein=histone_H3].13 -> _protein_histone_H3_.13
+[protein=histone_H3].14 -> _protein_histone_H3_.14
+[gene=H3]_[protein=histone.1 -> _gene_H3___protein_histone.1
+[gene=H3]_[protein=histone.2 -> _gene_H3___protein_histone.2
+[protein=histone_H3].15 -> _protein_histone_H3_.15
+[gene=H3]_[protein=histone.3 -> _gene_H3___protein_histone.3
+[gene=H3]_[protein=histone.4 -> _gene_H3___protein_histone.4
+[protein=histone_H3].16 -> _protein_histone_H3_.16
+[protein=histone_H3].17 -> _protein_histone_H3_.17
+[protein=histone_H3].18 -> _protein_histone_H3_.18
+[protein=histone_H3].19 -> _protein_histone_H3_.19
+[gene=H3]_[protein=histone.5 -> _gene_H3___protein_histone.5
+[gene=H3]_[protein=histone.6 -> _gene_H3___protein_histone.6
+[protein=histone_H3].20 -> _protein_histone_H3_.20
+[gene=H3]_[protein=histone.7 -> _gene_H3___protein_histone.7
+[gene=H3]_[protein=histone.8 -> _gene_H3___protein_histone.8
+[gene=H3]_[protein=histone.9 -> _gene_H3___protein_histone.9
+[gene=H3]_[protein=histone.10 -> _gene_H3___protein_histone.10
+[gene=H3]_[protein=histone.11 -> _gene_H3___protein_histone.11
+[gene=H3]_[protein=histone.12 -> _gene_H3___protein_histone.12
+[protein=histone_H3].21 -> _protein_histone_H3_.21
+[gene=H3]_[protein=histone.13 -> _gene_H3___protein_histone.13
+
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.1008e-05 secs using 707.2% CPU
+   1  _protein_histone_H3_             0.00%    passed    100.00%
+   2  _protein_histone_H3_.1           0.00%    passed     99.87%
+   3  _protein_histone_H3_.2           6.42%    passed    100.00%
+   4  _protein_histone_H3_.3           0.92%    passed     99.63%
+   5  _protein_histone_H3_.4           3.67%    passed    100.00%
+   6  _gene_H3___protein_histone       2.75%    passed     75.79%
+   7  _protein_histone_H3_.5           0.92%    passed    100.00%
+   8  _protein_histone_H3_.6           0.92%    passed    100.00%
+   9  _protein_histone_H3_.7           4.59%    passed    100.00%
+  10  _protein_histone_H3_.8           2.75%    passed    100.00%
+  11  _protein_histone_H3_.9           4.59%    passed    100.00%
+  12  _protein_histone_H3_.10          0.00%    passed     99.99%
+  13  _protein_histone_H3_.11          0.00%    passed     99.99%
+  14  _protein_histone_H3_.12          0.00%    passed    100.00%
+  15  _protein_histone_H3_.13          0.00%    passed    100.00%
+  16  _protein_histone_H3_.14          0.00%    passed    100.00%
+  17  _gene_H3___protein_histone.1     0.00%    passed    100.00%
+  18  _gene_H3___protein_histone.2     0.00%    passed    100.00%
+  19  _protein_histone_H3_.15         34.86%    passed    100.00%
+  20  _gene_H3___protein_histone.3     0.00%    passed    100.00%
+  21  _gene_H3___protein_histone.4     0.00%    passed     96.72%
+  22  _protein_histone_H3_.16          0.00%    failed      1.68%
+  23  _protein_histone_H3_.17          0.00%    passed     96.23%
+  24  _protein_histone_H3_.18          2.75%    passed     73.43%
+  25  _protein_histone_H3_.19          2.75%    passed     73.43%
+  26  _gene_H3___protein_histone.5     0.92%    passed    100.00%
+  27  _gene_H3___protein_histone.6     0.92%    passed     99.97%
+  28  _protein_histone_H3_.20          0.00%    passed     99.50%
+  29  _gene_H3___protein_histone.7     0.00%    passed    100.00%
+  30  _gene_H3___protein_histone.8     0.00%    passed    100.00%
+  31  _gene_H3___protein_histone.9    10.09%    passed     99.79%
+  32  _gene_H3___protein_histone.10    0.92%    passed     81.41%
+  33  _gene_H3___protein_histone.11    0.00%    passed      6.76%
+  34  _gene_H3___protein_histone.12    0.92%    passed     36.23%
+  35  _protein_histone_H3_.21          0.00%    passed    100.00%
+  36  _gene_H3___protein_histone.13    0.92%    passed    100.00%
+****  TOTAL                            2.29%  1 sequences failed composition chi2 test (p-value<5%; df=60)
+NOTE: _protein_histone_H3_.11 is identical to _protein_histone_H3_.10 but kept for subsequent analysis
+NOTE: _protein_histone_H3_.19 is identical to _protein_histone_H3_.18 but kept for subsequent analysis
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.021 seconds, parsimony score: 279 (based on 81 sites)
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+52 trees examined
+Threads: 1 / Time: 8.110 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2901
+Threads: 2 / Time: 5.814 sec / Speedup: 1.395 / Efficiency: 70% / LogL: -2901
+Threads: 3 / Time: 4.679 sec / Speedup: 1.733 / Efficiency: 58% / LogL: -2901
+Threads: 4 / Time: 4.345 sec / Speedup: 1.866 / Efficiency: 47% / LogL: -2901
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GY+F3X4+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1780.567
+Optimal log-likelihood: -1779.626
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 50.000
+Proportion of invariable sites: 0.036
+Gamma shape alpha: 0.699
+Parameters optimization took 1 rounds (1.083 sec)
+Time for fast ML tree search: 3.895 seconds
+
+NOTE: ModelFinder requires 28 MB RAM!
+ModelFinder will test up to 330 codon models (sample size: 109 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GY+F3X4       1830.221     80  3820.442     4283.299     4035.750
+  2  GY+F3X4+I     1811.080     81  3784.161     4276.161     4002.160
+  3  GY+F3X4+G4    1774.452     81  3710.904     4202.904     3928.903
+  4  GY+F3X4+I+G4  1773.787     82  3711.575     4235.113     3932.265
+  5  GY+F3X4+R2    1783.715     82  3731.429     4254.968     3952.120
+  6  GY+F3X4+R3    1745.787     84  3659.575     4254.575     3885.648
+  7  GY+F3X4+R4    1741.877     86  3655.754     4335.936     3887.210
+ 14  GY+F3X4+I+R2  1752.018     83  3670.037     4227.797     3893.419
+ 15  GY+F3X4+I+R3  1741.475     85  3652.949     4288.602     3881.714
+ 16  GY+F3X4+I+R4  1739.948     87  3653.895     4383.038     3888.042
+ 28  GY+F1X4+R3    1761.964     78  3679.929     4090.729     3889.854
+ 29  GY+F1X4+R4    1759.328     80  3678.655     4141.512     3893.963
+ 37  GY+F1X4+I+R3  1760.874     79  3679.747     4115.609     3892.364
+ 38  GY+F1X4+I+R4  1760.955     81  3683.911     4175.911     3901.910
+ 50  GY+F+R3       1678.828     135 3627.655     40347.655    3990.987
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
+ 51  GY+F+R4       1678.540     137 3631.079     41443.079    3999.794
+ 59  GY+F+I+R3     1675.067     136 3622.135     40886.135    3988.158
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+WARNING: Log-likelihood -1703.1 of GY+F+I+R4 worse than GY+F+I+R3 -1675.07
+ 60  GY+F+I+R4     1703.097     138 3682.194     42046.194    4053.600
+ 72  MGK+F3X4+R3   1733.449     84  3634.898     4229.898     3860.971
+ 73  MGK+F3X4+R4   1733.488     86  3638.975     4319.157     3870.431
+ 81  MGK+F3X4+I+R3 1733.883     85  3637.765     4273.418     3866.530
+ 82  MGK+F3X4+I+R4 1733.301     87  3640.602     4369.745     3874.750
+ 94  MGK+F1X4+R3   1764.009     78  3684.017     4094.817     3893.942
+ 95  MGK+F1X4+R4   1764.001     80  3688.001     4150.858     3903.309
+103  MGK+F1X4+I+R3 1764.007     79  3686.015     4121.877     3898.631
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+104  MGK+F1X4+I+R4 1764.116     81  3690.232     4182.232     3908.231
+116  MG+F3X4+R3    1733.281     83  3632.561     4190.321     3855.943
++R4 reinitialized from +R3 with factor 0.500
+117  MG+F3X4+R4    1733.322     85  3636.644     4272.296     3865.408
+125  MG+F3X4+I+R3  1733.832     84  3635.664     4230.664     3861.737
++I+R4 reinitialized from +I+R3 with factor 0.500
+126  MG+F3X4+I+R4  1733.899     86  3639.798     4319.979     3871.254
+138  MG+F1X4+R3    1763.855     77  3681.710     4069.194     3888.944
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
+139  MG+F1X4+R4    1763.897     79  3685.794     4121.656     3898.411
+147  MG+F1X4+I+R3  1763.951     78  3683.902     4094.702     3893.827
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+148  MG+F1X4+I+R4  1764.061     80  3688.121     4150.978     3903.429
+160  KOSI07+F3X4+R3 1737.860     82  3639.720     4163.259     3860.411
+161  KOSI07+F3X4+R4 1737.868     84  3643.735     4238.735     3869.809
+169  KOSI07+F3X4+I+R3 1737.351     83  3640.702     4198.462     3864.084
+170  KOSI07+F3X4+I+R4 1737.364     85  3644.728     4280.380     3873.493
+182  KOSI07+F1X4+R3 1756.319     76  3664.639     4030.389     3869.181
++R4 reinitialized from +R3 with factor 0.500
+183  KOSI07+F1X4+R4 1756.410     78  3668.821     4079.621     3878.746
+191  KOSI07+F1X4+I+R3 1755.680     77  3665.360     4052.844     3872.594
++I+R4 reinitialized from +I+R3 with factor 0.500
+192  KOSI07+F1X4+I+R4 1755.756     79  3669.512     4105.374     3882.128
+204  KOSI07+F+R3   1655.436     133 3576.873     39220.873    3934.822
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+205  KOSI07+F+R4   1655.632     135 3581.263     40301.263    3944.595
+213  KOSI07+F+I+R3 1658.849     134 3585.697     39765.697    3946.338
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+WARNING: Log-likelihood -1673.05 of KOSI07+F+I+R4 worse than KOSI07+F+I+R3 -1658.85
+214  KOSI07+F+I+R4 1673.048     136 3618.096     40882.096    3984.120
+226  KOSI07+FU+R3  1750.486     73  3646.972     3955.658     3843.440
+227  KOSI07+FU+R4  1750.331     75  3650.662     3996.116     3852.513
+235  KOSI07+FU+I+R3 1748.929     74  3645.858     3972.329     3845.018
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
+236  KOSI07+FU+I+R4 1749.010     76  3650.019     4015.769     3854.562
+248  SCHN05+F3X4+R3 1752.975     82  3669.950     4193.489     3890.641
++R4 reinitialized from +R3 with factor 0.500
+249  SCHN05+F3X4+R4 1753.019     84  3674.038     4269.038     3900.111
+257  SCHN05+F3X4+I+R3 1755.821     83  3677.642     4235.402     3901.024
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+258  SCHN05+F3X4+I+R4 1756.694     85  3683.389     4319.041     3912.153
+270  SCHN05+F1X4+R3 1780.869     76  3713.738     4079.488     3918.280
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+271  SCHN05+F1X4+R4 1781.060     78  3718.120     4128.920     3928.045
+279  SCHN05+F1X4+I+R3 1783.028     77  3720.055     4107.539     3927.289
++I+R4 reinitialized from +I+R3 with factor 0.500
+280  SCHN05+F1X4+I+R4 1783.045     79  3724.091     4159.953     3936.707
+292  SCHN05+F+R3   1666.314     133 3598.628     39242.628    3956.577
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+293  SCHN05+F+R4   1666.782     135 3603.564     40323.564    3966.896
+301  SCHN05+F+I+R3 1664.174     134 3596.348     39776.348    3956.988
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+302  SCHN05+F+I+R4 1664.291     136 3600.583     40864.583    3966.606
+314  SCHN05+FU+R3  1765.367     73  3676.735     3985.420     3873.203
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++R4 reinitialized from +R3 with factor 0.031
+315  SCHN05+FU+R4  1765.987     75  3681.974     4027.429     3883.825
+323  SCHN05+FU+I+R3 1763.673     74  3675.345     4001.816     3874.505
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.031
+324  SCHN05+FU+I+R4 1764.487     76  3680.975     4046.725     3885.517
+Akaike Information Criterion:           KOSI07+F+R3
+Corrected Akaike Information Criterion: KOSI07+FU+R3
+Bayesian Information Criterion:         KOSI07+FU+R3
+Best-fit model: KOSI07+FU+R3 chosen according to BIC
+
+All model information printed to /Users/dj17/Downloads/histoneH3.model.gz
+CPU time for ModelFinder: 797.866 seconds (0h:13m:17s)
+Wall-clock time for ModelFinder: 274.552 seconds (0h:4m:34s)
+WARNING: States(s) ATA, CTA, TAT, TGG, TTA rarely appear in alignment and may cause numerical problems
+Generating 1000 samples for ultrafast bootstrap (seed: 810019)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1754.680
+2. Current log-likelihood: -1750.944
+3. Current log-likelihood: -1750.338
+4. Current log-likelihood: -1750.233
+Optimal log-likelihood: -1750.189
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 50.000
+Site proportion and rates:  (0.589,0.054) (0.318,0.477) (0.094,8.700)
+Parameters optimization took 4 rounds (1.693 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.55769 secs using 231.2% CPU
+Computing ML distances took 1.557810 sec (of wall-clock time) 3.601309 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000139952 secs using 52.88% CPU
+Computing RapidNJ tree took 0.000335 sec (of wall-clock time) 0.000312 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1742.626
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.084 second
+Computing log-likelihood of 98 initial trees ... 5.345 seconds
+Current best score: -1742.626
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1724.103
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -1715.408
+Iteration 10 / LogL: -1730.134 / Time: 0h:5m:1s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -1711.286
+Iteration 20 / LogL: -1720.632 / Time: 0h:5m:17s
+Finish initializing candidate tree set (20)
+Current best tree score: -1711.286 / CPU time: 39.408
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -1710.893
+Iteration 30 / LogL: -1713.072 / Time: 0h:5m:31s (0h:3m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -1710.741
+BETTER TREE FOUND at iteration 33: -1710.741
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -1709.869
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -1708.467
+Iteration 40 / LogL: -1708.467 / Time: 0h:5m:44s (0h:2m:52s left)
+Iteration 50 / LogL: -1708.468 / Time: 0h:5m:56s (0h:2m:23s left)
+Iteration 60 / LogL: -1709.199 / Time: 0h:6m:7s (0h:2m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -1708.467
+Iteration 70 / LogL: -1709.199 / Time: 0h:6m:19s (0h:1m:40s left)
+Iteration 80 / LogL: -1709.204 / Time: 0h:6m:29s (0h:1m:21s left)
+UPDATE BEST LOG-LIKELIHOOD: -1708.467
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 89: -1707.455
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -1701.425
+Iteration 90 / LogL: -1701.425 / Time: 0h:6m:43s (0h:2m:24s left)
+Iteration 100 / LogL: -1708.045 / Time: 0h:6m:54s (0h:2m:7s left)
+UPDATE BEST LOG-LIKELIHOOD: -1701.422
+Iteration 110 / LogL: -1701.423 / Time: 0h:7m:6s (0h:1m:51s left)
+Iteration 120 / LogL: -1714.455 / Time: 0h:7m:17s (0h:1m:35s left)
+Iteration 130 / LogL: -1701.423 / Time: 0h:7m:29s (0h:1m:21s left)
+UPDATE BEST LOG-LIKELIHOOD: -1701.422
+Iteration 140 / LogL: -1708.045 / Time: 0h:7m:40s (0h:1m:6s left)
+BETTER TREE FOUND at iteration 142: -1701.422
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -1701.284
+Iteration 150 / LogL: -1703.158 / Time: 0h:7m:53s (0h:2m:9s left)
+Iteration 160 / LogL: -1701.439 / Time: 0h:8m:5s (0h:1m:55s left)
+Iteration 170 / LogL: -1701.285 / Time: 0h:8m:38s (0h:1m:51s left)
+Iteration 180 / LogL: -1702.195 / Time: 0h:8m:51s (0h:1m:36s left)
+UPDATE BEST LOG-LIKELIHOOD: -1701.284
+Iteration 190 / LogL: -1701.286 / Time: 0h:9m:3s (0h:1m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 191: -1699.612
+UPDATE BEST LOG-LIKELIHOOD: -1699.612
+Iteration 200 / LogL: -1699.612 / Time: 0h:9m:16s (0h:2m:8s left)
+UPDATE BEST LOG-LIKELIHOOD: -1699.611
+Iteration 210 / LogL: -1707.947 / Time: 0h:9m:27s (0h:1m:53s left)
+Iteration 220 / LogL: -1704.472 / Time: 0h:9m:38s (0h:1m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 224: -1698.758
+BETTER TREE FOUND at iteration 225: -1698.758
+Iteration 230 / LogL: -1702.484 / Time: 0h:9m:51s (0h:2m:11s left)
+Iteration 240 / LogL: -1699.602 / Time: 0h:10m:3s (0h:1m:57s left)
+Iteration 250 / LogL: -1698.758 / Time: 0h:10m:15s (0h:1m:42s left)
+UPDATE BEST LOG-LIKELIHOOD: -1698.758
+UPDATE BEST LOG-LIKELIHOOD: -1698.758
+Iteration 260 / LogL: -1710.124 / Time: 0h:10m:28s (0h:1m:28s left)
+UPDATE BEST LOG-LIKELIHOOD: -1698.758
+Iteration 270 / LogL: -1699.637 / Time: 0h:10m:38s (0h:1m:14s left)
+BETTER TREE FOUND at iteration 279: -1698.758
+Iteration 280 / LogL: -1705.322 / Time: 0h:10m:52s (0h:2m:14s left)
+UPDATE BEST LOG-LIKELIHOOD: -1698.758
+Iteration 290 / LogL: -1701.031 / Time: 0h:11m:5s (0h:2m:0s left)
+Iteration 300 / LogL: -1702.611 / Time: 0h:11m:18s (0h:1m:46s left)
+UPDATE BEST LOG-LIKELIHOOD: -1698.758
+Iteration 310 / LogL: -1698.758 / Time: 0h:11m:30s (0h:1m:32s left)
+Iteration 320 / LogL: -1701.823 / Time: 0h:11m:43s (0h:1m:19s left)
+Iteration 330 / LogL: -1705.029 / Time: 0h:11m:55s (0h:1m:5s left)
+Iteration 340 / LogL: -1698.758 / Time: 0h:12m:7s (0h:0m:52s left)
+Iteration 350 / LogL: -1698.758 / Time: 0h:12m:21s (0h:0m:38s left)
+Iteration 360 / LogL: -1699.602 / Time: 0h:12m:33s (0h:0m:25s left)
+Iteration 370 / LogL: -1698.758 / Time: 0h:12m:48s (0h:0m:12s left)
+Iteration 380 / LogL: -1702.980 / Time: 0h:13m:3s (0h:0m:-2s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 380 ITERATIONS / Time: 0h:19m:54s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1698.758
+Optimal log-likelihood: -1698.754
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 50.000
+Site proportion and rates:  (0.620,0.051) (0.274,0.386) (0.106,8.107)
+Parameters optimization took 1 rounds (0.369 sec)
+BEST SCORE FOUND : -1698.754
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.182 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/dj17/Downloads/histoneH3.splits.nex
+Total tree length: 21.504
+
+Total number of iterations: 380
+CPU time used for tree search: 2633.628 sec (0h:43m:53s)
+Wall-clock time used for tree search: 916.057 sec (0h:15m:16s)
+Total CPU time used: 3443.337 sec (0h:57m:23s)
+Total wall-clock time used: 1195.015 sec (0h:19m:55s)
+UFBoot trees printed to /Users/dj17/Downloads/histoneH3.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file /Users/dj17/Downloads/histoneH3.splits.nex...
+36 taxa and 1132 splits.
+Consensus tree written to /Users/dj17/Downloads/histoneH3.contree
+Reading input trees file /Users/dj17/Downloads/histoneH3.contree
+Log-likelihood of consensus tree: -1699.896
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/dj17/Downloads/histoneH3.iqtree
+  Maximum-likelihood tree:       /Users/dj17/Downloads/histoneH3.treefile
+  Likelihood distances:          /Users/dj17/Downloads/histoneH3.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/dj17/Downloads/histoneH3.splits.nex
+  Consensus tree:                /Users/dj17/Downloads/histoneH3.contree
+  UFBoot trees:                  /Users/dj17/Downloads/histoneH3.ufboot
+  Screen log file:               /Users/dj17/Downloads/histoneH3.log
+
+Date and Time: Sun Apr 19 22:17:03 2026
