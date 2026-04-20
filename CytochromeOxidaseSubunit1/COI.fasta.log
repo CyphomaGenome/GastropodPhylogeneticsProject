@@ -1,0 +1,260 @@
+IQ-TREE multicore version 2.4.0 for MacOS Intel 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Dylans-MacBook-Pro-2.local (AVX512, FMA3, 16 GB RAM)
+Command: /Users/dylanschool/Downloads/iqtree-2.4.0-macOS-intel/bin/iqtree2 -s /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta -m MFP -st CODON5 -bb 10000 -T AUTO
+Seed:    638348 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr 19 23:39:09 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta ... Fasta format detected
+Reading fasta file: done in 0.000699043 secs using 61.08% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code 5 ...
+Alignment has 49 sequences with 153 columns, 152 distinct patterns
+147 parsimony-informative, 4 singleton sites, 2 constant sites
+                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.29697e-05 secs using 401.4% CPU
+   1  Peristernia_reincarnata    0.00%    passed     99.99%
+   2  Peristernia_gemmata        0.00%    passed     94.93%
+   3  Peristernia_nassatula      0.00%    passed     81.12%
+   4  Peristernia_forskalii      0.00%    passed     35.08%
+   5  Peristernia_marquesana     0.00%    passed     91.22%
+   6  Penion_chathamensis        0.00%    passed     34.92%
+   7  Triplofusus_giganteus      0.00%    passed    100.00%
+   8  Cinctura_hunteria          0.00%    passed     99.94%
+   9  Fasciolaria_bullisi        0.00%    passed    100.00%
+  10  Serratifusus_lineatus      0.00%    passed     99.80%
+  11  Fasciolaria_tulipa         0.00%    passed    100.00%
+  12  Aristofusus_excavatus      0.00%    passed     98.73%
+  13  Fusinus_salisburyi         0.00%    passed     98.68%
+  14  Fusinus_forceps            0.00%    passed     99.82%
+  15  Hemipolygona_armata        0.00%    passed     86.02%
+  16  Leucozonia_nassa           0.00%    passed    100.00%
+  17  Leucozonia_ocellata        0.00%    passed     97.04%
+  18  Belomitra_caudata          0.00%    passed     86.47%
+  19  Belomitra_paschalis        0.00%    passed     98.69%
+  20  Buccinastrum_deforme       0.00%    passed     87.75%
+  21  Buccinanops_cochlidium     0.00%    passed     99.51%
+  22  Buccinum_striatissimum     5.23%    passed     44.58%
+  23  Neptunea_arthritica        0.00%    passed     99.99%
+  24  Neptunea_polycostata       0.00%    passed     99.67%
+  25  Busycon_carica             0.00%    passed     99.83%
+  26  Fulguropsis_pyruloides     0.00%    passed    100.00%
+  27  Chauvetia_candidissima     0.00%    passed     99.98%
+  28  Colus_islandicus           0.00%    passed     10.44%
+  29  Colubraria_reticulata      0.00%    passed     99.64%
+  30  Mitrella_scripta           0.00%    passed     91.22%
+  31  Mitrella_bicincta          0.00%    passed     99.43%
+  32  Tonna_sulcosa              0.00%    passed     99.10%
+  33  Tonna_galea                0.00%    passed     64.31%
+  34  Dolicholatirus_lancea      0.00%    passed     25.27%
+  35  Dolicholatirus_spiceri     0.00%    passed     86.69%
+  36  Eosipho_smithi             0.00%    passed     99.96%
+  37  Manaria_kuroharai          0.00%    passed    100.00%
+  38  Melongena_melongena        0.00%    passed     83.05%
+  39  Melongena_patula           0.65%    passed     51.30%
+  40  Nassarius_conoidalis       0.00%    passed     99.70%
+  41  Nassarius_semisulcatus     0.00%    passed     90.42%
+  42  Antillophos_beauii         0.00%    passed     78.05%
+  43  Pisania_pusio              0.00%    passed     99.98%
+  44  Engina_mendicaria          0.00%    passed    100.00%
+  45  Clivipollia_pulchra        0.00%    passed      6.04%
+  46  Caducifer_decapitatus      0.00%    passed     97.35%
+  47  Euthria_cumulata           0.00%    passed     91.22%
+  48  Buccinulum_linea           0.00%    passed     99.98%
+  49  Kelletia_lischkei          0.00%    passed     74.66%
+****  TOTAL                      0.12%  0 sequences failed composition chi2 test (p-value<5%; df=61)
+NOTE: Euthria_cumulata is identical to Mitrella_scripta but kept for subsequent analysis
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.066 seconds, parsimony score: 1592 (based on 151 sites)
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+6 trees examined
+Threads: 1 / Time: 8.090 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -11474
+Threads: 2 / Time: 6.796 sec / Speedup: 1.191 / Efficiency: 60% / LogL: -11474
+Threads: 3 / Time: 5.773 sec / Speedup: 1.401 / Efficiency: 47% / LogL: -11474
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GY+F3X4+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -6174.759
+Optimal log-likelihood: -6174.270
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 8.790
+Proportion of invariable sites: 0.001
+Gamma shape alpha: 1.890
+Parameters optimization took 1 rounds (2.448 sec)
+Time for fast ML tree search: 18.279 seconds
+
+NOTE: ModelFinder requires 58 MB RAM!
+ModelFinder will test up to 154 codon models (sample size: 153 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GY+F3X4       6282.095     106 12776.190    13269.321    13097.417
+  2  GY+F3X4+I     6280.034     107 12774.069    13287.669    13098.326
+  3  GY+F3X4+G4    6174.370     107 12562.740    13076.340    12886.996
+  4  GY+F3X4+I+G4  6174.256     108 12564.512    13099.603    12891.800
+  5  GY+F3X4+R2    6181.903     108 12579.806    13114.897    12907.093
+  6  GY+F3X4+R3    6173.589     110 12567.179    13148.607    12900.527
+  7  GY+F3X4+R4    6173.575     112 12571.149    13203.949    12910.558
+ 14  GY+F3X4+I+R2  6181.588     109 12581.175    13138.850    12911.493
+ 15  GY+F3X4+I+R3  6173.403     111 12568.805    13175.244    12905.184
+ 16  GY+F3X4+I+R4  6173.390     113 12572.779    13233.394    12915.219
+ 25  GY+F1X4+G4    6380.083     101 12962.165    13366.165    13268.239
+ 26  GY+F1X4+I+G4  6378.639     102 12961.279    13381.519    13270.383
+ 47  GY+F+G4       6002.911     159 12323.822    63203.822    12805.662
+ 48  GY+F+I+G4     6002.527     160 12325.055    63845.055    12809.925
+ 69  MGK+F3X4+G4   6138.151     107 12490.302    13003.902    12814.559
+ 70  MGK+F3X4+I+G4 6138.146     108 12492.291    13027.382    12819.579
+ 91  MGK+F1X4+G4   6356.346     101 12914.691    13318.691    13220.765
+ 92  MGK+F1X4+I+G4 6356.323     102 12916.646    13336.886    13225.750
+113  MG+F3X4+G4    6204.418     106 12620.835    13113.966    12942.062
+114  MG+F3X4+I+G4  6204.411     107 12622.821    13136.421    12947.078
+135  MG+F1X4+G4    6356.325     100 12912.651    13301.112    13215.694
+136  MG+F1X4+I+G4  6356.322     101 12914.643    13318.643    13220.717
+Akaike Information Criterion:           GY+F+G4
+Corrected Akaike Information Criterion: MGK+F3X4+G4
+Bayesian Information Criterion:         GY+F+G4
+Best-fit model: GY+F+G4 chosen according to BIC
+
+All model information printed to /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.model.gz
+CPU time for ModelFinder: 344.605 seconds (0h:5m:44s)
+Wall-clock time for ModelFinder: 175.932 seconds (0h:2m:55s)
+WARNING: States(s) AAG, TGC, TGT rarely appear in alignment and may cause numerical problems
+Generating 10000 samples for ultrafast bootstrap (seed: 638348)...
+
+NOTE: 28 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -6161.076
+2. Current log-likelihood: -6048.182
+3. Current log-likelihood: -6013.760
+4. Current log-likelihood: -6005.903
+5. Current log-likelihood: -6003.542
+6. Current log-likelihood: -6002.941
+Optimal log-likelihood: -6002.912
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 9.178
+Gamma shape alpha: 1.404
+Parameters optimization took 6 rounds (12.723 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 6.78027 secs using 196.9% CPU
+Computing ML distances took 6.780474 sec (of wall-clock time) 13.349627 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 9.89437e-05 secs using 118.2% CPU
+Computing RapidNJ tree took 0.000323 sec (of wall-clock time) 0.000406 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5996.143
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.172 second
+Computing log-likelihood of 98 initial trees ... 14.996 seconds
+Current best score: -5996.143
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5980.799
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -5978.766
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -5973.348
+Iteration 10 / LogL: -5973.348 / Time: 0h:4m:39s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -5969.461
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 16: -5966.543
+Iteration 20 / LogL: -6012.030 / Time: 0h:5m:53s
+Finish initializing candidate tree set (20)
+Current best tree score: -5966.543 / CPU time: 157.382
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -5966.387
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -5965.654
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -5964.812
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -5964.649
+Iteration 30 / LogL: -5964.649 / Time: 0h:6m:46s (0h:13m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -5963.887
+Iteration 40 / LogL: -5967.106 / Time: 0h:7m:35s (0h:11m:42s left)
+Iteration 50 / LogL: -5964.810 / Time: 0h:8m:17s (0h:9m:37s left)
+Log-likelihood cutoff on original alignment: -6033.538
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -5962.544
+Iteration 60 / LogL: -5964.745 / Time: 0h:8m:58s (0h:9m:25s left)
+Iteration 70 / LogL: -5962.549 / Time: 0h:9m:39s (0h:7m:59s left)
+Iteration 80 / LogL: -5963.846 / Time: 0h:10m:27s (0h:6m:51s left)
+Iteration 90 / LogL: -5965.079 / Time: 0h:11m:19s (0h:5m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -5961.579
+BETTER TREE FOUND at iteration 92: -5961.578
+BETTER TREE FOUND at iteration 95: -5961.577
+Iteration 100 / LogL: -5961.581 / Time: 0h:12m:15s (0h:8m:57s left)
+Log-likelihood cutoff on original alignment: -6033.538
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.958
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UPDATE BEST LOG-LIKELIHOOD: -5961.577
+Iteration 110 / LogL: -5961.601 / Time: 0h:13m:7s (0h:8m:25s left)
+Iteration 120 / LogL: -5963.434 / Time: 0h:14m:2s (0h:7m:28s left)
+Iteration 130 / LogL: -5961.582 / Time: 0h:14m:58s (0h:6m:32s left)
+Iteration 140 / LogL: -5962.023 / Time: 0h:15m:57s (0h:5m:37s left)
+Iteration 150 / LogL: -5961.579 / Time: 0h:16m:50s (0h:4m:40s left)
+Log-likelihood cutoff on original alignment: -6033.538
+Iteration 160 / LogL: -5963.035 / Time: 0h:17m:45s (0h:3m:43s left)
+Iteration 170 / LogL: -5961.586 / Time: 0h:18m:39s (0h:2m:47s left)
+Iteration 180 / LogL: -5961.778 / Time: 0h:19m:33s (0h:1m:51s left)
+Iteration 190 / LogL: -5961.580 / Time: 0h:20m:34s (0h:0m:56s left)
+Iteration 200 / LogL: -5961.594 / Time: 0h:21m:30s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -6033.538
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:21m:30s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5961.577
+Optimal log-likelihood: -5961.575
+Nonsynonymous/synonymous ratio (omega): 0.001
+Transition/transversion ratio (kappa): 10.734
+Gamma shape alpha: 1.366
+Parameters optimization took 1 rounds (1.761 sec)
+BEST SCORE FOUND : -5961.575
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.splits.nex
+Total tree length: 90.552
+
+Total number of iterations: 200
+CPU time used for tree search: 2139.565 sec (0h:35m:39s)
+Wall-clock time used for tree search: 1094.141 sec (0h:18m:14s)
+Total CPU time used: 2529.333 sec (0h:42m:9s)
+Total wall-clock time used: 1293.280 sec (0h:21m:33s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.splits.nex...
+49 taxa and 1676 splits.
+Consensus tree written to /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.contree
+Reading input trees file /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.contree
+Log-likelihood of consensus tree: -5963.662
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.iqtree
+  Maximum-likelihood tree:       /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.treefile
+  Likelihood distances:          /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.splits.nex
+  Consensus tree:                /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.contree
+  Screen log file:               /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/CytochromeOxidaseSubunit1/COI.fasta.log
+
+Date and Time: Mon Apr 20 00:00:44 2026

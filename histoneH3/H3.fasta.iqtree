@@ -1,0 +1,337 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: /Users/dylanschool/Documents/GitHub/GastropodPhylogeneticsProject/histoneH3/H3.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 12564
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 36 sequences with 109 codon sites
+Number of constant sites: 26 (= 23.8532% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 26 (= 23.8532% of all sites)
+Number of parsimony informative sites: 65
+Number of distinct site patterns: 102
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: KOSI07+FU+R3
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+KOSI07+FU+R3      -1800.242    3746.483 - 2.08e-11    4055.169 +        1    3942.952 +    0.682
+KOSI07+FU+I+R3    -1798.776    3745.552 - 3.32e-11    4072.023 - 0.000219    3944.712 +    0.283
+KOSI07+FU+R4      -1798.584    3747.168 - 1.48e-11    4092.623 - 7.36e-09    3949.019 -   0.0328
+KOSI07+FU+I+R4    -1798.775    3749.551 -  4.5e-12    4115.301 - 8.76e-14    3954.093 -   0.0026
+MG+F3X4+R3        -1788.494    3742.988 -  1.2e-10    4300.748 - 4.71e-54    3966.370 -  5.6e-06
+MGK+F3X4+R3       -1788.554    3745.108 - 4.15e-11    4340.108 - 1.34e-62    3971.181 - 5.06e-07
+MG+F3X4+I+R3      -1789.460    3746.920 - 1.68e-11    4341.920 -  5.4e-63    3972.993 - 2.04e-07
+KOSI07+F1X4+R3    -1808.992    3769.984 - 1.64e-16    4135.734 -  3.2e-18    3974.526 - 9.49e-08
+MG+F3X4+R4        -1788.502    3747.005 - 1.61e-11    4382.657 - 7.71e-72    3975.769 -  5.1e-08
+KOSI07+F3X4+R3    -1795.898    3755.796 - 1.98e-13    4279.334 -  2.1e-49    3976.486 - 3.56e-08
+MGK+F3X4+I+R3     -1789.240    3748.480 - 7.68e-12    4384.132 - 3.69e-72    3977.244 - 2.44e-08
+KOSI07+F1X4+I+R3   -1808.098    3770.195 - 1.48e-16    4157.679 -  5.5e-23    3977.429 - 2.22e-08
+KOSI07+F1X4+R4    -1806.091    3768.182 - 4.05e-16    4178.982 -  1.3e-27    3978.108 - 1.58e-08
+KOSI07+F3X4+I+R3   -1795.366    3756.732 - 1.24e-13    4314.492 - 4.88e-57    3980.114 - 5.81e-09
+MGK+F3X4+R4       -1788.427    3748.855 - 6.37e-12    4429.037 - 6.54e-82    3980.311 - 5.26e-09
+MG+F3X4+I+R4      -1789.561    3751.121 - 2.05e-12    4431.303 - 2.11e-82    3982.577 - 1.69e-09
+KOSI07+F1X4+I+R4   -1806.904    3771.809 -  6.6e-17    4207.671 - 7.67e-34    3984.425 - 6.73e-10
+KOSI07+F3X4+R4    -1795.581    3759.162 - 3.68e-14    4354.162 - 1.19e-65    3985.236 - 4.49e-10
+MGK+F3X4+I+R4     -1788.789    3751.577 - 1.63e-12    4480.720 - 3.91e-93    3985.725 - 3.51e-10
+MG+F1X4+R3        -1812.562    3779.123 -  1.7e-18    4166.607 - 6.33e-25    3986.357 - 2.56e-10
+GY+F1X4+R3        -1810.987    3777.973 - 3.03e-18    4188.773 - 9.73e-30    3987.898 - 1.18e-10
+SCHN05+FU+I+R3    -1820.990    3789.981 - 7.47e-21    4116.451 - 4.93e-14    3989.140 - 6.37e-11
+MG+F1X4+I+R3      -1811.652    3779.304 - 1.56e-18    4190.104 -    5e-30    3989.229 - 6.09e-11
+GY+F1X4+I+R3      -1809.505    3777.010 -  4.9e-18    4212.872 - 5.69e-35    3989.627 - 4.99e-11
+KOSI07+F3X4+I+R4   -1795.457    3760.913 - 1.53e-14    4396.565 - 7.36e-75    3989.678 - 4.87e-11
+SCHN05+FU+R3      -1823.868    3793.736 - 1.14e-21    4102.421 - 5.49e-11    3990.204 - 3.74e-11
+MGK+F1X4+R3       -1812.600    3781.200 - 6.03e-19    4192.000 - 1.94e-30    3991.126 - 2.36e-11
+GY+F3X4+I+R3      -1796.739    3763.478 - 4.25e-15    4399.131 - 2.04e-75    3992.243 - 1.35e-11
+MGK+F1X4+I+R3     -1811.497    3780.995 - 6.68e-19    4216.857 - 7.76e-36    3993.611 - 6.81e-12
+MG+F1X4+R4        -1812.619    3783.238 - 2.18e-19    4219.100 - 2.53e-36    3995.854 - 2.22e-12
+GY+F1X4+R4        -1810.324    3780.649 - 7.94e-19    4243.506 - 1.27e-41    3995.957 - 2.11e-12
+GY+F3X4+R4        -1796.575    3765.151 - 1.84e-15    4445.333 - 1.89e-85    3996.607 - 1.52e-12
+MG+F1X4+I+R4      -1811.731    3783.462 - 1.95e-19    4246.319 - 3.11e-42    3998.770 - 5.16e-13
+GY+F1X4+I+R4      -1809.474    3780.948 - 6.84e-19    4272.948 - 5.13e-48    3998.947 - 4.72e-13
+SCHN05+FU+I+R4    -1821.254    3794.507 - 7.77e-22    4160.257 - 1.51e-23    3999.050 - 4.49e-13
+GY+F3X4+R3        -1802.507    3773.014 - 3.61e-17    4368.014 - 1.17e-68    3999.088 -  4.4e-13
+GY+F3X4+I+R4      -1795.673    3765.346 - 1.67e-15    4494.489 - 4.01e-96    3999.494 -  3.6e-13
+SCHN05+FU+R4      -1823.997    3797.995 - 1.36e-22    4143.449 - 6.76e-20    3999.846 - 3.01e-13
+MGK+F1X4+R4       -1812.337    3784.673 - 1.06e-19    4247.530 -  1.7e-42    3999.981 - 2.82e-13
+GY+F3X4+R5        -1794.354    3764.708 -  2.3e-15    4547.908 - 1.01e-107    4001.547 - 1.29e-13
+MGK+F1X4+I+R4     -1811.591    3785.182 - 8.23e-20    4277.182 - 6.17e-49    4003.181 - 5.69e-14
+GY+F3X4+I+R2      -1808.309    3782.619 - 2.97e-19    4340.379 - 1.17e-62    4006.001 - 1.39e-14
+SCHN05+F3X4+R3    -1813.691    3791.382 - 3.71e-21    4314.920 - 3.94e-57    4012.072 - 6.67e-16
+SCHN05+F3X4+I+R3   -1814.144    3794.287 - 8.68e-22    4352.047 - 3.42e-65    4017.669 - 4.06e-17
+SCHN05+F1X4+R3    -1831.944    3815.889 - 1.77e-26    4181.639 - 3.45e-28    4020.431 - 1.02e-17
+SCHN05+F3X4+R4    -1813.235    3794.470 - 7.92e-22    4389.470 - 2.55e-73    4020.543 - 9.66e-18
+SCHN05+F3X4+I+R4   -1814.198    3798.395 - 1.11e-22    4434.047 - 5.34e-83    4027.160 - 3.53e-19
+SCHN05+F1X4+R4    -1831.280    3818.560 - 4.65e-27    4229.360 -  1.5e-38    4028.486 - 1.82e-19
+SCHN05+F1X4+I+R3   -1833.771    3821.543 - 1.05e-27    4209.027 - 3.89e-34    4028.776 - 1.57e-19
+SCHN05+F1X4+I+R4   -1833.316    3824.633 - 2.23e-28    4260.495 - 2.59e-45    4037.249 - 2.28e-21
+GY+F3X4+G4        -1829.208    3820.416 - 1.84e-27    4312.416 - 1.38e-56    4038.416 - 1.27e-21
+GY+F3X4+I+G4      -1828.956    3821.913 -  8.7e-28    4345.451 - 9.25e-64    4042.603 - 1.57e-22
+GY+F3X4+R2        -1831.903    3827.806 - 4.57e-29    4351.345 - 4.86e-65    4048.497 - 8.22e-24
+KOSI07+F+R3       -1716.415    3698.831 +    0.464   39342.831 -        0    4056.780 - 1.31e-25
+KOSI07+F+I+R3     -1715.405    3698.810 +    0.469   39878.810 -        0    4059.451 - 3.44e-26
+KOSI07+F+R4       -1716.747    3703.495 -   0.0451   40423.495 -        0    4066.827 -  8.6e-28
+KOSI07+F+I+R4     -1716.459    3704.918 -   0.0221   40968.918 -        0    4070.941 -  1.1e-28
+SCHN05+F+I+R3     -1726.617    3721.234 - 6.34e-06   39901.234 -        0    4081.874 - 4.65e-31
+SCHN05+F+R3       -1729.461    3724.922 -    1e-06   39368.922 -        0    4082.872 - 2.82e-31
+SCHN05+F+I+R4     -1727.569    3727.138 - 3.31e-07   40991.138 -        0    4093.161 - 1.64e-33
+SCHN05+F+R4       -1730.403    3730.806 - 5.29e-08   40450.806 -        0    4094.138 - 1.01e-33
+GY+F3X4+I         -1863.755    3889.511 - 1.82e-42    4381.511 - 1.37e-71    4107.510 - 1.26e-36
+GY+F+I+R3         -1741.693    3755.386 - 2.43e-13   41019.386 -        0    4121.409 - 1.21e-39
+GY+F+R3           -1745.414    3760.827 -  1.6e-14   40480.827 -        0    4124.159 - 3.05e-40
+GY+F+I+R4         -1741.787    3759.573 -    3e-14   42123.573 -        0    4130.979 - 1.01e-41
+GY+F3X4           -1879.113    3918.225 - 1.06e-48    4381.083 - 1.69e-71    4133.533 - 2.81e-42
+GY+F+R4           -1745.550    3765.100 - 1.89e-15   41577.100 -        0    4133.815 - 2.44e-42
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: KOSI07+FU+R3
+
+State frequencies: (user-defined)
+
+Model of rate heterogeneity: FreeRate with 3 categories
+Site proportion and rates:  (0.6440,0.0544) (0.2525,0.4271) (0.1035,8.2784)
+
+ Category  Relative_rate  Proportion
+  1         0.0544         0.6440
+  2         0.4271         0.2525
+  3         8.2784         0.1035
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1758.4252 (s.e. 110.8223)
+Unconstrained log-likelihood (without tree): -501.1296
+Number of free parameters (#branches + #model parameters): 73
+Akaike information criterion (AIC) score: 3662.8504
+Corrected Akaike information criterion (AICc) score: 3971.5362
+Bayesian information criterion (BIC) score: 3859.3188
+
+Total tree length (sum of branch lengths): 22.1408
+Sum of internal branch lengths: 9.9969 (45.1516% of tree length)
+
+WARNING: 7 near-zero internal branches (<0.0092) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Peristernia_reincarnata' is drawn at root
+
+NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
+      Rescale them by 1/3 if you want to have #nt substitutions per nt site
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**Peristernia_reincarnata
+|
+|        +---Peristernia_gemmata
+|     +--| (76)
+|     |  |                                   +-------Serratifusus_lineatus
+|     |  |                                +--| (56)
+|     |  |                                |  +--Euthria_cumulata
+|     |  |                             +**| (34)
+|     |  |                             |  +--Euthria_walleri
+|     |  |                          +--| (39)
+|     |  |                          |  +----Japeuthria_ferrea
+|     |  |                       +**| (18)
+|     |  |                       |  +----------Melongena_melongena
+|     |  |                    +--| (57)
+|     |  |                    |  |        +--Nassarius_conoidalis
+|     |  |                    |  +--------| (98)
+|     |  |                    |           +**Nassarius_semisulcatus
+|     |  |                 +--| (47)
+|     |  |                 |  |                            +---------Mitrella_scripta
+|     |  |                 |  |  +-------------------------| (79)
+|     |  |                 |  |  |                         +**Mitrella_bicincta
+|     |  |                 |  +--| (38)
+|     |  |                 |     |                                       +--Dolicholatirus_lancea
+|     |  |                 |     |        +------------------------------| (100)
+|     |  |                 |     |        |                              +-------Dolicholatirus_spiceri
+|     |  |                 |     |  +-----| (31)
+|     |  |                 |     |  |     +------Manaria_kuroharai
+|     |  |                 |     +--| (26)
+|     |  |                 |        +---------Caducifer_decapitatus
+|     |  |              +--| (64)
+|     |  |              |  |           +--Buccinastrum_deforme
+|     |  |              |  |        +--| (99)
+|     |  |              |  |        |  +**Buccinanops_cochlidium
+|     |  |              |  |     +**| (68)
+|     |  |              |  |     |  |  +---Busycon_carica
+|     |  |              |  |     |  +--| (80)
+|     |  |              |  |     |     +--Fulguropsis_pyruloides
+|     |  |              |  |  +--| (36)
+|     |  |              |  |  |  +------------Antillophos_beauii
+|     |  |              |  +**| (18)
+|     |  |              |     |        +--Pisania_pusio
+|     |  |              |     +--------| (99)
+|     |  |              |              +----Engina_mendicaria
+|     |  |           +--| (72)
+|     |  |           |  +---Leucozonia_nassa
+|     |  |        +--| (79)
+|     |  |        |  +**Hemipolygona_armata
+|     |  |     +**| (38)
+|     |  |     |  |  +**Triplofusus_giganteus
+|     |  |     |  +--| (76)
+|     |  |     |     |  +--Cinctura_hunteria
+|     |  |     |     +--| (98)
+|     |  |     |        +**Fasciolaria_tulipa
+|     |  |  +--| (75)
+|     |  |  |  |     +**Fasciolaria_bullisi
+|     |  |  |  |  +--| (50)
+|     |  |  |  |  |  |   +**Fusinus_salisburyi
+|     |  |  |  |  |  +---| (99)
+|     |  |  |  |  |      +**Fusinus_forceps
+|     |  |  |  +--| (47)
+|     |  |  |     +--Aristofusus_excavatus
+|     |  +--| (91)
+|     |     +--Leucozonia_ocellata
+|  +--| (96)
+|  |  |  +--Peristernia_marquesana
+|  |  +**| (44)
+|  |     +------------------Clivipollia_pulchra
++**| (89)
+|  +**Peristernia_nassatula
+|
++**Peristernia_forskalii
+
+Tree in newick format:
+
+(Peristernia_reincarnata:0.0000010000,(((Peristernia_gemmata:0.4126001302,((((((((((((Serratifusus_lineatus:0.7269320368,Euthria_cumulata:0.3093700673)56:0.1162467982,Euthria_walleri:0.2254146713)34:0.0000024227,Japeuthria_ferrea:0.4935342241)39:0.2330594900,Melongena_melongena:0.9977551396)18:0.0000022169,(Nassarius_conoidalis:0.0126339594,Nassarius_semisulcatus:0.0000010000)98:0.8971836702)57:0.2654278741,((Mitrella_scripta:0.9426669307,Mitrella_bicincta:0.0000025402)79:2.3672708220,(((Dolicholatirus_lancea:0.1019540453,Dolicholatirus_spiceri:0.7289114809)100:2.8391801750,Manaria_kuroharai:0.6326826169)31:0.5752275541,Caducifer_decapitatus:0.9283819994)26:0.0841575142)38:0.1458991807)47:0.1704841957,((((Buccinastrum_deforme:0.0119109919,Buccinanops_cochlidium:0.0000010000)99:0.3261736844,(Busycon_carica:0.4078780085,Fulguropsis_pyruloides:0.2873257789)80:0.0911437496)68:0.0000022404,Antillophos_beauii:1.2308555244)36:0.0632816001,(Pisania_pusio:0.1099739222,Engina_mendicaria:0.4658524331)99:0.8814625913)18:0.0000027973)64:0.2092122718,Leucozonia_nassa:0.4195530572)72:0.0955381139,Hemipolygona_armata:0.0000010000)79:0.0109430344,(Triplofusus_giganteus:0.0000023222,(Cinctura_hunteria:0.0131597799,Fasciolaria_tulipa:0.0000010000)98:0.0235881188)76:0.0109456834)38:0.0000021620,((Fasciolaria_bullisi:0.0000021587,(Fusinus_salisburyi:0.0000010000,Fusinus_forceps:0.0000010000)99:0.4468316376)50:0.0138810192,Aristofusus_excavatus:0.0151478241)47:0.0141368720)75:0.0652544751,Leucozonia_ocellata:0.3176899620)91:0.3272964523)76:0.1200447436,(Peristernia_marquesana:0.1781767308,Clivipollia_pulchra:1.7266701738)44:0.0000029293)96:0.0498590612,Peristernia_nassatula:0.0000010000)89:0.0000010000,Peristernia_forskalii:0.0000010000);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -1758.727335
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Peristernia_reincarnata
+|
+|        +----Peristernia_gemmata
+|     +--| (76)
+|     |  |                                      +-------Serratifusus_lineatus
+|     |  |                                   +--| (56)
+|     |  |                                   |  +--Euthria_cumulata
+|     |  |                                +--| (34)
+|     |  |                                |  +--Euthria_walleri
+|     |  |                             +--| (39)
+|     |  |                             |  +----Japeuthria_ferrea
+|     |  |                          +--| (29)
+|     |  |                          |  |         +--Nassarius_conoidalis
+|     |  |                          |  +---------| (98)
+|     |  |                          |            +--Nassarius_semisulcatus
+|     |  |                       +--| (57)
+|     |  |                       |  +-----------Melongena_melongena
+|     |  |                    +--| (47)
+|     |  |                    |  |                                 +----------Mitrella_scripta
+|     |  |                    |  |        +------------------------| (79)
+|     |  |                    |  |        |                        +--Mitrella_bicincta
+|     |  |                    |  |     +--| (36)
+|     |  |                    |  |     |  +-----------Manaria_kuroharai
+|     |  |                    |  |  +--| (26)
+|     |  |                    |  |  |  +----------Caducifer_decapitatus
+|     |  |                    |  +--| (38)
+|     |  |                    |     |                                     +--Dolicholatirus_lancea
+|     |  |                    |     +-------------------------------------| (100)
+|     |  |                    |                                           +-------Dolicholatirus_spiceri
+|     |  |                 +--| (21)
+|     |  |                 |  |         +--Pisania_pusio
+|     |  |                 |  +---------| (99)
+|     |  |                 |            +----Engina_mendicaria
+|     |  |              +--| (64)
+|     |  |              |  |         +--Buccinastrum_deforme
+|     |  |              |  |     +---| (99)
+|     |  |              |  |     |   +--Buccinanops_cochlidium
+|     |  |              |  |  +--| (68)
+|     |  |              |  |  |  |  +---Busycon_carica
+|     |  |              |  |  |  +--| (80)
+|     |  |              |  |  |     +--Fulguropsis_pyruloides
+|     |  |              |  +--| (36)
+|     |  |              |     +--------------Antillophos_beauii
+|     |  |           +--| (72)
+|     |  |           |  +----Leucozonia_nassa
+|     |  |        +--| (79)
+|     |  |        |  +--Hemipolygona_armata
+|     |  |     +--| (38)
+|     |  |     |  |  +--Triplofusus_giganteus
+|     |  |     |  +--| (76)
+|     |  |     |     |  +--Cinctura_hunteria
+|     |  |     |     +--| (98)
+|     |  |     |        +--Fasciolaria_tulipa
+|     |  |  +--| (75)
+|     |  |  |  |     +--Fasciolaria_bullisi
+|     |  |  |  |  +--| (50)
+|     |  |  |  |  |  |    +--Fusinus_salisburyi
+|     |  |  |  |  |  +----| (99)
+|     |  |  |  |  |       +--Fusinus_forceps
+|     |  |  |  +--| (47)
+|     |  |  |     +--Aristofusus_excavatus
+|     |  +--| (91)
+|     |     +--Leucozonia_ocellata
+|  +--| (96)
+|  |  |  +--Peristernia_marquesana
+|  |  +--| (44)
+|  |     +-------------------Clivipollia_pulchra
++--| (89)
+|  +--Peristernia_nassatula
+|
++--Peristernia_forskalii
+
+
+Consensus tree in newick format: 
+
+(Peristernia_reincarnata:0.0000029970,(((Peristernia_gemmata:0.4163591733,(((((((((((((Serratifusus_lineatus:0.7237371984,Euthria_cumulata:0.3129575838)56:0.1167251257,Euthria_walleri:0.2283090759)34:0.0000022043,Japeuthria_ferrea:0.4877364263)39:0.2347459028,(Nassarius_conoidalis:0.0123106661,Nassarius_semisulcatus:0.0000021304)98:0.9083607726)29:0.0000027797,Melongena_melongena:1.0036928738)57:0.2693457374,((((Mitrella_scripta:0.9484365488,Mitrella_bicincta:0.0000021412)79:2.1385829099,Manaria_kuroharai:0.9999743570)36:0.2573199686,Caducifer_decapitatus:0.9664322060)26:0.1439442345,(Dolicholatirus_lancea:0.0865083362,Dolicholatirus_spiceri:0.7027956278)100:3.1961524786)38:0.0000023165)47:0.1747088181,(Pisania_pusio:0.1078985643,Engina_mendicaria:0.4744332322)99:0.8872384397)21:0.0000021634,(((Buccinastrum_deforme:0.0116306680,Buccinanops_cochlidium:0.0000021304)99:0.3372060317,(Busycon_carica:0.4116416880,Fulguropsis_pyruloides:0.2915135444)80:0.0900830199)68:0.0000023295,Antillophos_beauii:1.2439097266)36:0.0630913927)64:0.2132525468,Leucozonia_nassa:0.4241461544)72:0.0957729437,Hemipolygona_armata:0.0000021304)79:0.0107580854,(Triplofusus_giganteus:0.0000021304,(Cinctura_hunteria:0.0128208288,Fasciolaria_tulipa:0.0000021304)98:0.0230507045)76:0.0107608360)38:0.0000021304,((Fasciolaria_bullisi:0.0000021304,(Fusinus_salisburyi:0.0000021304,Fusinus_forceps:0.0000021304)99:0.4511671451)50:0.0137670143,Aristofusus_excavatus:0.0166467870)47:0.0140388397)75:0.0657217210,Leucozonia_ocellata:0.3205155056)91:0.3303777991)76:0.1208316626,(Peristernia_marquesana:0.1771390506,Clivipollia_pulchra:1.7103663797)44:0.0000022228)96:0.0496359644,Peristernia_nassatula:0.0000021304)89:0.0000021304,Peristernia_forskalii:0.0000021304);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Apr 20 00:13:58 2026
+Total CPU time used: 1720.088884 seconds (0h:28m:40s)
+Total wall-clock time used: 585.944042 seconds (0h:9m:45s)
+
